@@ -607,6 +607,17 @@
     return -1;
   }
 
+  // Normaliza el campo "comentario": acepta 1, "1", "C1", "c1", "Comentario 1", "comentario1".
+  // Devuelve 'c1' | 'c2' | 'c3' | null.
+  function normalizarComentario(valor) {
+    if (valor === undefined || valor === null) return null;
+    var s = String(valor).trim().toUpperCase();
+    var m = s.match(/^(?:C|COMENTARIO)\s*([123])$/);
+    if (m) return 'c' + m[1];
+    if (/^[123]$/.test(s)) return 'c' + s;
+    return null;
+  }
+
   // Validación estricta de un objeto de evaluación JSON.
   // Devuelve { ok, errores[], idx, cKey, suma, hayNota }.
   function validarEvaluacion(obj) {
@@ -627,12 +638,9 @@
       errores.push('Falta el campo "estudiante" o no coincide con la lista.');
     }
 
-    // Comentario: 1, 2 o 3
-    var cKey = null;
-    if (obj.comentario === 1 || obj.comentario === '1') cKey = 'c1';
-    else if (obj.comentario === 2 || obj.comentario === '2') cKey = 'c2';
-    else if (obj.comentario === 3 || obj.comentario === '3') cKey = 'c3';
-    else errores.push('El campo "comentario" debe ser 1, 2 o 3.');
+    // Comentario: 1, 2 o 3 (acepta también "C1", "c1", "Comentario 1")
+    var cKey = normalizarComentario(obj.comentario);
+    if (!cKey) errores.push('El campo "comentario" debe ser 1, 2 o 3 (o "C1", "C2", "C3").');
 
     // Notas: A 0-3, B 0-2, C 0-3, D 0-3, E 0-3
     var limites = { A: 3, B: 2, C: 3, D: 3, E: 3 };
