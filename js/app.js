@@ -96,6 +96,7 @@
       });
       if (c.total === undefined) c.total = null;
       if (!c.alertas) c.alertas = [];
+      if (c.retroalimentacion === undefined) c.retroalimentacion = '';
     });
     if (!est.portafolio) est.portafolio = { f: null, total45: null };
     if (est.portafolio.f === undefined) est.portafolio.f = null;
@@ -584,6 +585,188 @@
     URL.revokeObjectURL(url);
   }
 
+  // ===== Importación de evaluaciones (JSON) =====
+  var importModo = 'individual'; // 'individual' | 'masivo'
+
+  // Normaliza un nombre para comparación: minúsculas, sin tildes, espacios colapsados.
+  // Ej.: "renata guedez" NO coincide con "RENATA GUEDES" (guedez != guedes).
+  function normalizarNombre(str) {
+    return String(str || '')
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function buscarEstudiante(nombre) {
+    var n = normalizarNombre(nombre);
+    for (var i = 0; i < estudiantes.length; i++) {
+      if (normalizarNombre(estudiantes[i].nombre) === n) return i;
+    }
+    return -1;
+  }
+
+  // Validación estricta de un objeto de evaluación JSON.
+  // Devuelve { ok, errores[], idx, cKey, suma, hayNota }.
+  function validarEvaluacion(obj) {
+    var errores = [];
+    if (!obj || typeof obj !== 'object' || Array.isArray(obj)) {
+      return { ok: false, errores: ['El JSON no es un objeto válido.'] };
+    }
+
+    // Estudiante: si el JSON lo trae, debe coincidir con la lista (comparación normalizada).
+    // Si no lo trae y estamos en vista detalle, se usa el estudiante abierto.
+    var idx = -1;
+    if (obj.estudiante !== undefined && obj.estudiante !== null && String(obj.estudiante).trim() !== '') {
+      idx = buscarEstudiante(obj.estudiante);
+      if (idx === -1) errores.push('Estudiante no encontrado: "' + obj.estudiante + '".');
+    } else if (importModo === 'individual' && estudianteActual !== null) {
+      idx = estudianteActual;
+    } else {
+      errores.push('Falta el campo "estudiante" o no coincide con la lista.');
+    }
+
+    // Comentario: 1, 2 o 3
+    var cKey = null;
+    if (obj.comentario === 1 || obj.comentario === '1') cKey = 'c1';
+    else if (obj.comentario === 2 || obj.comentario === '2') cKey = 'c2';
+    else if (obj.comentario === 3 || obj.comentario === '3') cKey = 'c3';
+    else errores.push('El campo "comentario" debe ser 1, 2 o 3.');
+
+    // Notas: A 0-3, B 0-2, C 0-3, D 0-3, E 0-3
+    var limites = { A: 3, B: 2, C: 3, D: 3, E: 3 };
+    var suma = 0, hayNota = false;
+    var notas = obj.notas;
+    if (!notas || typeof notas !== 'object') {
+      errores.push('Falta el campo "notas" (objeto con A, B, C, D, E).');
+    } else {
+      ['A', 'B', 'C', 'D', 'E'].forEach(function (l) {
+        var v = notas[l];
+        if (v === undefined || v === null || v === '') return;
+        v = Number(v);
+        if (isNaN(v) || v < 0 || v > limites[l]) {
+          errores.push('Nota ' + l + ' inválida: debe ser 0-' + limites[l] + '.');
+        } else {
+          suma += v; hayNota = true;
+        }
+      });
+      if (!hayNota) errores.push('El campo "notas" no tiene valores válidos.');
+    }
+
+    // Palabras: número >= 0
+    if (obj.palabras !== undefined && obj.palabras !== null && obj.palabras !== '') {
+      var p = Number(obj.palabras);
+      if (isNaN(p) || p < 0) errores.push('El campo "palabras" debe ser un número mayor o igual a 0.');
+    }
+
+    // Alertas: arreglo de textos
+    if (obj.alertas !== undefined && obj.alertas !== null) {
+      if (!Array.isArray(obj.alertas)) {
+        errores.push('El campo "alertas" debe ser un arreglo de textos.');
+      } else {
+        obj.alertas.forEach(function (a) {
+          if (typeof a !== 'string') errores.push('Cada alerta debe ser un texto.');
+        });
+      }
+    }
+
+    return { ok: errores.length === 0, errores: errores, idx: idx, cKey: cKey, suma: suma, hayNota: hayNota };
+  }
+
+  // Importa una o varias evaluaciones desde un string JSON.
+  // Acepta un objeto único o un arreglo de objetos.
+  function importarEvaluacion(jsonStr) {
+    var results = $('importResults');
+    results.innerHTML = '';
+
+    var parsed;
+    try {
+      parsed = JSON.parse(jsonStr);
+    } catch (e) {
+      results.innerHTML = '<div class="import-err">JSON inválido: ' + esc(e.message) + '</div>';
+      return;
+    }
+
+    var items = Array.isArray(parsed) ? parsed : [parsed];
+    var okCount = 0, errCount = 0;
+    var importados = [];
+
+    items.forEach(function (obj) {
+      var v = validarEvaluacion(obj);
+      var nombreRef = (obj && typeof obj === 'object' && obj.estudiante) ? obj.estudiante : '(estudiante actual)';
+      if (!v.ok) {
+        errCount++;
+        results.innerHTML += '<div class="import-err">' + esc(nombreRef) + ': ' + esc(v.errores.join('; ')) + '</div>';
+        return;
+      }
+
+      // Aplicar al estudiante
+      var est = estudiantes[v.idx];
+      var c = est[v.cKey] || (est[v.cKey] = {});
+      if (obj.titulo !== undefined) c.titulo = String(obj.titulo);
+      if (obj.fuente !== undefined) c.fuente = String(obj.fuente);
+      if (obj.fechaPublicacion !== undefined) c.fPub = String(obj.fechaPublicacion);
+      if (obj.fechaElaboracion !== undefined) c.fElab = String(obj.fechaElaboracion);
+      if (obj.palabras !== undefined && obj.palabras !== null && obj.palabras !== '') c.palabras = Number(obj.palabras);
+      if (obj.conceptoClave !== undefined) c.concepto = String(obj.conceptoClave);
+      if (obj.estatus !== undefined) c.estatus = String(obj.estatus);
+      if (obj.retroalimentacion !== undefined) c.retroalimentacion = String(obj.retroalimentacion);
+      if (!c.notas) c.notas = {};
+      ['A', 'B', 'C', 'D', 'E'].forEach(function (l) {
+        if (obj.notas && obj.notas[l] !== undefined && obj.notas[l] !== null && obj.notas[l] !== '') {
+          c.notas[l] = Number(obj.notas[l]);
+        }
+      });
+      // Total siempre recalculado = suma A-E (regla de la rúbrica)
+      c.total = v.suma;
+      if (Array.isArray(obj.alertas)) c.alertas = obj.alertas.slice();
+
+      okCount++;
+      importados.push({ est: est, cKey: v.cKey, total: c.total });
+      results.innerHTML += '<div class="import-ok">✓ ' + esc(est.nombre) + ' — ' + esc(v.cKey.toUpperCase()) + ' importado (total ' + c.total + '/14).</div>';
+    });
+
+    if (okCount > 0) {
+      persistirTodo().then(function () {
+        importados.forEach(function (imp) {
+          logEdicion(imp.est.nombre, 'importacion_' + imp.cKey, 'total ' + imp.total);
+        });
+        renderGeneral();
+        if (estudianteActual !== null) abrirDetalle(estudianteActual);
+        var st = $('saveStatus');
+        if (st) {
+          st.textContent = okCount + ' evaluación(es) importada(s) ✓';
+          st.className = 'save-status';
+          setTimeout(function () { st.textContent = ''; }, 3000);
+        }
+        if (errCount === 0) cerrarModalImportar();
+      }).catch(function () {
+        results.innerHTML += '<div class="import-err">Error al guardar en la nube. Revisa la conexión.</div>';
+      });
+    }
+  }
+
+  // ===== Modal de importación =====
+  function abrirModalImportar(modo) {
+    importModo = modo;
+    $('importModalTitle').textContent = (modo === 'masivo')
+      ? 'Importación masiva de evaluaciones'
+      : 'Importar evaluación';
+    var ta = $('importTextarea');
+    ta.value = '';
+    $('importResults').innerHTML = '';
+    ta.placeholder = (modo === 'individual' && estudianteActual !== null)
+      ? '{"comentario":1,"titulo":"...","notas":{"A":3,"B":2,"C":2,"D":2,"E":2}}'
+      : '[{"estudiante":"EMILIA TORRES","comentario":1,"titulo":"...","notas":{"A":3,"B":2,"C":2,"D":2,"E":2}}]';
+    $('importModal').hidden = false;
+    ta.focus();
+  }
+
+  function cerrarModalImportar() {
+    $('importModal').hidden = true;
+  }
+
   // ===== Navegación de vistas =====
   function mostrarVista(vista) {
     $('viewGeneral').classList.toggle('active', vista === 'general');
@@ -608,6 +791,23 @@
     $('btnBack').addEventListener('click', function () { mostrarVista('general'); });
     $('btnSaveDetail').addEventListener('click', guardarDetalle);
     $('btnBackup').addEventListener('click', descargarBackup);
+
+    // Importación de evaluaciones
+    $('btnImportarMasiva').addEventListener('click', function () { abrirModalImportar('masivo'); });
+    $('btnImportar').addEventListener('click', function () { abrirModalImportar('individual'); });
+    $('importModalClose').addEventListener('click', cerrarModalImportar);
+    $('importModalCancel').addEventListener('click', cerrarModalImportar);
+    $('importModalConfirm').addEventListener('click', function () {
+      importarEvaluacion($('importTextarea').value);
+    });
+    // Cerrar con Escape
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !$('importModal').hidden) cerrarModalImportar();
+    });
+    // Cerrar al hacer clic fuera del modal
+    $('importModal').addEventListener('click', function (e) {
+      if (e.target === $('importModal')) cerrarModalImportar();
+    });
 
     // Delegación para añadir/eliminar archivos del Drive
     $('driveContainer').addEventListener('click', function (e) {

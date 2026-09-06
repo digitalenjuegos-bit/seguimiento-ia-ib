@@ -318,4 +318,61 @@ html, body {
   .data-table { font-size: 13px; }
   .data-table th, .data-table td { padding: 8px; }
   .detail-name { font-size: 18px; }
+  .modal-content { max-width: 95vw; }
 }
+
+/* ===== MODAL DE IMPORTACIÓN ===== */
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(0,0,0,0.5);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.modal-overlay[hidden] { display: none; }
+.modal-content {
+  background: var(--blanco);
+  border-radius: 12px;
+  width: 100%; max-width: 640px;
+  max-height: 90vh;
+  display: flex; flex-direction: column;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+.modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--borde);
+}
+.modal-header h3 { font-size: 16px; font-weight: 700; color: var(--azul-oscuro); margin: 0; }
+.modal-close {
+  background: none; border: none; font-size: 24px; cursor: pointer;
+  color: var(--gris-texto); padding: 4px 8px; border-radius: 6px; line-height: 1;
+}
+.modal-close:hover { background: var(--rojo-bg); color: var(--rojo); }
+.modal-body { padding: 20px; overflow-y: auto; flex: 1; }
+.modal-footer {
+  display: flex; gap: 10px; justify-content: flex-end;
+  padding: 12px 20px;
+  border-top: 1px solid var(--borde);
+}
+.import-label { display: block; font-size: 13px; font-weight: 600; color: var(--gris-texto); margin-bottom: 6px; }
+.import-textarea {
+  width: 100%; min-height: 200px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px; line-height: 1.5;
+  padding: 12px; border: 1px solid var(--borde); border-radius: 8px;
+  resize: vertical;
+}
+.import-textarea:focus { outline: 2px solid var(--azul); outline-offset: 1px; }
+.import-results { margin-top: 12px; }
+.import-ok, .import-err {
+  padding: 8px 12px; border-radius: 6px;
+  font-size: 13px; margin-bottom: 6px; word-break: break-word;
+}
+.import-ok { background: var(--verde-bg); color: var(--verde); }
+.import-err { background: var(--rojo-bg); color: var(--rojo); }
+.btn-import {
+  padding: 10px 18px; font-size: 14px; font-weight: 700;
+  background: var(--verde); color: #fff;
+  border: none; border-radius: 8px; cursor: pointer; white-space: nowrap;
+}
+.btn-import:hover { background: #1a6b2c; }

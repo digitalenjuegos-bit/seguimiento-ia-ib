@@ -49,6 +49,7 @@
         </div>
         <div class="header-actions">
           <button id="btnBackup" class="btn-ghost" type="button">Descargar respaldo JSON</button>
+          <button id="btnImportarMasiva" class="btn-ghost" type="button">Importación masiva</button>
           <button id="btnLogout" class="btn-ghost danger" type="button">Cerrar sesión</button>
         </div>
       </div>
@@ -155,6 +156,7 @@
         </section>
 
         <div class="detail-actions">
+          <button id="btnImportar" class="btn-import" type="button">Importar evaluación</button>
           <button id="btnSaveDetail" class="btn-primary" type="button">Guardar cambios</button>
           <span id="saveStatus" class="save-status" role="status"></span>
         </div>
@@ -162,8 +164,27 @@
     </main>
 
     <footer class="app-footer">
-      <p>© 2026 Mr. Alberto Ottati Rosas. Todos los derechos reservados.</p>
+      <p>&copy; 2026 Mr. Alberto Ottati Rosas. Todos los derechos reservados.</p>
     </footer>
+  </div>
+
+  <!-- ===== MODAL DE IMPORTACIÓN ===== -->
+  <div id="importModal" class="modal-overlay" hidden>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="importModalTitle">
+      <div class="modal-header">
+        <h3 id="importModalTitle">Importar evaluación</h3>
+        <button id="importModalClose" class="modal-close" type="button" aria-label="Cerrar">&times;</button>
+      </div>
+      <div class="modal-body">
+        <label class="import-label" for="importTextarea">Pega el JSON de la evaluación:</label>
+        <textarea id="importTextarea" class="import-textarea" placeholder='{"estudiante":"EMILIA TORRES","comentario":1,"titulo":"...","notas":{"A":3,"B":2,"C":2,"D":2,"E":2}}'></textarea>
+        <div id="importResults" class="import-results"></div>
+      </div>
+      <div class="modal-footer">
+        <button id="importModalCancel" class="btn-ghost" type="button" style="color:var(--gris-texto);border-color:var(--borde);">Cancelar</button>
+        <button id="importModalConfirm" class="btn-import" type="button">Importar</button>
+      </div>
+    </div>
   </div>
 
   <!-- Firebase SDK (compat) - solo se usa si FIREBASE_CONFIGURED es true -->
