@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguimiento IA — Economía IB NM 2026 - Logos Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0b3d91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+
+  <!-- ===== PANTALLA DE LOGIN ===== -->
+  <div id="loginScreen" class="login-screen" hidden>
+    <div class="login-box">
+      <div class="login-logo">
+        <span class="login-logo-mark" aria-hidden="true">IA</span>
+      </div>
+      <h1 class="login-title">Seguimiento IA</h1>
+      <p class="login-subtitle">Economía IB Nivel Medio 2026 · Logos Academy</p>
+      <form id="loginForm" class="login-form" autocomplete="off">
+        <label for="loginKey" class="visually-hidden">Clave de acceso</label>
+        <input type="password" id="loginKey" class="login-input" placeholder="Clave de acceso" autocomplete="off">
+        <button type="submit" class="btn-login">Ingresar</button>
+      </form>
+      <p id="loginError" class="login-error" role="alert" hidden>Clave incorrecta. Intenta de nuevo.</p>
+      <p class="login-note">Panel privado del docente. Solo personal autorizado.</p>
+    </div>
+  </div>
+
+  <!-- ===== APLICACIÓN (requiere login) ===== -->
+  <div id="app" class="app" hidden>
+
+    <!-- Cabecera -->
+    <header class="app-header">
+      <div class="header-inner">
+        <div class="header-brand">
+          <span class="brand-mark" aria-hidden="true">IA</span>
+          <div>
+            <h1 class="app-title">Seguimiento IA — Economía IB NM 2026</h1>
+            <p class="app-subtitle">Evaluación Interna · Logos Academy</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button id="btnBackup" class="btn-ghost" type="button">Descargar respaldo JSON</button>
+          <button id="btnLogout" class="btn-ghost danger" type="button">Cerrar sesión</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Barra de estado de almacenamiento -->
+    <div class="status-bar">
+      <span id="storageBadge" class="storage-badge" role="status">Verificando…</span>
+      <span id="syncStatus" class="sync-status" role="status"></span>
+    </div>
+
+    <!-- ===== VISTA GENERAL ===== -->
+    <main id="viewGeneral" class="view active">
+      <div class="container">
+        <section class="card" aria-label="Resumen de avance">
+          <div class="summary-grid" id="summaryGrid">
+            <div class="summary-item">
+              <span class="summary-value" id="sumEstudiantes">0</span>
+              <span class="summary-label">Estudiantes</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-value" id="sumC1">0</span>
+              <span class="summary-label">C1 con nota</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-value" id="sumC2">0</span>
+              <span class="summary-label">C2 con nota</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-value" id="sumC3">0</span>
+              <span class="summary-label">C3 con nota</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-value" id="sumEntregas">0</span>
+              <span class="summary-label">Comentarios entregados</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" aria-label="Tabla de estudiantes">
+          <h2 class="section-title">Estudiantes</h2>
+          <div class="table-wrap">
+            <table class="data-table" id="generalTable">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>C1 <span class="th-sub">/14</span></th>
+                  <th>C2 <span class="th-sub">/14</span></th>
+                  <th>C3 <span class="th-sub">/14</span></th>
+                  <th>Portafolio <span class="th-sub">/45</span></th>
+                  <th>% avance</th>
+                  <th>Alertas</th>
+                </tr>
+              </thead>
+              <tbody id="generalBody"></tbody>
+            </table>
+          </div>
+          <p class="table-hint">Haz clic en una fila para ver el detalle del estudiante.</p>
+        </section>
+      </div>
+    </main>
+
+    <!-- ===== VISTA DETALLE ===== -->
+    <main id="viewDetail" class="view">
+      <div class="container">
+        <div class="detail-header">
+          <button id="btnBack" class="btn-ghost" type="button">&larr; Volver</button>
+          <h2 class="detail-name" id="detailName"></h2>
+          <span class="detail-avance" id="detailAvance"></span>
+        </div>
+
+        <!-- Alertas del estudiante -->
+        <section class="card" id="detailAlertasCard" hidden>
+          <h3 class="section-title">Alertas</h3>
+          <div id="detailAlertas" class="alertas-list"></div>
+        </section>
+
+        <!-- Comentarios C1/C2/C3 -->
+        <div id="comentariosContainer"></div>
+
+        <!-- Portafolio -->
+        <section class="card" aria-label="Portafolio">
+          <h3 class="section-title">Portafolio</h3>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="pfF">Criterio F <span class="th-sub">/3</span></label>
+              <input type="number" id="pfF" min="0" max="3" step="1" placeholder="—">
+            </div>
+            <div class="form-field">
+              <label for="pfTotal45">Total <span class="th-sub">/45</span></label>
+              <input type="number" id="pfTotal45" min="0" max="45" step="1" placeholder="—">
+            </div>
+            <div class="form-field">
+              <label for="pfAvance">% avance (matriz)</label>
+              <input type="number" id="pfAvance" min="0" max="1" step="0.0001" value="0.1666">
+            </div>
+          </div>
+        </section>
+
+        <!-- Estado del Drive -->
+        <section class="card" aria-label="Estado del Drive">
+          <h3 class="section-title">Estado del Drive — Entrega final</h3>
+          <div id="driveContainer"></div>
+        </section>
+
+        <div class="detail-actions">
+          <button id="btnSaveDetail" class="btn-primary" type="button">Guardar cambios</button>
+          <span id="saveStatus" class="save-status" role="status"></span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <p>© 2026 Mr. Alberto Ottati Rosas. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <!-- Firebase SDK (compat) - solo se usa si FIREBASE_CONFIGURED es true -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+  <script src="js/data.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
