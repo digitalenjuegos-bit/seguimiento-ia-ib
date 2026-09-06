@@ -75,23 +75,57 @@
     catch (e) { return false; }
   }
 
+  // ===== Normalizar estructura de estudiante =====
+  // Firebase RTDB elimina valores null y objetos vacíos al guardar.
+  // Al leer, hay que reconstruir la estructura completa para que
+  // la edición no falle por campos faltantes (notas, drive, etc.).
+  function normalizarEstudiante(est) {
+    ['c1', 'c2', 'c3'].forEach(function (k) {
+      if (!est[k]) est[k] = {};
+      var c = est[k];
+      if (c.titulo === undefined) c.titulo = '';
+      if (c.fuente === undefined) c.fuente = '';
+      if (c.fPub === undefined) c.fPub = '';
+      if (c.fElab === undefined) c.fElab = '';
+      if (c.palabras === undefined) c.palabras = '';
+      if (c.concepto === undefined) c.concepto = '';
+      if (c.estatus === undefined) c.estatus = '';
+      if (!c.notas) c.notas = {};
+      ['A', 'B', 'C', 'D', 'E'].forEach(function (l) {
+        if (c.notas[l] === undefined) c.notas[l] = null;
+      });
+      if (c.total === undefined) c.total = null;
+      if (!c.alertas) c.alertas = [];
+    });
+    if (!est.portafolio) est.portafolio = { f: null, total45: null };
+    if (est.portafolio.f === undefined) est.portafolio.f = null;
+    if (est.portafolio.total45 === undefined) est.portafolio.total45 = null;
+    if (est.avance === undefined || est.avance === null || est.avance === '') est.avance = 0.1666;
+    if (!est.drive) est.drive = { c1: [], c2: [], c3: [] };
+    ['c1', 'c2', 'c3'].forEach(function (k) {
+      if (!est.drive[k]) est.drive[k] = [];
+    });
+    return est;
+  }
+
   // ===== Cargar datos =====
   function cargarDatos() {
     // 1. Intentar Firebase
     if (db) {
       return fbRead(window.FB_PATH).then(function (val) {
         if (val && val.estudiantes && Array.isArray(val.estudiantes)) {
-          estudiantes = val.estudiantes;
+          estudiantes = val.estudiantes.map(normalizarEstudiante);
           storageMode = 'cloud';
           return;
         }
         // No hay datos en la nube: sembrar con los iniciales
-        estudiantes = JSON.parse(JSON.stringify(window.ESTUDIANTES_INICIALES));
+        estudiantes = JSON.parse(JSON.stringify(window.ESTUDIANTES_INICIALES)).map(normalizarEstudiante);
         storageMode = 'cloud';
         return persistirTodo().catch(function () { /* si falla, queda local */ });
       }).catch(function () {
         // Firebase falló: modo local
         cargarLocal();
+        return Promise.resolve();
       });
     }
     cargarLocal();
@@ -102,9 +136,9 @@
     storageMode = 'local';
     var local = lsRead();
     if (local && local.estudiantes && Array.isArray(local.estudiantes)) {
-      estudiantes = local.estudiantes;
+      estudiantes = local.estudiantes.map(normalizarEstudiante);
     } else {
-      estudiantes = JSON.parse(JSON.stringify(window.ESTUDIANTES_INICIALES));
+      estudiantes = JSON.parse(JSON.stringify(window.ESTUDIANTES_INICIALES)).map(normalizarEstudiante);
       lsWrite({ estudiantes: estudiantes });
     }
   }
@@ -428,6 +462,7 @@
     // Comentarios
     ['c1', 'c2', 'c3'].forEach(function (k) {
       var c = est[k] || (est[k] = { titulo: '', fuente: '', fPub: '', fElab: '', palabras: '', concepto: '', estatus: '', notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: [] });
+      if (!c.notas) c.notas = { A: null, B: null, C: null, D: null, E: null };
       var inputs = document.querySelectorAll('[data-c="' + k + '"]');
       inputs.forEach(function (inp) {
         var field = inp.getAttribute('data-field');
