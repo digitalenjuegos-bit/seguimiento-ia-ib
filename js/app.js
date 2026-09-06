@@ -688,11 +688,47 @@
     var results = $('importResults');
     results.innerHTML = '';
 
+    // Normalizar: quitar BOM, trim, y detectar múltiples objetos sin array wrapper
+    var norm = jsonStr.replace(/^\uFEFF/, '').trim();
+    // Si no empieza con [ ni {, no hay nada parseable
+    if (!norm.startsWith('[') && !norm.startsWith('{')) {
+      results.innerHTML = '<div class="import-err">No se detectó JSON válido. Pegá el array de objetos o un objeto individual.</div>';
+      return;
+    }
+    // Si empieza con { pero no con [, intentar envolver múltiples objetos
+    if (norm.startsWith('{') && !norm.startsWith('[')) {
+      // Reunir todos los bloques {...} separados por comas opcionales
+      var unified = '', depth = 0, inStr = false, escaped = false;
+      for (var i = 0; i < norm.length; i++) {
+        var ch = norm[i];
+        if (escaped) { escaped = false; unified += ch; continue; }
+        if (ch === '\\') { escaped = true; unified += ch; continue; }
+        if (ch === '"') { inStr = !inStr; unified += ch; continue; }
+        if (inStr) { unified += ch; continue; }
+        if (ch === '{' || ch === '[') depth++;
+        if (ch === '}' || ch === ']') depth--;
+        unified += ch;
+        // Si depth volvió a 0 después de }, posible separador
+        if (depth === 0 && ch === '}' && i < norm.length - 1) {
+          var rest = norm.substring(i + 1).trim();
+          if (rest.length > 0 && rest[0] !== ',') {
+            // Falta coma separadora, insertar una
+            unified += ',';
+          }
+        }
+      }
+      // Quitar coma trailing antes de ]
+      unified = unified.replace(/,\s*\]/, ']');
+      // Si no quedó envuelto en [], envolver
+      if (!unified.startsWith('[')) unified = '[' + unified + ']';
+      norm = unified;
+    }
+
     var parsed;
     try {
-      parsed = JSON.parse(jsonStr);
+      parsed = JSON.parse(norm);
     } catch (e) {
-      results.innerHTML = '<div class="import-err">JSON inválido: ' + esc(e.message) + '</div>';
+      results.innerHTML = '<div class="import-err">JSON inválido: ' + esc(e.message) + '. Asegurate de pegar un JSON válido (array de objetos o un objeto individual).</div>';
       return;
     }
 
