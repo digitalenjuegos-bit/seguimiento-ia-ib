@@ -539,7 +539,7 @@
       html += '</div>';
     });
 
-    // Pie: CRITERIO D /3 y TOTAL /45
+    // Pie: CRITERIO F /3 y TOTAL /45
     var f = (est.portafolio && est.portafolio.f !== null && est.portafolio.f !== undefined) ? est.portafolio.f : '—';
     var t45 = est.portafolio && est.portafolio.total45;
     if (t45 === null || t45 === undefined || t45 === '') {
