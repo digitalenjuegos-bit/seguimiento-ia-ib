@@ -1,0 +1,126 @@
+ 
+ 
+- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #1 
+ 
+Código de estudiante 
+mmn183 
+Nombre del medio 
+de comunicación 
+Primicias 
+Título del artículo 
+Así subirán las tarifas eléctricas para grandes industrias tras el 
+anuncio de Noboa de reducir el subsidio para empresas 
+Fuente del artículo 
+https://www.primicias.ec/economia/tarifas-electricas-grandes-ind
+ustrias-subsidio-noboa-costos-97546/ 
+Fecha de publicación 
+del artículo 
+2 de junio de 2025 
+Concepto clave 
+Intervención 
+Teoría económica 
+●​ Elasticidades 
+●​ Pensador a usar: Arthur Pigou 
+Modelo económico 
+Equilibrio de mercado 
+# palabras 
+800 
+ 
+ 
+ 
+ 
+ 
+ 
+El 2 de junio de 2025, el periódico ecuatoriano Primicias informó sobre la decisión del 
+presidente Daniel Noboa de reducir progresivamente el subsidio eléctrico que beneficia a las 
+grandes industrias del país. La medida afecta al segmento AV1, que incluye empresas ubicadas 
+en zonas industriales como Durán. Como consecuencia, la tarifa eléctrica para este segmento 
+aumentó de 7,91 centavos de dólar por kilovatio hora (kWh) a 10,22 centavos por kWh, un 
+incremento aproximado del 29%. Además, medio voltaje subió de 9,27 a 11,64 centavos, cerca 
+de 26%, mientras que el grupo de alto voltaje 2 ya había aumentado en noviembre de 2024. Esta 
+noticia es relevante desde la microeconomía porque evidencia una intervención gubernamental 
+que altera el equilibrio de un mercado específico. 
+ 
+Intervención se define como el proceso por el cual los gobiernos actúan para cambiar el 
+comportamiento del mercado con el fin de lograr resultados sociales, ambientales o económicos 
+deseados. En este caso, el Estado interviene al modificar un subsidio existente con el objetivo de 
+reducir el gasto fiscal y reflejar de manera más precisa el costo real de la energía. 
+ 
+Un subsidio al productor es una intervención gubernamental que reduce los costos de producción 
+de las empresas, incentivando una mayor oferta del bien. Gráficamente, se representa mediante 
+un desplazamiento de la curva de oferta hacia la derecha. Cuando el subsidio es reducido o 
+eliminado, los costos de producción aumentan y la curva de oferta se desplaza hacia la izquierda, 
+elevando el precio de mercado y reduciendo la cantidad intercambiada. 
+ 
+ 
+ 
+En el diagrama, la curva de oferta se desplaza desde O₁ hasta O₂ tras la reducción del subsidio. El 
+equilibrio inicial E₁ muestra un precio subsidiado de P₁ = 7,91 centavos USD/kWh y una 
+cantidad Q₁. Posteriormente, el nuevo equilibrio se alcanza con un precio mayor de P₂ = 10,22 
+centavos USD/kWh y una menor cantidad Q₂. El área entre Q₁ y Q₂ representa la pérdida 
+irrecuperable de eficiencia generada por el subsidio inicial, la cual se elimina al reducirse este 
+mecanismo. Fuente: elaboración propia a partir de datos de Primicias (2025). 
+ 
+En el mercado eléctrico del segmento AV1 en Ecuador, el subsidio funcionaba como un subsidio 
+al productor, ya que permitía ofrecer electricidad a las industrias a un precio inferior al costo real 
+del servicio. Esto reducía los costos de producción de sectores intensivos en energía como el 
+cementero. Sin embargo, en ausencia de una externalidad positiva, el equilibrio eficiente 
+corresponde al mercado sin subsidio, por lo que su reducción permite recuperar la eficiencia 
+perdida. 
+ 
+Con la decisión del gobierno de reducir este subsidio, la curva de oferta se desplaza hacia la 
+izquierda desde O₁ hasta O₂. El nuevo equilibrio se alcanza con un precio más alto y una menor 
+cantidad intercambiada. La reducción del subsidio elimina la distorsión creada por este 
+mecanismo, aunque afecta a ciertos agentes económicos. 
+ 
+La demanda de electricidad para industrias pesadas es relativamente inelástica en el corto plazo 
+debido a la falta de sustitutos viables. Por ello, gran parte del aumento tarifario es absorbido por 
+las industrias mediante mayores costos de producción, reduciendo su excedente del productor. A 
+mediano plazo, parte de este incremento podría trasladarse a los consumidores mediante precios 
+más altos del cemento y materiales de construcción. 
+ 
+Desde la perspectiva de los stakeholders, las industrias AV1 son las principales perjudicadas a 
+corto plazo, ya que enfrentan mayores costos y una posible reducción de competitividad. Los 
+consumidores finales también podrían verse afectados por precios más altos en la construcción. 
+Por otro lado, los hogares, excluidos del aumento tarifario junto con la asistencia social y el 
+bombeo de agua para comunidades campesinas, se benefician al mantener sus tarifas sin 
+cambios, favoreciendo la equidad. Además, el gobierno reduce su gasto fiscal en subsidios y una 
+menor demanda industrial podría generar beneficios ambientales. 
+ 
+El artículo también evidencia un intento de mantener criterios de equidad al proteger a sectores 
+vulnerables mientras se reducen subsidios a grandes consumidores industriales. 
+ 
+Desde un enfoque de bienestar económico asociado a Arthur Pigou, la eliminación del subsidio 
+puede justificarse si corrige una distorsión de precios y mejora la asignación eficiente de 
+recursos. Sin embargo, esta eficiencia se logra a costa de efectos distributivos negativos sobre la 
+competitividad industrial. 
+ 
+Como alternativa de política, el gobierno podría implementar subsidios focalizados 
+condicionados a mejoras en eficiencia energética o mantenimiento del empleo. No obstante, estas 
+medidas implican mayores costos administrativos y dificultades de monitoreo. 
+ 
+En conclusión, la reducción del subsidio eléctrico para el segmento AV1 constituye una 
+intervención gubernamental que desplaza la oferta hacia la izquierda, elevando precios y 
+reduciendo la cantidad demandada. Aunque mejora la eficiencia del mercado y reduce el gasto 
+fiscal al corregir la distorsión generada por el subsidio, también produce efectos negativos sobre 
+la equidad y los costos de producción industrial. Por ello, la intervención queda justificada, pero 
+debe considerar sus efectos distributivos. 
+ 
+ 
+Bibliografía 
+Journals OpenEdition (s.f) On Pigou’s Theory of Economic Policy Analysis. OE Economia. 
+https://journals.openedition.org/oeconomia/1373​
+ 
+ 

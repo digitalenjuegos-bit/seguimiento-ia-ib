@@ -1,0 +1,129 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #2 
+ 
+Código de estudiante 
+mmn183 
+Nombre del medio 
+de comunicación 
+Reuters 
+Título del artículo 
+El gasto público alemán, único dique de contención frente a la 
+caída del PIB, según el Bundesbank 
+Fuente del artículo 
+https://es.marketscreener.com/noticias/el-gasto-p-blico-alem-n-ni
+co-motor-para-evitar-la-ca-da-del-pib-seg-n-el-bundesbank-ce7f5
+cd8d08ef326 
+Fecha de publicación 
+del artículo 
+12 de junio de 2026 
+Concepto clave 
+Bienestar económico 
+Teoría económica 
+●​ Política fiscal expansiva 
+●​ Teoría keynesiana  
+Modelo económico 
+Modelo de Demanda Agregada y Oferta Agregada 
+# palabras 
+772 
+ 
+ 
+ 
+ 
+ 
+El 12 de junio de 2026, Reuters informó que el Bundesbank señaló que el aumento del gasto 
+público del gobierno alemán es actualmente el principal factor que está evitando una caída del 
+producto interno bruto (PIB) del país. Según la institución, la inversión estatal en infraestructura 
+y defensa contribuirá significativamente al crecimiento económico durante los próximos años. 
+Esta noticia es relevante desde la macroeconomía porque permite analizar cómo el gasto público 
+puede influir sobre la demanda agregada, el crecimiento económico y el bienestar económico de 
+los hogares. 
+ 
+Según la terminología del IB, el bienestar económico se refiere a la calidad de vida económica de 
+los individuos, considerando factores como sus ingresos, empleo y poder adquisitivo. En este 
+caso, el concepto permite evaluar los efectos que tiene el crecimiento de la economía sobre los 
+diferentes agentes, considerando tanto los beneficios de una mayor producción y empleo como 
+los efectos negativos derivados del aumento de los precios. 
+ 
+ 
+ 
+El modelo macroeconómico más apropiado para analizar esta situación es el modelo de 
+Demanda Agregada y Oferta Agregada (DA-OA). La demanda agregada representa el gasto total 
+en bienes y servicios dentro de una economía y está compuesta por consumo, inversión, gasto 
+público y exportaciones netas. Cuando el gobierno incrementa su gasto, uno de los componentes 
+de la demanda agregada aumenta directamente, provocando un desplazamiento de la curva DA 
+hacia la derecha. Como consecuencia, la economía alcanza un nuevo equilibrio macroeconómico 
+con un mayor nivel de producción real y un mayor nivel general de precios. 
+ 
+En la noticia, el Bundesbank estima que los programas de gasto público podrían aportar 
+aproximadamente 1,3 puntos porcentuales al crecimiento acumulado de la economía alemana 
+hasta 2028. En términos del modelo DA-OA, el aumento del gasto público desplaza la demanda 
+agregada desde DA₁ hasta DA₂. Inicialmente, la economía se encuentra en un equilibrio A, con 
+un nivel de producción real Y₁. Tras el aumento del gasto público, la economía alcanza un nuevo 
+equilibrio B, donde la producción aumenta hasta Y₂ y el nivel de precios aumenta. De esta 
+manera, el gasto público contribuye a sostener la actividad económica y puede evitar una 
+reducción mayor del empleo. 
+ 
+Las previsiones del Bundesbank muestran que el crecimiento de Alemania será de 0,5% en 2026, 
+frente al 0,6% previsto anteriormente, y de 0,8% en 2027, frente al 1,3% anterior. Aunque el 
+gasto público contribuye positivamente al crecimiento, estas revisiones muestran que el efecto no 
+es suficiente para eliminar completamente la debilidad económica. Además, el aumento de los 
+costos de la energía provocado por la guerra genera un shock negativo de oferta, que reduce la 
+producción y aumenta los precios. Por ello, el efecto positivo del gasto público sobre el bienestar 
+económico se ve limitado. 
+ 
+Desde la perspectiva keynesiana, el aumento del gasto público resulta adecuado cuando la 
+demanda agregada es insuficiente para mantener el pleno empleo. Una mayor producción puede 
+generar más oportunidades de empleo e ingresos, mejorando el bienestar económico de los 
+hogares. Sin embargo, desde la perspectiva monetarista, un aumento excesivo de la demanda 
+agregada puede generar presiones inflacionarias, especialmente cuando existen restricciones de 
+oferta. 
+ 
+Esto es relevante en Alemania, donde la inflación general prevista para 2026 es de 2,9%, 
+mientras que la inflación subyacente alcanza 2,6%, ambas por encima del objetivo del 2% del 
+Banco Central Europeo. Los hogares pueden beneficiarse de una mayor actividad económica y 
+empleo, pero al mismo tiempo enfrentan una reducción de su poder adquisitivo debido al 
+aumento de los precios. Por lo tanto, el efecto sobre el bienestar económico no es uniforme. 
+ 
+En el corto plazo, las empresas constructoras y proveedoras de infraestructura pueden 
+beneficiarse de una mayor demanda, mientras que los trabajadores pueden obtener mayores 
+oportunidades de empleo. Los hogares, en cambio, pueden experimentar efectos contradictorios: 
+mayores oportunidades de ingreso, pero menor poder adquisitivo si la inflación continúa elevada. 
+ 
+En el largo plazo, el gasto en infraestructura podría aumentar la productividad y desplazar la 
+oferta agregada de largo plazo (OALP) hacia la derecha. Esto permitiría aumentar la capacidad 
+productiva y mejorar el bienestar económico sin generar necesariamente mayores presiones 
+inflacionarias. Sin embargo, el resultado dependerá de la eficiencia del gasto público y de que las 
+inversiones realmente incrementen la productividad. 
+ 
+En conclusión, el aumento del gasto público alemán puede mejorar el bienestar económico al 
+sostener la producción, el empleo y los ingresos, pero sus beneficios están limitados por la 
+inflación y el encarecimiento de la energía. Por ello, aunque el gasto público puede evitar un 
+deterioro mayor de la actividad económica, su efecto neto sobre el bienestar económico 
+dependerá de que las inversiones en infraestructura logren aumentar la productividad en el largo 
+plazo sin generar presiones inflacionarias persistentes. 
+ 
+ 
+ 
+Bibliografía 
+ 
+Communications. (1 junio, 2026). ¿Qué es el modelo keynesiano y cuáles son sus principales 
+ideas? BBVA NOTICIAS. 
+https://www.bbva.com/es/economia-y-finanzas/keynes-para-dummies-de-que-se-habla-cuando-s
+e-habla-del-modelo-keynesiano/ 
+ 
+ 
+ 
+ 

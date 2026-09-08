@@ -1,0 +1,183 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #1 
+ 
+ 
+Código del   
+estudiante 
+mmn187 
+Nombre del   
+medio de   
+comunicación 
+Infobae 
+Título del   
+artículo 
+Cuánto costarán los cigarros y refrescos en México con alza de impuestos. 
+Fuente del   
+artículo  
+https://www.infobae.com/mexico/2025/09/21/cuanto-costaran-lo s  
+cigarros-y-refrescos-en-mexico-con-alza-de-impuestos/ 
+Fecha de   
+publicación   
+del artículo 
+21 de septiembre, 2025 
+Concepto   
+clave 
+Intervención  
+Teoría   
+económica 
+• 
+Impuestos   
+• 
+Elasticidades  
+Modelo   
+económico 
+Impuesto indirecto  
+Número de   
+palabras 
+760 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #1 
+“Cuánto costarán los cigarros y refrescos en México con alza de impuestos” 
+  
+El gobierno de México propuso un aumento en los impuestos de cigarros y refrescos, con el 
+fin de influir en los hábitos de consumo de la población y aumentar los ingresos fiscales; esto 
+se llevó a cabo mediante el uso de impuestos indirectos y ad Valorem, donde los impuestos 
+específicos gravan de manera concreta a ciertos bienes o actividades y recaen directamente 
+sobre quienes los producen o consumen, mientras que los impuestos ad Valorem se aplican 
+como un porcentaje del valor del producto, haciendo que el monto del impuesto varía según 
+su precio. 
+ En este análisis se utilizará el concepto de intervención, el cual se define como la 
+participación activa del Estado en el funcionamiento del mercado a través de impuestos, 
+subsidios u otros mecanismos de control, con el propósito de corregir fallas de mercado, y 
+reducir el consumo de bienes demeritorios, es decir, productos o servicios que se consideran 
+perjudiciales tanto como para los individuos como para la sociedad. Tal es el caso, de las 
+bebidas azucaradas y el cigarrillo, en este último se centrará el comentario. 
+ El mercado del cigarrillo es un mercado legal, en el que participan principalmente las 
+empresas tabacaleras como productores, las familias fumadoras como consumidores y el 
+Estado como regulador. 
+Este mercado se representa con el modelo de impuesto indirecto, mediante un diagrama de 
+oferta y demanda. Para el caso de los cigarrillos la demanda es relativamente inelástica, 
+debido a la dependencia que tiene los consumidores de este producto. 
+Inicialmente, el mercado se encuentra en equilibrio en el punto P.E, donde ambas curvas se 
+interceptan, determinando el precio P1 y la cantidad Q1. Con la intervención del Estado, vía 
+impuesto, el equilibrio se altera haciendo que la curva de oferta se desplace hacia la izquierda, 
+generando un nuevo equilibrio en el punto PE2, con una menor cantidad intercambiada de 
+Q1 a Q2 y un mayor precio pagado por los consumidores (Pc), mientras que los tabacaleros 
+reciben un precio menor (Pp). 
+ 
+Efecto del impuesto en el cigarrillo en  
+                    México 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fuente: elaborado por la candidata con base a la publicación Infobae 
+ 
+Al establecer el impuesto la carga fiscal recae sobre ambos agentes económicos, no obstante, 
+la elasticidad de la demanda genera que la mayor carga del impuesto la asuma el consumidor. 
+El productor asume una porción menor, pues conoce la dependencia de sus consumidores, a 
+su vez tienen poco sustitutos, por ejemplo, los cigarrillos electrónicos. 
+𝑂1
+𝑂2
+D 
+Cantidad de Cigarrillos 
+Precio de 
+cigarrillos ($) 
+𝑃𝐶= $100
+𝑃1 = $80
+𝑄2
+𝑄1
+M 
+N 
+A 
+B 
+𝑃𝑃
+TAX 
+𝑃𝐸2
+𝑃𝐸1
+En el modelo económico el ingreso del gobierno producto del impuesto está representado por 
+las áreas M + N, donde el área celeste es el aporte del consumidor y la verde la del productor. 
+No obstante, esta intervención también provoca una pérdida irrecuperable de eficiencia o 
+también llamado peso muerto (áreas A+B), ya que se eliminan transacciones que antes eran 
+beneficiosas tanto para consumidores como para productores, reduciendo el bienestar total 
+del mercado. 
+ 
+Comprendiendo sobre quien recae más el impuesto, se puede evaluar que la intervención es 
+eficaz moderadamente para la reducción de la externalidad negativa, dado que la adicción y 
+los pocos sustitutos cercanos hacen que muchos consumidores continúen comprando el 
+producto a pesar del aumento de precios, y altamente eficaz en cuanto la recaudación. Esto 
+debido a la inelasticidad de la demanda de cigarro, por lo que el bienestar de los consumidores 
+es el más afectado por la intervención. 
+ 
+La eficacia de la intervención, en cuanto a lo recaudatorio, permite el incremento de los 
+ingresos del gobierno, derivado del impuesto indirecto, esto permite financiar el gasto 
+público, particularmente en el área de la salud. No obstante, otra debilidad es el desconocer 
+con seguridad que todo lo recaudado, del impuesto al cigarrillo, se dirige a este sector.  
+ 
+Si el objetivo del gobierno es reducir el consumo de estos bienes, podría obligar a las 
+empresas colocar las consecuencias negativas del consumo de cigarrillos, es decir publicidad 
+negativa, lo que a su vez no representa ningún gasto para el gobierno. Otra medida puede ser 
+la implementación de Precios mínimos, ya que estos obligan a comercializar el producto a 
+un precio por encima del equilibrio, evitando que el productor asuma parte del impuesto para 
+mantener el consumo de su producto, y haciendo que el consumidor pague más. Pero la 
+desventaja de usar esta medida es que el gobierno no obtendría ingresos para atender las otras 
+necesidades de la sociedad. Es necesario señalar que todas estas medidas pueden empujar a 
+una parte del mercado a buscar soluciones no licitas para consumir el bien, tal como el 
+contrabando. Por tanto, aunque la intervención, vía impuesto, es eficaz para reducir el 
+consumo de bienes deméritos, es conveniente complementarlo con otras políticas públicas 
+con el fin de lograr un impacto más significativo en el bienestar social. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bibliografía 
+ 
+● Espinoza, J. (2025, Septiembre 21). Cuánto costarán los cigarros y refrescos en México 
+con alza de impuestos. https://www.infobae.com/mexico/2025/09/21/cuanto-costaran-los-
+cigarros-y-refrescos-en-mexico-con-alza-de- impuestos/ 
+ 
+ 
+ 
+ 
+ 
+ 

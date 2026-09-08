@@ -1,0 +1,111 @@
+
+
+
+
+ECONOMÍA
+
+Portada de evaluación interna
+
+Código del colegio: 003780
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Comentario Económico # 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Comentario Económico:
+En el enfoque microeconómico, la elección es un concepto central, refiriéndose a cómo los consumidores deciden cómo repartir su presupuesto entre distintos bienes y servicios, con recursos limitados. De acuerdo con el informe Tendencias de Mercado de NielsenIQ, emitido en febrero de 2025, el gasto de los hogares españoles aumentó y la cesta de compra creció un 2,2 % interanual. El caso más destacado fue el mercado del aceite de oliva, cuyo precio cayó un 40% interanual, mientras que la demanda aumentó. Es aquí donde más hogares tienen la elección de cambiarse al  mercado de aceite de oliva dado el desplome de otros sustitutos cercanos.
+El resto del informe también hace referencia a otras categorías que no serán objeto de análisis.  Para representar el aumento de la oferta y nuevo equilibrio, se utilizará el modelo de equilibrio de mercado con desplazamiento en la curva de oferta, y demanda relativamente elástica aplicado a un mercado de bienes sustitutos como el aceite de oliva (panel A) y aceite girasol (panel B) con el fin de representar gráficamente la elección entre bienes. 
+
+Reasignación del gasto del consumidor entre aceites sustitutos debido a un aumento de oferta de aceite de oliva en España (2024-2025)
+
+
+
+
+
+
+
+
+
+
+
+Fuente: Elaboración propia por el estudiante en base a Infobae (2025)
+
+El panel A evidencia cómo el mercado del aceite de oliva produjo un desplazamiento de la oferta de S₁ a S₂ debido a un choque de oferta de origen climático gracias a la recuperación de la cosecha olivarera tras años de sequía, aumentado la cantidad ofrecida a cada nivel de precio, mientras que la curva de la demanda sufre un movimiento a lo largo de la curva hacia abajo de Q1 a Q2, ocasionando un cambio en el equilibrio de E1 a E2 como consecuencia de la caída de precios de 9,56 a 5,78 euros. Asimismo, se deduce que la oferta del bien aumenta en función de la caída del precio y de la subida de la cantidad simultáneamente, por lo que el choque sólo puede provenir de la oferta: un desplazamiento de la demanda haría que ambas variables se muevan hacia la misma dirección.
+
+En cambio, en la curva de la demanda D se muestra pendiente negativa como resultado de una caída en el precio del aceite de oliva en un 40% y de un aumento de las cantidades en la demanda en 48%. Este comportamiento hace referencia a la elasticidad precio de la demanda, permitiendo medir la sensibilidad de los compradores de aceite de oliva frente a cambios del precio. Para analizar el impacto de esta elección de los consumidores, se estimara la EPD, siguiendo el siguiente procedimiento:
+EPD = |variación % en cantidad / variación % en precio| = | 48% / -40% | = 1.2
+
+La estimación de la EPD es 1.2, reflejando una demanda elástica para el aceite de oliva a consecuencia del desplome del aceite girasol, evidenciándose en el panel A del modelo económico.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fuente: Elaboración propia por el estudiante en base a Infobae (2025)
+
+En el panel B se observa la reasignación del gasto y no un aumento general del consumo, donde la demanda del aceite girasol (), se desplaza hacia la izquierda de  a ,  causado por la caída del precio del bien sustituto, produciéndose una nuevo equilibrio de EG2 a EG1 con menor cantidad y precio (ventas del aceite girasol cayeron 8%, y otros aceite hasta 48%), evidenciando el efecto sustitución en todas las categorías de estos productos, mientras que los bienes de consumo de forma general crecieron un 0,2%.
+El excedente del consumidor, definido como la diferencia entre lo que los consumidores estaban dispuestos a pagar y lo que pagan, aumenta en el área comprendida entre P₁, P₂ en el panel A, el eje de precios y la curva de demanda. Empero, una parte de los consumidores mantiene su elección por el aceite de girasol, como refleja la demanda que permanece en este mercado.
+La elección de los consumidores redistribuye ingresos entre productores sin participación gubernamental. Los productores de aceite de oliva son los ganadores: venden más, presentando una demanda elástica, aumentando sus ingresos totales pese al precio. En cambio, las ventas de aceite de girasol caen un 8%, reduciendo sus ingresos, siendo los perdedores. A corto plazo, los consumidores reaccionaron rápidamente al menor precio, reduciendo las ventas de aceite de girasol en un 8%. A largo plazo, la elasticidad de la demanda aumentaría, pues un eventual regreso de la sequía permitiría sustituir nuevamente entre ambos aceites según su precio relativo. El gobierno no plantea medidas para estabilizar la oferta frente al riesgo climático: una inversión pública en sistemas de riego podría reducir futuras caídas de producción; aunque, requeriría elevado financiamiento estatal (costo fiscal).
+Concluyendo, la elección benefició principalmente a los consumidores y productores de aceite de oliva, mientras que perjudicó a los productores de girasol. Empero, la elasticidad estimada podría estar sobrevalorada, ya que el gasto total de la cesta aumentó un 2,2%, indicando un posible efecto ingreso, siendo una limitación para el análisis del comentario. Si la mayor producción se mantiene, estos beneficios podrían consolidarse; sino, serían temporales.
+
+Bibliografía
+de Lucas, A. (2025, marzo 31). El gasto en la cesta de la compra crece un 2,2%: la demanda de aceite de oliva aumenta el doble tras la bajada de precios. Infobae. Recuperado el 30 de enero, 2026, de https://www.infobae.com/espana/2025/03/31/el-gasto-en-la-cesta-de-la-compra-crece-un-22-la-demanda-de-aceite-de-oliva-aumenta-el-doble-tras-la-bajada-de-precios/ 
+
+Marshall, A. (1890). Principles of Economics. Macmillan.

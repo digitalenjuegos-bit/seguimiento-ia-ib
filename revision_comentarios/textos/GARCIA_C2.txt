@@ -1,0 +1,155 @@
+ 
+ 
+ 
+ 
+ 
+Código del colegio  
+003780 
+Código del estudiante 
+mmn160 
+Título 
+"La inflación mensual de diciembre de 2025 fue negativa"  
+Fuente 
+Primicias 
+               URL 
+https://www.primicias.ec/economia/inflacion-mensual-diciembr
+e2025-precios-productos-canasta-113322/  
+Fecha del artículo 
+8 de enero de 2026  
+Fecha de búsqueda del 
+artículo 
+29 de junio de 2026  
+Módulo 
+Macroeconomía 
+Concepto Clave  
+Bienestar Económico 
+# Palabras 
+652 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    Comentario Económico#2 
+El bienestar económico se refiere al nivel de prosperidad, estabilidad y poder adquisitivo que 
+alcanzan los individuos dentro de una sociedad. En la macroeconomía, las fluctuaciones en el nivel 
+general de precios condicionan directamente esta variable. Para analizar este fenómeno, se aplica el 
+modelo de Demanda Agregada (DA) y Oferta Agregada de Corto Plazo (OACP). En Ecuador, la 
+variación mensual de precios en diciembre de 2025 registró una caída del -0,14%, marcando el 
+segundo mes consecutivo con cifras negativas, mientras que la inflación anual acumulada se aceleró 
+pasando del 0,53% al 1,91%. El objetivo es evaluar cómo la caída mensual del nivel de precios 
+expande el ingreso real de las familias en el corto plazo, y contrastar este efecto con las presiones de 
+la inflación anual acumulada. 
+ 
+ 
+ 
+Efecto de la expansión de la Oferta Agregada de Corto Plazo en Ecuador (diciembre de 2025) bajo 
+el concepto de bienestar económico. Fuente: Elaboración propia basada en datos de Primicias 
+(2026). 
+El gráfico de la figura 1 ilustra esta dinámica. Inicialmente, la economía se ubicaba en el punto E1, 
+donde la Demanda Agregada (DA) se cruzaba con la Oferta Agregada de Corto Plazo (OACP1), 
+fijando el costo de la canasta familiar básica en P1 = USD 821 y la producción en Y1. Debido a la 
+reducción en los precios de alimentos y bebidas no alcohólicas, la curva de oferta se desplaza hacia la 
+derecha de OACP1 a OACP2. El nuevo equilibrio en E2 reduce el nivel de precios de P1 = USD 821 
+a P2 = USD 819, mientras que el PIB Real crece de Y1 a Y2. Al caer el nivel general de precios 
+manteniendo un ingreso nominal constante, aumenta el ingreso real y el poder adquisitivo de los 
+hogares, impulsando el bienestar económico. 
+En una economía dolarizada como la ecuatoriana, al no existir una moneda propia que permita ajustes 
+cambiarios, el control del nivel de precios representa la principal vía para preservar el ingreso real. La 
+disminución de USD 2 en el costo mensual de la canasta familiar básica alivia el gasto inmediato de 
+las familias. Este margen libera liquidez para el consumo de bienes esenciales sin requerir 
+incrementos en los salarios nominales. Analizando los impactos en las partes interesadas, la principal 
+fortaleza recae sobre los consumidores de menores ingresos, quienes recuperan capacidad de compra 
+en el mercado de bienes de primera necesidad. Para las empresas, la estabilidad en los costos de los 
+insumos facilita la planificación financiera de corto plazo. No obstante, surge una limitación para el 
+sector exportador, que pierde competitividad frente a países vecinos que devalúan sus monedas. Por 
+su parte, el gobierno encuentra alivio en la contención de presiones sociales inmediatas, aunque 
+enfrenta el desafío de garantizar que la baja de precios al por mayor se traslade al consumidor final. 
+Al evaluar el corto frente al largo plazo, surgen dinámicas contrapuestas. A corto plazo, la caída 
+mensual consecutiva del nivel de precios estimula el consumo doméstico. Sin embargo, la ocurrencia 
+de dos meses seguidos con inflación mensual negativa representa un indicio de riesgo deflacionario si 
+responde a una demanda interna debilitada. A largo plazo, el bienestar económico se ve 
+comprometido porque la inflación acumulada anual subió del 0,53% al 1,91%, lo que significa que el 
+costo de la canasta básica sufrió un incremento anual neto de USD 21. 
+Como propuesta de política económica, las autoridades deben otorgar incentivos tributarios y 
+subsidios focalizados en insumos agrícolas para consolidar las ganancias de productividad. Esto 
+sostendría el desplazamiento de la oferta agregada a largo plazo. Esta medida está condicionada a la 
+estabilidad de los ingresos petroleros del Estado, cuya caída restringiría el margen fiscal para financiar 
+apoyos productivos. 
+En conclusión, en términos netos, la caída mensual del nivel de precios fortalece el bienestar 
+económico de los hogares de menores ingresos al reducir el costo de la canasta básica a USD 819. No 
+obstante, se trata de una mejora condicionada, dado que en el balance anual la canasta se encareció 
+USD 21 y la inflación anual subió al 1,91%. Sin ganancias reales de productividad, el efecto neto 
+sobre el poder adquisitivo anual sigue siendo negativo. 
+ 
+ 
+REFERENCIAS: 
+Primicias. (2026, 8 de enero). La inflación mensual de diciembre de 2025 fue negativa. Primicias. 
+https://www.primicias.ec/economia/inflacion-mensual-diciembre2025-precios-productos-canasta-1133
+22/ 
+ 

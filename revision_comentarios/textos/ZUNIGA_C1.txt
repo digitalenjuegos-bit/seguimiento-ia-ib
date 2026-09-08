@@ -1,0 +1,261 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código del colegio: 003780 
+Comentario Económico #1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Título 
+Más impuestos al tabaco dispararán el mercado ilegal en México 
+Fuente 
+https://expansion.mx/economia/2025/10/16/nuevo-impuesto-tab
+aco-guerra-silenciosa-hacienda-y-mercado-ilegal  
+Código de estudiante  
+mmn171 
+Fecha del artículo 
+Octubre 16, 2025 
+Fecha de elaboración 
+del comentario 
+Febrero 28, 2026 
+Módulo 
+Microeconomía 
+Concepto Clave  
+Intervención 
+Teoría Económica 
+●​ Teoría del bienestar económico e impuestos pigouvianos 
+(Pigou) 
+# Palabras 
+800 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #1 
+Los Estados deben garantizar el bienestar económico, proteger la salud pública y 
+promover una asignación eficiente de recursos. Empero, los mercados no siempre generan 
+resultados socialmente óptimos debido a fallos de mercado, como las externalidades 
+negativas. En este contexto, la intervención gubernamental mediante impuestos, subsidios o 
+regulaciones busca mejorar el bienestar social. 
+En México, el Impuesto Especial sobre Producción y Servicios (IEPS) (impuesto ad 
+valorem) y la cuota fija aplicada al tabaco es un impuesto mixto destinado a desincentivar el 
+consumo y generar ingresos para cubrir costos asociados al tabaquismo. Desde la Teoría del 
+Bienestar Económico, puede interpretarse como un impuesto Pigouviano, diseñado para 
+internalizar externalidades negativas, elevando el precio hasta reflejar su costo social 
+marginal. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gráfico 1: Efecto del impuesto sobre el cigarro, fuente: elaboración propia a partir de datos del artículo de Expansión (2025) 
+El gráfico muestra el efecto la intervención gubernamental que representa el aumento 
+del Impuesto Especial sobre Producción y Servicios (IEPS) en el mercado de los cigarrillos 
+en México durante el período 2025-2026. La curva de demanda (D) presenta pendiente 
+negativa, mientras que la curva de oferta se desplaza hacia la izquierda, de O1 a O2, como 
+resultado de la aplicación del impuesto específico. Inicialmente, el mercado se encuentra en 
+equilibrio en E1, con un precio P1 y una cantidad de equilibrio Q1. Tras la implementación 
+del impuesto de 0,24 pesos por cigarrillo, la oferta disminuye, dando lugar a un nuevo 
+ 
+equilibrio en E2, donde el precio de mercado aumenta de P1 a P2 y la cantidad 
+comercializada se reduce de Q1 a Q2. La distancia vertical entre las curvas O1 y O2 
+representa la cuña fiscal, equivalente al monto del impuesto por unidad. En consecuencia, el 
+incremento del precio y la reducción de la cantidad consumida reflejan el objetivo del IEPS 
+de desincentivar el consumo de tabaco mediante el encarecimiento del producto. 
+En el corto plazo, la demanda relativamente inelástica del tabaco supone una pequeña 
+disminución del consumo, mientras la recaudación fiscal aumenta. Esto ocurre por la 
+naturaleza adictiva del bien, manteniendo el consumo incluso ante un aumento del precio 
+derivado del impuesto. En consecuencia, la intervención permite al gobierno mexicano 
+aumentar sus ingresos fiscales y desincentivar moderadamente el consumo. Sin embargo, a 
+largo plazo, la demanda puede volverse más elástica, ya que algunos consumidores dejan de 
+fumar o buscan bienes sustitutos, reduciendo el consumo y la recaudación. Esto evidencia 
+que la efectividad de la intervención depende también de medidas de control y prevención 
+que reduzcan el acceso a alternativas ilegales. 
+Según el artículo, una cajetilla ilegal puede costar entre 20 y 25 pesos según el 
+Consejo para el Desarrollo del Comercio en Pequeño, mientras que una legal alcanza entre 85 
+y 100 pesos según la Alianza Nacional del Pequeño Comerciante (ANPEC). Esta brecha 
+genera un margen de utilidad del 70% que beneficia al mercado negro, que surge cuando una 
+intervención genera un diferencial de precios elevado entre el mercado legal e ilegal de un 
+bien. En este contexto, los consumidores de escasos ingresos son más propensos a recurrir a 
+productos ilícitos como una alternativa más accesible. De modo que el impuesto pierde 
+parcialmente su efectividad; el consumo no disminuye en la magnitud esperada y la 
+externalidad negativa no se internaliza plenamente. Esto podría reducir la eficiencia 
+económica, ya que parte del consumo simplemente se traslada al mercado informal en lugar 
+de desaparecer. 
+La política también genera costos importantes. Los comercios formales pierden 
+competitividad frente al mercado ilegal, afectando a 1,2 millones de establecimientos. 
+Además, el IEPS tiene un carácter regresivo, pues gran parte de la carga recae sobre los 
+consumidores. Se suman riesgos sanitarios derivados de productos ilegales sin control y 
+pérdidas fiscales estimadas entre 13.000 y 15.000 millones de pesos anuales. En este 
+contexto, si el consumo simplemente se desplaza hacia el mercado ilegal, el impuesto pierde 
+parcialmente su  efectividad tanto sanitaria como fiscal, lo que pone en duda su justificación. 
+ 
+Desde la perspectiva de la equidad, estos efectos cuestionan la capacidad de la intervención 
+para alcanzar sus objetivos sin generar consecuencias negativas significativas. 
+El Colegio de México proyecta que la participación del mercado ilegal podría 
+aumentar del 20% al 50%; sin embargo, esta estimación depende de la fiscalización. La 
+efectividad de la política dependerá de la capacidad estatal para reforzar controles aduaneros, 
+supervisión y sanciones. La propuesta sigue en discusión legislativa, lo que genera 
+incertidumbre sobre su alcance final. En términos netos, la intervención mejora el bienestar 
+social siempre que la fiscalización contenga el salto del mercado ilegal del 20% al 50% que 
+proyecta el Colmex.  
+En conclusión, el aumento del IEPS al tabaco constituye una intervención 
+gubernamental justificada para corregir externalidades negativas. Sin embargo, su efectividad 
+se ve limitada por el mercado ilegal del tabaco y el carácter regresivo de la política. Una 
+política más eficaz requeriría complementar el impuesto con mayor fiscalización y campañas 
+de concientización para equilibrar objetivos de salud pública, eficiencia y equidad. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bibliografía 
+ 
+Patiño, D. (16, octubre, 2025) Más impuestos al tabaco dispararán el mercado ilegal 
+en México. Expansión México. 
+https://expansion.mx/economia/2025/10/16/nuevo-impuesto-tabaco-guerra-silenciosa-hacien
+da-y-mercado-ilegal  
+ 
+ 
+ 
+ 

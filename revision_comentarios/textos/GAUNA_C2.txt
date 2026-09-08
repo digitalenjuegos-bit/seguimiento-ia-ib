@@ -1,0 +1,133 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código del estudiante 
+mmn121 
+Nombre del medio de 
+comunicación 
+Radio Pichincha 
+Título del artículo 
+“El desempleo juvenil sube al 41,9% ¿dónde quedaron las 
+oportunidades ofrecidas por Noboa?” 
+Fuente del artículo 
+Fonseca, D. (2025, 22 septiembre). El desempleo juvenil sube al 
+41,9% ¿dónde quedaron las oportunidades ofrecidas por 
+Noboa? Radio Pichincha. 
+https://www.radiopichincha.com/desempleo-juvenil-ecuatoriano
+s-promesa-noboa/ 
+Fecha del artículo 
+22 de septiembre de 2025 
+Módulo 
+Macroeconomía 
+Concepto Clave  
+Bienestar Económico 
+# Palabras 
+762 
+Fecha de búsqueda del 
+artículo 
+12 de junio de 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #2 
+El desempleo juvenil sigue siendo uno de los principales desafíos macroeconómicos y sociales 
+en Ecuador. Según el artículo publicado por Radio Pichincha el 22 de septiembre de 2025, la tasa 
+de desempleo juvenil llegó al 41,9% en julio de 2025, frente al 39,2% registrado en junio y al 
+39,7% de julio de 2024. A pesar de programas gubernamentales como “Jóvenes en Acción”, el 
+desempleo continúa afectando a una gran parte de la población entre 15 y 25 años. Este caso 
+permite analizar cómo el desempleo estructural afecta el bienestar económico de los jóvenes y 
+hasta qué punto las políticas implementadas presentan limitaciones para enfrentar este problema. 
+El bienestar económico se relaciona con la calidad de vida de las personas y depende de factores 
+como el ingreso, el empleo, la seguridad económica y el acceso a bienes y servicios. El 
+desempleo juvenil afecta este bienestar porque reduce los ingresos, limita las oportunidades 
+laborales futuras y dificulta el acceso a beneficios sociales. Además, la precariedad laboral y la 
+informalidad generan incertidumbre económica y dificultan que los jóvenes desarrollen su 
+capital humano y mejoren su calidad de vida. 
+El caso ecuatoriano puede analizarse mediante la teoría del desempleo estructural. Este tipo de 
+desempleo ocurre cuando existe un desajuste persistente entre las habilidades y cualificaciones 
+de los trabajadores y las competencias que buscan las empresas. Además, una inversión privada 
+insuficiente de forma sostenida limita la creación de nuevos puestos de trabajo formales. 
+ 
+ 
+ 
+Figura 1. Mercado laboral juvenil en Ecuador (15–25 años): desempleo estructural por 
+contracción de la demanda de trabajo (2025) 
+ 
+ 
+La Figura 1 representa el mercado laboral juvenil ecuatoriano. Inicialmente, el mercado se 
+encuentra en equilibrio en el punto A, con un salario real W₁ y un nivel de empleo N₁. Sin 
+embargo, la insuficiencia sostenida de la inversión privada y la desconexión entre la formación 
+académica y las necesidades del mercado limitan la demanda de trabajo juvenil, desplazando DL₁ 
+hacia DL₂. La oferta de trabajo OL no se desplaza, porque el número de jóvenes dispuestos a 
+trabajar no varía con la caída de la demanda; por eso, al mantenerse el salario en W₁, la cantidad 
+ofrecida sigue siendo N₁. Las empresas, sin embargo, demandan únicamente N₂ trabajadores, 
+generando una brecha entre N₁ y N₂ que representa desempleo. La caída del empleo de N₁ a N₂ 
+ 
+ 
+representa una pérdida de empleo formal e ingresos para algunos jóvenes, reduciendo 
+directamente su bienestar económico. 
+El nivel sostenidamente elevado del desempleo juvenil, que superó el 39 % tanto en julio de 
+2024 como en julio de 2025, sugiere un componente estructural asociado a la insuficiencia 
+sostenida de inversión privada y a la desconexión entre formación y demanda laboral. El caso de 
+Camila, graduada de 22 años que ha enviado más de 50 hojas de vida sin conseguir empleo por 
+falta de experiencia, evidencia esta dificultad de inserción laboral. En cambio, las oscilaciones 
+bruscas del indicador, desde 50,5 % en diciembre de 2024 hasta 28,7 % en mayo de 2025, 
+pueden responder a factores estacionales o de medición que la Figura 1 no representa. Esto se 
+evidencia también en Andrés, de 19 años, quien trabaja como repartidor por horas sin seguro, 
+décimos ni vacaciones, mostrando cómo la falta de empleo formal desplaza a algunos jóvenes 
+hacia la informalidad y reduce su bienestar económico. 
+El desempleo juvenil también reduce el producto potencial al desaprovechar capital humano y 
+genera costos sociales como migración y frustración, disminuyendo el bienestar económico 
+agregado. 
+El programa “Jóvenes en Acción” ofrece empleos temporales en entidades públicas, 
+proporcionando ingresos y experiencia inicial que pueden mejorar transitoriamente el bienestar 
+económico. Sin embargo, según el artículo, no garantiza seguridad social, beneficios ni 
+estabilidad y alcanza solo a una fracción de los jóvenes desempleados. Por ello, puede aliviar las 
+consecuencias inmediatas del desempleo, pero tiene un impacto limitado sobre sus causas 
+estructurales. 
+ 
+ 
+En el corto plazo, “Jóvenes en Acción” puede elevar los ingresos de algunos beneficiarios y 
+mejorar temporalmente su bienestar económico. La experiencia adquirida también podría 
+aumentar su empleabilidad futura. Sin embargo, en el largo plazo su efectividad es limitada, pues 
+los empleos son temporales y el programa no modifica la insuficiencia de inversión privada ni la 
+desconexión entre formación y demanda laboral. 
+Además, el modelo simplifica el mercado laboral y no incorpora plenamente informalidad, 
+subempleo ni factores estacionales o de medición, por lo que no explica las fuertes oscilaciones 
+mensuales del desempleo observadas en el artículo. 
+En conclusión, “Jóvenes en Acción” puede mejorar temporalmente el bienestar económico de 
+algunos beneficiarios, pero su alcance reducido y la naturaleza temporal del empleo limitan su 
+capacidad para enfrentar el componente estructural del desempleo juvenil. Por ello, su impacto 
+sobre el bienestar económico agregado de los jóvenes ecuatorianos sigue siendo limitado. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Referencias   
+ 
+Fonseca, D. (2025, 22 septiembre). El desempleo juvenil sube al 41,9% ¿dónde quedaron las 
+oportunidades ofrecidas por Noboa? Radio Pichincha. 
+ 
+ 
+https://www.radiopichincha.com/desempleo-juvenil-ecuatorianos-promesa-noboa/ 
+ 
+ 
+ 
+ 

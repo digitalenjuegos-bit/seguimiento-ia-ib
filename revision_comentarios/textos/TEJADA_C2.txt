@@ -1,0 +1,205 @@
+ 
+ 
+                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #2 
+ 
+  
+Código del 
+estudiante 
+ mmn187 
+Nombre del 
+medio de 
+comunicación 
+La vanguardia 
+Título del 
+artículo 
+La inflación en la eurozona se eleva al 2.5% y se acerca una futura alza de tipos 
+de interés  
+Fuente del 
+artículo 
+ https://www.lavanguardia.com/economia/20260331/11503478/inflacion-
+eurozona-eleva-2-5-acerca-futura-alza-tipos-interes.html 
+ 
+Fecha de 
+publicación 
+del artículo 
+31 de marzo del 2026 
+Concepto 
+clave 
+Interdependencia  
+Teoría 
+económica 
+• Inflación por costos  
+• Curva de Phillips 
+Modelo 
+económico 
+Inflación por costos  
+Número de 
+palabras 
+771 
+  
+  
+   
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #2 
+ 
+La inflación en la eurozona se eleva al 2,5% y acerca una futura alza de tipos de interés   
+ 
+La inflación es el aumento generalizado y sostenido de los precios de bienes y servicios finales 
+en una economía, lo que provoca una pérdida del poder adquisitivo de los consumidores. Esta 
+puede provocarse por diversos factores, como un aumento de la demanda agregada, un exceso 
+de dinero circulando o un incremento de los costos de producción. En este caso, la inflación de 
+la eurozona en 2026 la causa principal es alza de los costos de producción, particularmente por 
+el precio de las energías y materias primas. El conflicto en Oriente Medio y el cierre del 
+estrecho de Ormuz han reducido la oferta de petróleo en los mercados internacionales, 
+provocando un aumento de los precios energéticos. Debido a que el petróleo es un insumo 
+fundamental para la producción y el transporte, el incremento de su precio eleva los costos de 
+las empresas, las cuales trasladan ese aumento al consumidor en el precio final. Esto evidencia 
+el alto grado de interdependencia que tiene la eurozona con el comercio internacional y la ruta 
+comercial en Oriente Medio. 
+ 
+Diagrama de inflación de costos por el conflicto  
+en Oriente Medio y el cierre del estrecho de Ormuz  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fuente: elaborado por la candidata con base en La Vanguardia  
+𝑂𝐴𝐶𝑃1
+𝑂𝐴𝐶𝑃2
+PIB Real  
+Nivel General de 
+Precios  
+𝑁𝑃2
+𝑁𝑃1
+𝑌2
+𝑌1
+Brecha 
+recesiva  
+2.5% 
+𝑂𝐴𝐿𝑃
+𝐷𝐴
+ 
+A través de este diagrama, la inflación de la eurozona aumenta hasta el 2.5%, situándose por 
+encima del objetivo del 2% del Banco Central Europeo (BCE). Este incremento se explica 
+principalmente por un shock de oferta derivado del aumento de los costos energéticos. El 
+conflicto en Oriente Medio y el cierre del estrecho de Ormuz han reducido la disponibilidad de 
+petróleo en los mercados internacionales, generando un aumento del precio del petróleo. Este 
+factor provoca un desplazamiento de la curva de oferta agregada de corto plazo hacia la 
+izquierda OACP1 a OACP2, debido a que las empresas enfrentan mayores costos de 
+producción. Por consiguiente, el nivel general de precios aumenta (NP1 A NP2), mientras que 
+la producción disminuye (Y1 A Y2), esto provoca una inflación por costos, caracterizado por 
+precios más altos y menor crecimiento económico.  
+ 
+Por ende, el incremento del precio del petróleo eleva los costos de energía, transporte y 
+producción, reduciendo sus márgenes de beneficio. Algunas empresas trasladan estos mayores 
+costos al consumidor mediante el alza de precios. Por consiguiente, el aumento de los precios 
+reduce el poder adquisitivo, es decir, la cantidad de bienes o servicios que se pueden adquirir 
+con una cantidad de dinero específica, especialmente en bienes esenciales como energía, 
+alimentos y transporte. Esto provoca una menor producción y menor consumo que pueden 
+llegar a desacelerar la actividad económica, afectando la inversión y el empleo.  
+Ante esta situación, el Banco Central Europeo enfrenta un dilema en materia de política 
+económica. Durante los últimos años mantuvo tipos de interés relativamente bajos, es decir el 
+valor que cobran los bancos por el uso de activos financieros, una política monetaria expansiva 
+cuyo objetivo era estimular el consumo de los hogares, la inversión empresarial y el marcado 
+inmobiliario, impulsando así la demanda agregada y el crecimiento económico.  
+ 
+Sin embargo, el crecimiento de la inflación hasta el 2,5%, impulsado por el aumento de los 
+precios del petróleo debido al conflicto en Oriente Medio, ha llevado a los mercados a anticipar 
+que el BCE podría elevar el tipo de interés hasta aproximadamente el 2,75% hacia finales de 
+año. Esta medida corresponde a una política monetaria restrictiva o desinflacionaria, cuyo 
+objetivo es reducir el crecimiento de la demanda agregada, encareciendo el crédito y 
+desincentivando el consumo y la inversión para evitar que la inflación se establezca. En el corto 
+plazo, si puede contribuir a contener las expectativas de inflación y evitar que el aumento de 
+precios se traslade al resto de la economía mediante aumentos salariales o mayores incrementos 
+de precios. No obstante, dado que el origen de la inflación es un shock de la oferta (el 
+encarecimiento del petróleo), una subida de los tipos de interés no elimina la causa del 
+problema. Por el contrario, puede reducir aun más la producción, la inversión y el empleo.  
+ 
+Por otro lado, tener la inflación moderada permite generar certidumbre y confianza en los 
+consumidores e inversionistas. No obstante, la interdependencia con mercados extranjeros 
+expone constantemente a la economía, por esta razón se está presionando a la FED para que 
+aplique o endurezca las políticas monetarias restrictivas. Esta decisión si bien parece adecuada 
+par controlar la inflación, conlleva un costo de oportunidad, pues limitaría las oportunidades 
+de crecimientos económicos en aras de mantener los niveles de precio bajos, pues contraería el 
+consumo de los hogares y reducción de la inversión. Aquí se identifica como los objetivos 
+macroeconómicos tienen un nivel alto de interdependencia, pues mientras el desempleo 
+disminuye la inflación tiende a aumentar, tal como en el principio de la curva de Phillips que 
+muestra la relación inversa entre desempleo e inflación.  
+ 
+ 
+ 
+ 
+ 
+Bibliografía 
+• Sandri, P. (2026, Marzo 30). La inflación en la eurozona se eleva al 2,5% y acerca una 
+futura 
+alza 
+de 
+tipos 
+de 
+interés. 
+La 
+Vanguardia. 
+https://www.lavanguardia.com/economia/20260331/11503478/inflacion-eurozona-
+eleva-2-5-acerca-futura-alza-tipos-interes.html 
+ 
+ 

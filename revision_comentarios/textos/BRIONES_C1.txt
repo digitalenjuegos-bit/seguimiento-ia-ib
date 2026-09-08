@@ -1,0 +1,158 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Programa del  
+   Diploma 
+ 
+ECONOMÍA 
+Portada de evaluación interna 
+ 
+Código del colegio: 003780 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico 1 
+ 
+Título 
+Informe sobre el mercado del alquiler en Cataluña. Generalitat de 
+Catalunya 
+Fuente 
+Generalitat de Catalunya. 
+Autoría 
+Álvarez G. 
+Fecha de publicación 
+16 julio, 2025 
+Fecha de elaboración 
+Enero 29, 2026 
+URL 
+https://www.eresrelocation.com/es/rental-market-collapse-in-catal
+onia-why-spains-housing-law-is-freezing-the-market-in-2025/ 
+Concepto Clave 
+Intervención 
+Unidad del programa 
+Microeconomía 
+Cómputo de palabras: 
+ 739 
+Código de la escuela: 
+003780 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario económico 1:  
+ 
+El artículo analiza el impacto de la Ley de Vivienda (Ley 12/2023) en Cataluña, la cual 
+establece controles de precios en "zonas tensionadas". El concepto clave es la intervención, 
+definida formalmente como la acción del gobierno para afectar la asignación de recursos y los 
+resultados del mercado, a menudo para corregir fallos o alcanzar objetivos sociales de 
+equidad. En este contexto, la vivienda se trata como un bien meritorio, cuyo acceso el Estado 
+desea garantizar por encima de lo que el mercado libre permitiría. La herramienta utilizada es 
+un precio máximo (Pmax): un límite legal superior que, para ser efectivo o vinculante, debe 
+situarse por debajo del precio de equilibrio (Pe), impidiendo que el mercado alcance su punto 
+de vaciado natural. 
+ 
+Gráfico 1: Impacto de un Precio Máximo en el mercado de alquiler de Cataluña (2024-2025) 
+ 
+ 
+ 
+Como ilustra el Gráfico 1, antes de la regulación, el mercado operaba en un equilibrio teórico 
+(Pe) correspondiente al año 2024 con 34.503 contratos firmados. Al imponerse el Pmax 
+mediante la Ley 12/2023, se produce una distorsión. El gráfico refleja la magnitud real de 
+esta intervención, la distancia vertical entre Pe y Pmax corresponde a la reducción media de 
+precios del 4,7%. Esta cifra es clave ya que representa la magnitud con la que el precio 
+máximo aborda el mercado, transformando un límite teórico en un techo real que restringe la 
+oferta y genera la escasez observada. El artículo no ofrece una cifra exacta para la cantidad 
+demandada, por lo que se representa como un valor superior a Que. La evidencia cualitativa 
+del mercado, donde cada anuncio recibe más de 60 solicitudes, confirma la existencia de una 
+alta competencia y una escasez persistente, aunque este dato no puede cuantificarse 
+directamente como el número total de hogares demandantes. Al no poder ajustarse el precio 
+al alza, el racionamiento se vuelve ineficiente, basándose en la selección a dedo por parte de 
+los propietarios.  
+ 
+Bajo una perspectiva de economía de bienestar, la medida busca aumentar el excedente del 
+consumidor para los inquilinos actuales. Sin embargo, esto ocurre a costa de una pérdida 
+irrecuperable de eficiencia (Peso Muerto) representada en el gráfico por el triángulo 
+sombreado entre Qs y Que, ya que el número de transacciones totales disminuye. La sociedad 
+pierde los beneficios de aquellos contratos (6.787 unidades menos) que se habrían realizado 
+en un mercado libre.  
+ 
+Para realizar una evaluación equilibrada, debemos reconocer que la ley tiene una intención de 
+equidad válida: proteger el ingreso disponible de las familias vulnerables ya instaladas, 
+evitando que sean desplazadas por la gentrificación. A corto plazo, para quienes logran 
+mantener su contrato, la intervención cumple su objetivo de bienestar social. No obstante, a 
+largo plazo, los efectos negativos sobre la eficiencia parecen superar los beneficios. La 
+escasez perjudica desproporcionadamente a los jóvenes y nuevos residentes, quienes 
+enfrentan barreras de entrada casi infranqueables. Además, el desincentivo al mantenimiento 
+de las viviendas podría reducir la calidad del parque inmobiliario en el futuro. Es importante 
+señalar las limitaciones de este análisis: la caída del 19,7% en los contratos podría estar 
+influenciada por otros factores macroeconómicos (tasas de interés, inflación general) y, dado 
+que los datos de 2025 son preliminares, no se puede establecer una causalidad absoluta sin un 
+periodo de observación más largo. 
+ 
+Como alternativa, las políticas de oferta, como incentivos fiscales a propietarios o subsidios a 
+la construcción de vivienda pública, serían más eficaces. Estas desplazarían la curva de oferta 
+hacia la derecha, reduciendo el precio de equilibrio de forma orgánica y aumentando la 
+cantidad disponible, logrando equidad sin generar escasez. No obstante, el principal 
+inconveniente de estas medidas es su alto costo de oportunidad para el presupuesto público y 
+su lenta implementación en comparación con la inmediatez de la ley actual. 
+ 
+En conclusión, la intervención en el mercado del alquiler catalán bajo la Ley 12/2023 resulta, 
+a largo plazo, una medida fallida. Si bien posee una justificación ética al buscar equidad para 
+los inquilinos actuales, su aplicación práctica genera distorsiones que sacrifican la eficiencia 
+del mercado y profundizan la escasez. Últimamente, la política funciona como un subsidio 
+implícito para quienes ya tienen vivienda, pero impone un costo inasumible sobre los jóvenes 
+y nuevos demandantes. Bajo la condición de que el Estado complemente este control de 
+precios con políticas de oferta, como incentivos fiscales a la contrucción, se puede reducir así 
+la presión estructural sobre el precio de equilibrio. Sin un aumento real del parque 
+inmobiliario, la intervención no es más que un alivio temporal que termina congelando el 
+dinamismo necesario para resolver el problema de acceso a la vivienda.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Referencias 
+ 
+Ramón Zurdo J. (29 Mayo 2025). Dos años de la Ley de Vivienda: cuando proteger al 
+inquilino acaba dejando desprotegido al arrendador. idealista. 
+https://www.idealista.com/news/opinion/jose-ramon-zurdo/2025/05/29/847123-dos-anos-de-l
+a-ley-de-vivienda-cuando-proteger-al-inquilino-acaba-dejando  
+ 
+BOSCH. (20 Noviembre 2023). Nueva ley de vivienda 12/2023, de 24 de mayo. 
+https://consultoriabosch.com/es/noticia/nueva-ley-de-vivienda-12-2023-de-24-de-mayo/  
+ 
+Gregory Mankiw, N. (2012). Principios de economía 6ta edición Mankiw. Google Drive. 
+https://drive.google.com/file/d/1PwhQWV_8Ul9by03VaulWv8erYvHUsBzt/view  
+ 

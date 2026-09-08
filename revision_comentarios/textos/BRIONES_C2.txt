@@ -1,0 +1,154 @@
+Comentario Económico 2 
+ 
+Título 
+El Banco de la República mantiene la tasa de interés en 11,25% 
+por una inflación persistente.  
+Fuente 
+Infobae (Colombia) 
+Autoría 
+Redacción de Juan Escobar Fernández. 
+Fecha de publicación 
+2026-05-07 
+Fecha de elaboración 
+2026-07-29 
+URL 
+https://www.infobae.com/colombia/2026/05/07/el-banco-de-la-rep
+ublica-revelo-detalles-del-analisis-de-la-inflacion-por-los-que-la-t
+asa-de-interes-seguira-alta-consenso-es-provisional/ 
+Concepto Clave 
+Intervención 
+Unidad del programa 
+Unidad 3: Macroeconomía  
+Cómputo de palabras: 
+800 
+Código de la escuela: 
+003780 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario económico:  
+ 
+En el caso del Banco Central de la República se ha decidido aplicar una política monetaria 
+contractiva ante una inflación persistente. La inflación total de marzo alcanzó 5,56% según el  
+DANE y una inflación básica del 5,8%, cifras que sobrepasan el objetivo de inflación (3%). 
+Ejemplificando el concepto de intervención, específicamente de una autoridad monetaria, que 
+si bien generalmente busca el bienestar de los ciudadanos, frecuentemente puede causar 
+consecuencias no deseadas. En este caso, el banco interviniendo con esta regulación, 
+mantuvo la tasa de interés de referencia en 11,25%, después de aplicar un alza acumulada de 
+200 puntos básicos en 2026, con el fin de frenar el alza de precios. Este comentario analizará 
+cómo esta medida ha provocado una reducción en el gasto del país, evaluando el dilema entre 
+controlar la inflación y sostener el crecimiento bajo el uso del modelo de demanda y oferta 
+agregadas.  
+ 
+ 
+ 
+Observando la Figura 1, la economía parte de un equilibrio inicial en el punto A con un nivel 
+de precios NP 1 y un producto real Y1. Después de la intervención, esta imposición de una 
+tasa de interés alta alteró los incentivos de las personas y las empresas. El crédito siendo más 
+caro, desincentivó la inversión y consumo, causando un desplazamiento de la curva de DA 1 
+a DA 2. Simultáneamente cruzando con la OACP, la economía se mueve hacia un nuevo 
+equilibrio en el punto B. En este punto, el nivel de precios crece a menor ritmo, pasando a 
+una trayectoria más moderada, reflejando una reducción en la presión inflacionaria producto 
+de la contracción de la demanda agregada.  
+ 
+Como consecuencia no deseada está el freno en el crecimiento económico. Miembros de la 
+Junta señalaron que la economía opera por debajo de su nivel potencial. Acentuado por los 
+rezagos característicos de la política monetaria, que postergan la transmisión efectiva de los 
+estímulos sobre la actividad económica. Como ilustrado en el gráfico, la economía se 
+encuentra operando por debajo de su nivel de producción potencial (Yp), evidenciando una 
+brecha recesiva. Esta diferencia entre la producción actual y potencial de largo plazo subraya 
+la incapacidad de la economía para alcanzar el pleno empleo tras el ajuste de la DA. 
+Alternándose los incentivos de gasto, se genera un enfriamiento en la actividad del país pues 
+gran parte de la inflación colombiana proviene de choques de oferta (~46% de fertilizantes 
+subió precio, agravamiento del Niño, conflicto en Irán encareciendo energía y fertilizantes), 
+donde la política de demanda es menos eficaz. Adicionalmente, genera un rezago de 
+transmisión de la política monetaria porque los efectos plenos de la tasa alta demoran meses 
+en verse reflejados por completo en los precios al consumidor. Si bien la política monetaria 
+modera las presiones inflacionarias a corto plazo, esto crea una brecha recesiva que a largo 
+plazo requiere de un ajuste en los costos de factores o de reformas estructurales para devolver 
+la economía a su nivel de producción potencial sin perpetuar el estancamiento.  
+ 
+La intervención genera efectos distributivos desiguales, comparando el presente con ajuste 
+frente a un caso sin intervención; la medida se justifica como un mecanismo necesario para 
+mitigar una trayectoria de precios que alternativamente habría erosionado el bienestar de los 
+hogares de forma más agresiva. El banco manteniendo la tasa alta, fija las expectativas de 
+inflación protegiendo el bienestar económico, cuidando el poder adquisitivo de los hogares, 
+especialmente de los más vulnerables que sufren más por precios altos. Si bien los 
+trabajadores y empresas enfrentan una mayor carga financiera por los créditos costosos y una 
+desaceleración de la inversión, el impacto se extiende a otros sectores clave. El sector 
+exportador es perjudicado por la apreciación del tipo de cambio, derivada del diferencial de 
+tasas con Estados Unidos, restando competitividad a productos nacionales en el exterior. El 
+gobierno, al intentar gestionar un déficit primario elevado en un entorno donde los salarios 
+mínimos se mantienen por encima de la productividad, limita el margen de maniobra para 
+aplicar políticas fiscales expansivas que compensen el enfriamiento de la economía. Aunque 
+la política monetaria intenta corregir el exceso de demanda, no soluciona los problemas de 
+costos del lado de la oferta.  
+ 
+Una intervención alternativa, basada en políticas de oferta conjuntas con el gobierno para 
+reducir costos en alimentos y servicios regulados, permitiría contener la inflación sin el costo 
+de enfriar la producción. Sin embargo, dada la restricción fiscal del déficit primario elevado, 
+el financiamiento de estas medidas exigiría un mayor endeudamiento o recortes, 
+contraviniendo la sostenibilidad fiscal. Además, los efectos sobre la oferta tardarían más que 
+el ajuste monetario actual. Finalmente, la tensión política entre el Gobierno y Congreso, 
+bloquea la aprobación de reformas estructurales necesarias. Ante una inflación del 5,56% 
+anual y un entorno polarizado, la política monetaria contractiva, aunque costosa, es la 
+respuesta más inmediata frente a la parálisis legislativa.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Referencias:  
+ 
+-​
+Escobar J. (2025) El Banco de la República mantiene la tasa de interés en 11,25% 
+por una inflación persistente. Infobae (Colombia). 
+https://www.infobae.com/colombia/2026/05/07/el-banco-de-la-republica-revelo-detall
+es-del-analisis-de-la-inflacion-por-los-que-la-tasa-de-interes-seguira-alta-consenso-es-
+provisional/  
+-​
+Ibañez S. (2026). Aunque respaldaron tasa de 11,25%, cuatro codirectores del Emisor 
+apuntaba a subirla. LR. 
+https://www.larepublica.co/economia/aunque-respaldaron-tasa-de-11-25-cuatro-codire
+ctores-del-emisor-apuntaba-a-subirla-4387055  
+-​
+Gregory Mankiw, N. (2012). Principios de economía 6ta edición Mankiw. Google 
+Drive. 
+https://drive.google.com/file/d/1PwhQWV_8Ul9by03VaulWv8erYvHUsBzt/view  
+ 

@@ -1,0 +1,39 @@
+
+
+
+
+ECONOMÍA
+
+Portada de evaluación interna
+
+Código del colegio: 003780
+
+Comentario Económico # 2
+
+
+
+
+
+
+
+
+
+
+
+Comentario Económico 2:
+En la macroeconomía, la intervención es un concepto importante, ya que se trata de la participación activa del gobierno en mercados para regular o influir en la actividad económica. Cuando el Estado hace una intervención dentro de los mercados es para lograr resultados específicos, como mejorar las cuentas fiscales. Este comentario analizará cómo la participación del gobierno ecuatoriano al eliminar el subsidio al diésel, modificó el precio y generó efectos sobre los costos de producción en la economía, con datos del artículo de Primicias (2026).
+Según Primicias (2026), tras 50 años subsidiando al diésel, el gobierno ecuatoriano eliminó esta política en septiembre de 2025 para corregir el déficit fiscal, aumentando su precio de USD 1,80 a USD 2,80 por galón, alza del 55.6%; encareciendo los costos de producción y transporte, provocando que las empresas ofrecieran menos bienes y servicios a cada nivel general de precios. Como consecuencia, la curva de oferta agregada a corto plazo se desplazó hacia la izquierda, de OACP₁ a OACP₂, trasladando el equilibrio macroeconómico de E₁ a E₂. El nivel general de precios aumentó de NP₁ a NP₂, mientras que el PIB real disminuyó de Y₁ a Y₂. La caída del PIB real, representada por la distancia entre Y₁ e Y₂, refleja la magnitud de la contracción económica.
+
+Figura 1: Elaboración propia con base en: Primicias (2026, 21 de mayo)
+	
+Referenciando la teoría del modelo de demanda y oferta agregada, el desplazamiento de la OACP hacía la izquierda produce un mayor nivel de precios y menor PIB real, generando una combinación entre inflación y estancamiento económico, causando estanflación. El aumento del precio del diésel, de USD 1,80 a USD 2,80 por galón, incrementó los costos de producción y transporte, que las empresas trasladan parcialmente a los consumidores mediante mayores precios. Consecuentemente, la intervención gubernamental afecta a los hogares de menores ingresos: el aumento reduce su ingreso real, limitando su capacidad de consumo, destinando una mayor proporción de su presupuesto.
+No obstante, la intervención del gobierno era necesaria, ya que buscaba reducir el gasto público desde hace años: este subsidio le llevaba costando entre USD 1.000 millones y USD 1.300 millones anuales, según la ministra de Finanzas, Sariha Moya, generando un déficit fiscal, ya que los ingresos no eran suficientes para cubrir el abultado gasto estatal, que ahogaba las finanzas públicas. Empero, desde diciembre de 2025 el gobierno implementó un sistema de bandas que limita las variaciones del precio del diésel, sustituyendo el subsidio por otra forma de intervención estatal destinada a regular el mercado.
+Los principales ganadores son el gobierno ecuatoriano y acreedores internacionales. El gobierno percibe un menor gasto público por su intervención, en remover el subsidio al diésel. Anteriormente, el déficit fiscal subía cada vez más debido al subsidio, ilustrando la magnitud de la distorsión previa en los costos de producción. Ahora, el gasto del gobierno al ser reducido, evita el endeudamiento excesivo y previene crisis económicas. Además, esta reducción garantiza a los acreedores internacionales la disponibilidad de fondos para el pago de deudas, reduciendo el riesgo de impago. 
+Transportistas, agricultores y consumidores de menor ingreso, salen perjudicados en este caso. Los transportistas necesitan del diésel directamente para trasladar sus mercancías, y los agricultores dependen del combustible para utilizar su maquinaría; al aumentar el precio, necesitan cubrir mayores costos de producción. Además, el alza del diésel afecta a todos los consumidores; pero los de menor ingreso tienen una carga mayor, destinando una mayor proporción de sus ingresos a bienes con precios mayores debido al encarecimiento del transporte y la producción, generando preocupaciones de equidad, pues los costos recaen desproporcionadamente sobre grupos vulnerables.
+A corto plazo, la intervención gubernamental generó un choque de costos. Como el Nivel General de precio aumenta y baja el PIB, genera estanflación económica. A largo plazo, la eliminación del subsidio puede mejorar la sostenibilidad fiscal, al reducir el gasto, y la incentivación a la inversión pública, reflejado en la reducción del riesgo país a 400 puntos. Empero, el ahorro fiscal neto del primer año es mucho menor que el gobierno destaca, ya que buena parte se destinó a compensar los afectados: las compensaciones suman un total de USD 763 millones, y restando del coste aproximado del subsidio, da como resultado entre USD 237 millones o USD 537 millones.
+Finalmente, esta noticia muestra que la intervención gubernamental generó aumentos en los costos operativos de la economía al remover el subsidio al diésel, a su vez, subiendo el nivel de precios. Como el subsidio le costaba al gobierno entre USD 1.000 millones y USD 1.300 millones anuales, su intervención en el mercado para reducir el gasto fiscal redujo la actividad económica, manteniendo la inflación, causando estanflación. Aunque la reducción del gasto público mejora la sostenibilidad fiscal, esta intervención traslada costos a hogares de menor ingresos, evidenciando la compensación entre estabilidad macroeconómica y equidad.
+
+
+Bibliografía
+Redacción Primicias. (2026, Mayo 21). ESPECIAL | La eliminación del subsidio al diésel mejoró las cuentas fiscales, con retos económicos aún por resolver. Primicias. Recuperado el 15 de Junio, 2026, from https://www.primicias.ec/economia/presidente-noboa-eliminacion-subsidio-diesel-bonos-empleo-24mayo-ecuador-122836/#google_vignette 
+

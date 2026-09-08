@@ -1,0 +1,177 @@
+ 
+ 
+ 
+ 
+ 
+Código del colegio  
+003780 
+Código del estudiante 
+mmn160 
+Título 
+“Precio de la caja de banano sube a USD 7,50 a partir de 2026, 
+según un nuevo Acuerdo Ministerial” 
+Nombre del medio de 
+comunicación  
+Primicias 
+Fuente 
+https://www.primicias.ec/economia/precio-caja-banano-orito-20
+26-ecuador-105387/?utm_source  
+Fecha del artículo 
+17 Septiembre 2025 
+ 
+Fecha de búsqueda del 
+artículo 
+18 de diciembre 2025 
+Módulo 
+Microeconomía 
+Concepto Clave  
+Intervención 
+# Palabras 
+798 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cuando hablamos de intervención, nos referimos a la acción directa que toma el Estado para cambiar 
+el rumbo normal de la oferta y la demanda en un mercado. En este caso, el gobierno de Ecuador aplica 
+esta intervención por medio de un precio mínimo de sustentación. En el gráfico, esto se representa 
+claramente con la línea horizontal Pmin que está colocada por encima del punto donde el mercado se 
+equilibra solo. El objetivo de esta medida es proteger los ingresos de los productores, pero al hacerlo 
+se altera la asignación eficiente de los recursos, ya que se impide que el precio baje libremente según 
+lo que pida el mercado. 
+ 
+ 
+ 
+Efecto de un precio mínimo en el mercado del banano en Ecuador (2026) bajo el concepto de 
+intervención. 
+Fuente: Elaboración propia basada en datos de Primicias (2025). 
+ 
+En el diagrama de la figura 1 podemos ver cómo reacciona este mercado. Al principio, la oferta (S) y 
+la demanda (D) se cruzan en el punto (E), que marca el precio Pe y la cantidad Qe de equilibrio 
+original. Sin embargo, cuando se da la intervención del Estado al fijar el precio obligatorio en USD 
+7,50 (Pmin), el mercado ya no puede regularse por sí solo. A este nivel de precio más alto debido a la 
+intervención, los productores se motivan a vender más porque ganan más por cada caja, lo que hace 
+que la cantidad ofrecida suba hasta Qs. Por otro lado, los compradores reducen la cantidad que 
+demandan a Qd porque el producto se ha vuelto más caro. La diferencia entre Qs y Qd genera un 
+exceso de oferta o superávit. Toda esta situación da como resultado una pérdida irrecuperable de 
+eficiencia (PIE), que es el área sombreada. La PIE nos muestra el bienestar que la sociedad pierde, ya 
+que por culpa de esta intervención se gastan recursos del país en producir cajas de banano que al final 
+nadie va a comprar ni aprovechar. Aunque los precios internacionales del banano cambian todo el 
+tiempo a nivel mundial, este precio fijado por la intervención se tiene que cumplir obligatoriamente 
+en Ecuador. 
+Esto pasa porque hay una gran diferencia de poder en el sector: los pequeños agricultores no tienen la 
+fuerza para negociar contratos justos con las grandes comercializadoras cuando hay poca demanda 
+afuera, por lo que necesitan esta intervención. Según datos de la Asociación de Exportadores de 
+Banano del Ecuador (AEBE), los costos de los fertilizantes y el transporte han subido mucho, lo que 
+explica por qué hace falta esta intervención legal para que los agricultores no terminen vendiendo por 
+debajo de lo que les cuesta producir. Para dictaminar la viabilidad de esta política, es imperativo 
+realizar una evaluación crítica que pese las fortalezas y limitaciones de la intervención sobre los 
+diferentes interesados mediante el marco CLASP. 
+Si vemos las consecuencias y los actores, la principal fortaleza de la intervención a corto plazo la 
+reciben los pequeños productores, quienes obtienen un ingreso seguro y predecible por cada caja que 
+les permite subsistir. En cambio, una clara limitación recae sobre los consumidores industriales (las 
+empresas exportadoras), ya que sus costos suben directamente por la intervención. Esto hace que el 
+banano de Ecuador pierda fuerza para competir en el extranjero con mercados que no tienen estas 
+regulaciones. Además, el gobierno se gana un problema con esta intervención, ya que asume la 
+compleja tarea de fiscalizar que el precio oficial se cumpla realmente en el campo, enfrentando el 
+riesgo de que surja un mercado informal si las empresas intentan evadir la ley de forma oculta en las 
+fincas. 
+Al evaluar el corto vs. largo plazo, surge otra limitación importante. Aunque la intervención ofrece 
+estabilidad inmediata para proteger a las familias agricultoras, a largo plazo puede distorsionar el 
+mercado de forma grave. Como el precio de USD 7,50 está asegurado por el Estado, los productores 
+se van a motivar a expandir y sembrar cada vez más banano, lo que hará que el problema del superávit 
+crezca tanto que se vuelva imposible de controlar. 
+Como una recomendación de política creativa frente a este problema del mundo real, se puede sugerir 
+una alternativa. En lugar de sostener una intervención rígida basada solo en fijar precios, el Estado 
+podría aplicar ayudas directas para mejorar la tecnología y la infraestructura en el campo (como 
+sistemas de riego o fertilizantes accesibles). Esto haría que la curva de oferta se mueva a la derecha de 
+forma real al bajar los costos de producción. El supuesto que limita esta propuesta es que el gobierno 
+necesitaría contar con un presupuesto fiscal fuerte para financiar estos proyectos a largo plazo, una 
+limitación real dada la situación económica actual del país. 
+En conclusión fijar el precio mínimo en USD 7,50 es una intervención de emergencia justa para 
+proteger a los agricultores vulnerables. Sin embargo, no es sostenible a largo plazo por el exceso de 
+fruta que genera. El gobierno debería migrar hacia políticas que reduzcan los costos reales del campo 
+para volverlo competitivo por mérito propio. 
+ 
+ 
+Referencias: 
+ 
+●​ Revelo, R. (2025, September 17). Precio de la caja de banano sube a USD 7,50 a partir de 
+2026, según un nuevo Acuerdo Ministerial. Primicias. 
+https://www.primicias.ec/economia/precio-caja-banano-orito-2026-ecuador-105387/?utm_sou
+rce  
+ 
+●​ Ministerio de Agricultura y Ganadería de Ecuador. (2025). Acuerdo Ministerial Nro. 107: 
+Fijación de Precios Mínimos de Sustentación para el sector bananero. Gobierno de la 
+República del Ecuador. 
+ 
+●​ Revelo, R. (2025, 17 de septiembre). Precio de la caja de banano sube a USD 7,50 a partir de 
+2026, según un nuevo Acuerdo Ministerial. Primicias. 
+https://www.primicias.ec/economia/precio-caja-banano-orito-2026-ecuador-105387/ 
+ 

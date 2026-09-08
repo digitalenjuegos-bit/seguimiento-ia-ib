@@ -1,0 +1,223 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ECONOMÍA 
+ 
+Portada de evaluación interna 
+ 
+Código del colegio: 003780 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código del colegio  
+003780 
+Código del estudiante 
+mmn161 
+Título 
+“El bienestar apenas mejora: el consumo de los españoles sólo 
+crece un 0,8% anual desde el covid, frente al 2,3% de 2013 a 
+2019”  
+Fuente 
+Olcese, A., & Olcese, A. (2026, 7 junio). El bienestar apenas 
+mejora: el consumo de los españoles crece un 0,8% anual desde 
+el covid, frente al 2,3% de 2013 a 2019. El Mundo. 
+https://www.elmundo.es/economia/macroeconomia/2026/06/08/
+6a22ae6721efa036628b45a0.html 
+Fecha del artículo 
+7 de junio, 2026 
+Fecha de búsqueda del 
+artículo 
+12 de junio, 2026 
+Fecha de elaboración 
+del artículo 
+6 de agosto, 2026 
+Módulo 
+Macroeconomía- consumo efectivo real per cápita 
+Concepto Clave  
+Bienestar económico 
+# Palabras 
+797 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario macroeconómico  
+ 
+ 
+El bienestar económico es la capacidad de las personas de satisfacer sus 
+necesidades para disfrutar de condiciones adecuadas, mejorar su calidad de vida y alcanzar 
+un desarrollo sostenible. Depende de factores como la distribución del ingreso, la salud, la 
+educación y la seguridad económica.  
+ 
+Este artículo analiza el cambio de patrón entre el consumo de los españoles, 
+evidenciando la diferencia porcentual entre los periodos después del covid que solo crece 
+un 0,8%, frente al 2,3% anual  2013-2019. Esta variación entre ambos periodos se mide  a 
+través del consumo efectivo real per cápita, el cual refleja mejor el disfrute de bienes y 
+servicios por parte de los hogares, a través de las transferencias en especie del sector 
+público, educación y sanidad. Esta disminución del consumo per cápita indica como el 
+bienestar económico no presenta mejoras, a pesar de que el 
+se expande 
+𝑃𝐼𝐵𝑅𝐸𝐴𝐿 
+gradualmente, el crecimiento del consumo efectivo presenta un estancamiento. 
+ 
+Es cierto que entre los periodos del 2013-2019 España presentó mayor estabilidad del 
+2,3% en el consumo efectivo per cápita después de la crisis financiera (el consumo efectivo 
+per cápita subió en la UE a un ritmo estable del 1,5% anual ), y presentó un aumento en el 
+empleo una tasa de inflación moderada por debajo del 1%, mostrando niveles altos en el 
+bienestar económico de la población. Sin embargo, el encarecimiento de la energía y los 
+alimentos, provocó entre 2021 y 2023 un cambio abrupto, el poder adquisitivo de los 
+hogares disminuyó. Esto se debe a que la inflación en España alcanzó el 10,8% en 2022, 
+frente al 9,2% de la UE en 2022, evidenciando la brecha entre crecimiento agregado y 
+bienestar social.  
+ 
+ 
+Figura 1. Contracción de la OACP por shock de costos: España 20
+ 
+    Fuente: Elaboración propia a partir de datos del artículo de El Mundo (2026)  
+ 
+La figura 1 representa  la economía española entre 2021 y 2023. La oferta agregada 
+de corto plazo se desplaza de OACP1 a OACP2 hacia la izquierda, por el shock de costos 
+de la energía y alimentos. Además, la demanda agregada se desplaza de DA1 a DA2, hacia 
+la derecha, por la recuperación posterior a la pandemia y la política fiscal expansiva 
+implementada. Como pesa más el desplazamiento de la demanda, el equilibrio pasa de E1 
+a E2: el nivel de precios aumenta de 
+ a 
+, reflejando la distancia vertical presente en 
+𝑁𝑃1
+𝑁𝑃2  
+el alza de precios debido al aumento del 10,8% de inflación correspondiente al año 2022; el 
+ aumenta de  
+a 
+, ya que el desplazamiento de la demanda agregada supera 
+𝑃𝐼𝐵𝑅𝐸𝐴𝐿 
+𝑌1  
+ 𝑌2  
+el efecto contractivo del shock de costos. 
+ 
+La recuperación posterior a 2020, impulsada por una política fiscal expansiva, sostuvo la 
+demanda agregada durante el shock de costos. Los hogares con menores ingresos son 
+mayormente afectados por la inflación, al destinar sus ingresos a consumir bienes básicos, 
+cuyos precios se vieron afectados ante el shock de oferta. Aunque el PIB real agregado se 
+expandió, en el caso español, los resultados per cápita, el denominador poblacional creció 
+por los flujos migratorios, de modo que un aumento del producto se reparte entre más 
+personas, causando que el consumo por habitante pase del 2,3% al 0,8% anual. 
+ 
+ 
+ 
+ 
+ Mientras que en el periodo 2013-2019 la tasa de ahorro no poseyó mayor efecto 
+sobre el consumo, durante la pandemia la incertidumbre conllevó a que el ahorro aumentara 
+y el consumo disminuyera . Como consecuencia, se destina una menor proporción de la renta 
+disponible al gasto, reduciendo el consumo efectivo real per cápita y afectando el bienestar 
+económico. A corto plazo, la política fiscal expansiva desplazó la demanda agregada hacia 
+la derecha y ayudó sosteniendo la actividad económica y el consumo. A largo plazo la 
+incertidumbre provocó que entre 2019-2025 el promedio de la tasa de ahorro fuera del 
+12,7%, frente al 7,3% del período 2013-2019, aumento que habría restado 0,4 puntos 
+porcentuales al crecimiento del consumo efectivo real per cápita. Además, las 
+transferencias públicas aportaron solo 0,3 puntos porcentuales al crecimiento del 
+consumo. Por ende, una limitación es que el sostenimiento del bienestar de los hogares 
+dependen más de la redistribución pública y no de un aumento de la renta real, por lo que 
+las transferencias no compensaron completamente la pérdida de poder adquisitivo causada 
+por la inflación. 
+ 
+En conclusión, el crecimiento del PIB real no garantiza una mejora en el bienestar 
+económico de la población. Aunque la economía continuó expandiéndose tras la pandemia, 
+el consumo efectivo real per cápita se desaceleró debido al aumento por inflación, 
+especialmente el encarecimiento de la energía y alimentos. Como consecuencia, el poder 
+adquisitivo de los hogares disminuyó, afectando a familias de menores ingresos y limitando 
+su capacidad de consumo. Por ende, el artículo confirma que no basta con el crecimiento 
+del PIB, ningún indicador permite del todo evaluar completamente el desempeño económico 
+de un país, precisando una interpretación junto con sus limitaciones.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Referencias 
+Olcese, A.  (2026, 7 junio). El bienestar apenas mejora: el consumo de los españoles crece un 
+0,8% anual desde el covid, frente al 2,3% de 2013 a 2019. El Mundo. 
+https://www.elmundo.es/economia/macroeconomia/2026/06/08/6a22ae6721efa036628b45a0.
+html 
+Llena-Nozal, A., Martin, N., & Murtin, F. (2019). The economy of well-being: Creating 
+opportunities for people’s well-being and economic growth (OECD Statistics Working Papers 
+No. 2019/02). OECD Publishing. https://doi.org/10.1787/498e9bc7-en 
+ 
+  
+ 
+ 
+ 
+ 

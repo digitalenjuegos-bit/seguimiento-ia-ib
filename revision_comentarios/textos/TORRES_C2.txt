@@ -1,0 +1,193 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ECONOMÍA 
+ 
+Código del colegio: 
+003780 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #2 
+ 
+Código del colegio  
+003780 
+Código del estudiante 
+mmm188 
+Título 
+La inflación está en su nivel más alto en tres años, y muchos 
+estadounidenses están consumiendo ahorros 
+Fuente 
+CNN en Español.  
+Fecha del artículo 
+28 de mayo de 2026 
+ 
+Fecha de búsqueda del 
+artículo 
+11 de Junio, 2026 
+Módulo 
+Macroeconomía 
+Concepto Clave  
+Interdependencia 
+# Palabras 
+800 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #2 
+Uno de los principales objetivos macroeconómicos es mantener la inflación baja y 
+estable, definida como el alza sostenida y generalizada del nivel de precios en una 
+economía. Sin embargo, la interdependencia externa norteamericana, dificulta alcanzar 
+la meta inflacionaria de la FED del 2%. 
+La inflación  en Estados Unidos (EE.UU) es originada por los costos de 
+producción, elevados por la reducción del tráfico marítimo en el estrecho de Ormuz, que 
+encareció el precio del petróleo, gas natural, fertilizantes y sus derivados. 
+Adicionalmente, los aranceles de Trump a importaciones como materias primas, 
+impactan directamente a los productores. En consecuencia, el índice de Precios del Gasto 
+en Consumo Personal (PCE), aumentó hasta el 3.8% en abril, frente al 3.3% interanual 
+registrado el mes anterior. 
+Estos factores externos han aumentado los costos de producción industriales y 
+comerciales. En la teoría económica se debería contraer la oferta agregada de corto plazo,  
+OACP₁ pasa a OACP₂, reduciendo el PIB real (Y) de Y₁ a Y₂. 
+No obstante, los hogares han sostenido temporalmente su gasto recurriendo a sus 
+ahorros, manteniendo la producción, pero a mayores precios y costos de producción. El 
+consumo representa la fuerza de la economía americana, con dos tercios del PIB real; por 
+eso, pese a la posible contracción económica, el PIB real creció un 1,60%. En este 
+escenario se observa cómo puede coexistir una inflación estimulada por los costos pero a 
+su vez crecimiento económico impulsado por la demanda agregada.  
+El equilibrio macroeconómico comprende el impacto en la OACP que debería ocasionar 
+que la economía pase del punto A al B, pero el uso de los ahorros y su impacto en el 
+consumo, provoca que la producción nacional no se contraiga, incluso aumentó menos de 
+1% (punto C) cuando todo indicaba que la economía debía contraerse. Y2 representa el 
+efecto teórico, aunque en la realidad la economía se situó en Y3. 
+ 
+ 
+Figura 1.  
+Efecto inflación por costos en E.E.U.U por shock externo (2026) 
+ 
+ 
+Nota: El PCE interanual aumentó de 3,3 % a 3,8 %, evidenciando el aumento de la inflación.  
+Figura#1: Elaboración propia con base en Wallace, A. (2026, 28 de mayo), CNN en 
+Español. https://cnnespanol.cnn.com/2026/05/28/eeuu/inflacion-abril-precios-guerra-trax   
+ 
+El aumento de la producción impulsado por la demanda agregada desplaza DA₁  a 
+DA₂ y el equilibrio se mueve de B a C (Y₃, NP₃). El alza de precio es latente y se prevé 
+que aumente, por lo que se evalúa una política monetaria restrictiva. 
+En detalle el aumento de los precios del petróleo, gas y fertilizantes no tiene un 
+efecto aislado en la economía norteamericana, más bien por su interdependencia con el 
+mercado internacional, afecta el coste de transporte, distribución, la producción agrícola 
+y alimentaria. Además del encarecimiento de bienes importados y duraderos por los 
+aranceles, afectan directamente el consumo de los hogares que ya no tendrán ahorros 
+suficientes para seguir sosteniendo el crecimiento. 
+La inflación genera que el poder adquisitivo caiga, pero el uso de ahorros en los 
+hogares ha logrado absorber el impacto de los costes, elevando el gasto nominal un 0.5%, 
+ 
+ 
+pero real 0.1%, por lo que el incremento se debió a mayores costos, no mayor consumo 
+real. Los consumidores están abasteciéndose de sus ahorros, por lo que la tasa de ahorro 
+se encuentra en su punto más bajo desde el 2022, con 2.6%.  El ingreso disponible real 
+descendió un 0,5%, indicando que la demanda agregada podría debilitarse a largo plazo, 
+afectando el gasto futuro si los ahorros se agotan, conduciendo a una desaceleración 
+económica. El alza de aranceles y la dificultad del comercio llevan al alza de los costos y 
+posterior inflación, el alza de precio por costo conlleva a la reducción del ahorro de las 
+familias, y esto podría llevar a un debilitamiento del sector financiero.  
+La Reserva Federal (FED) ha mantenido la tasa de interés inalterada. Por un lado, 
+que no existan recortes, ayuda a evitar que la inflación se vuelva más persistente, ya que 
+tasas más altas reducen el incentivo a pedir préstamos, consumir e invertir. Esto puede 
+limitar el crecimiento de la DA y controlar las expectativas inflacionarias; en un contexto 
+donde la inflación en el país sobrepasa el objetivo. Aun cuando se esperaban recortes, la 
+FED mantiene una postura cautelosa, esto afecta negativamente en especial cuando los 
+hogares están recurriendo a sus ahorros; aumentando la presión en hogares de ingresos 
+bajos y medios. Además, su efectividad es limitada, puesto que el shock de oferta viene 
+dado por factores externos que influyeron en los costos de producción. La política 
+monetaria puede reducir la demanda agregada para que la inflación disminuya, pero no 
+aumentará la oferta de petróleo, gas o fertilizantes ni eliminará los efectos de la guerra o 
+aranceles. Por lo tanto, la postura de la FED puede evitar aumentos inflacionarios, pero 
+no resuelve la causa del aumento de precios y genera costos de crecimiento económico y 
+bienestar de los hogares. Por lo tanto, la inflación existente en Estados Unidos es 
+producto de la interdependencia con el resto del mundo, pero las decisiones de política 
+económicas que se apliquen pueden ayudar a atenuar sus efectos. 
+ 
+ 
+ 
+ 
+ 
+Bibliografía 
+ 
+Wallace, A. (2026, Mayo 28). La inflación está en su nivel más alto en tres años, y 
+muchos estadounidenses están consumiendo ahorros | CNN. CNN en Español. 
+Recuperado Julio 3, 2026, de 
+https://cnnespanol.cnn.com/2026/05/28/eeuu/inflacion-abril-precios-guerra-trax  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

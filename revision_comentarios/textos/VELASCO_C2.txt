@@ -1,0 +1,206 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código de colegio 
+003780 
+Código del estudiante 
+mmn184 
+Título del artículo 
+Banxico ejecuta nuevo recorte a la tasa de 
+interés y la deja en 6,75% 
+Fuente 
+Expansión (expansion.mx) – México 
+Fecha de publicación 
+26 de marzo del 2026 
+Fecha de elaboración 
+26 de junio del 2026  
+URL 
+https://expansion.mx/economia/2026/03/2
+6/banxico-ejecuta-nuevo-recorte-a-la-tasa
+-de-interes-y-la-deja-en-6-75  
+ENFOQUE 
+Macroeconomía – política monetaria y 
+demanda agregada (modelo DA–OA) 
+CONCEPTO CLAVE 
+Bienestar Económico 
+CONTEO DE PALABRAS 
+760 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #2: 
+ 
+El Banco de México, Banxico, mantiene estable el valor de la moneda para sostener o 
+mejorar la prosperidad de los ciudadanos. Sin embargo, el 26 de marzo de 2026, Banxico 
+recortó en 25 puntos la tasa de interés del 7% al 6,75% frente a señalamientos de debilidad 
+económica, buscando abaratar el crédito para estimular el consumo y la inversión privada, 
+protegiendo el empleo y el ingreso de los hogares.  
+La noticia de Expansión presenta el concepto clave de bienestar económico, 
+permitiendo analizar la decisión de Banxico de estimular la demanda agregada con una 
+política monetaria para reactivar la economía, ofreciendo un ejemplo de la teoría 
+macroeconómica aplicada al dilema entre inflación y desempleo. 
+El bienestar económico es el nivel de vida material y la calidad de vida de las 
+personas. No se limita al PIB, sino que abarca el empleo, el ingreso, el poder adquisitivo y la 
+estabilidad de precios.  Según John Maynard Keynes en “La teoría general del empleo, el 
+interés y el dinero”, para poder incentivar la demanda agregada en periodos de recesión, el 
+estado debería intervenir. (The General Theory Of Employment, Interest And Money By John 
+Maynard Keynes | Economics | Research Starters | EBSCO Research, s. f.)  
+Banxico recortó la tasa ante la debilidad económica e inflación de 4,63%, superior al 
+objetivo de  3%. No obstante, Banxico elevó sus pronósticos de inflación a 4,1%, 4% y 3,7% 
+para el primer, segundo y tercer trimestre de 2026, esperando que la inflación converja al 3%. 
+Esto explica porque el recorte no es contradictorio, anticipa los efectos con rezagos y se 
+ajusta a la inflación esperada, no a la observada.  
+Figura 1. Política monetaria expansiva del Banco de México: desplazamiento de la 
+demanda agregada (marzo 2026) 
+ 
+ 
+ 
+Nota: Elaborado por la propia estudiante con base en Expansión, 2026-03-26. 
+​
+La figura 1 representa el modelo de la demanda agregada (DA) y oferta agregada a 
+corto plazo (OACP) en marzo del 2026. El punto A refleja el equilibrio previo al recorte, con 
+PIB real (Y₁) y un nivel de precios (NP₁). El recorte de 7% a 6,75% abarata el crédito, 
+estimulando el consumo de los hogares y la inversión de las empresas, desplazando la DA de 
+DA₁ a DA₂. El nuevo equilibrio en el punto B eleva el PIB real de Y₁ a Y₂, y los niveles de 
+precios de NP₁ a NP₂. El área sombra refleja el incremento de actividad económica y la 
+presión al alza sobre los precios.  
+​
+La figura 1 demuestra que la efectividad de la política expansiva depende de la 
+transmisión del crédito a la economía real, que opera con rezagos. Si los bancos trasladan la 
+reducción de tasa a préstamos donde los hogares y empresas aumentan su gasto, el 
+desplazamiento de la DA resulta significativo, logrando el bienestar económico del país.  
+ 
+ 
+No obstante, si el cambio es débil, el impacto en el PIB real es limitado, solo 
+generaría presiones inflacionarias, perjudicando a los hogares. En primer lugar, la política 
+monetaria expansiva genera el dilema de estimular la economía que podría avivar aún más los 
+precios y erosionar el poder adquisitivo de los hogares, especialmente de aquellos de menores 
+ingresos que destinan una mayor proporción de su gasto a bienes básicos. La inflación de la 
+primera quincena de marzo fue motivada por el aumento en el precio del jitomate, pollo, 
+electricidad, transporte aéreo y vivienda propia. En segundo lugar, el efecto de la reducción 
+no es inmediato, por lo que el estímulo económico podría ser afectado por cambios en el 
+contexto o la inflación acelerada, haciendo la medida contraproducente. En tercer lugar, la 
+decisión no fue unánime, “En la reunión de este jueves, la Junta de Gobierno decidió hacer un 
+recorte de 25 puntos base; el subgobernador Jonathan Heath y la subgobernadora Galia Borja 
+votaron por mantener la tasa en 7%” (Expansión, 2026). Se refleja incertidumbre y debate 
+interno sobre la coherencia de la política, lo que afecta la credibilidad del banco central ya 
+que puede ser interpretada por una medida forzada o poco técnica. Y por último, el conflicto 
+en el Medio Oriente mencionado: “escalamiento del conflicto en Medio Oriente y sus 
+repercusiones” (Expansión, 2026), podría reavivar la inflación y limitar el margen de acción 
+del banco central, representando vulnerabilidad que podría oponerse a los efectos expansivos 
+que comprometen el bienestar económico de México. 
+En conclusión, la medida de Banxico demuestra que el bienestar económico requiere 
+equilibrar la inflación y la actividad sostenida. Aunque el banco busca proteger el empleo, 
+también enfrenta riesgos como el de afectar el poder adquisitivo de los hogares, en especial 
+de los menores ingresos. Esto demuestra que las políticas monetarias deben contemplar la 
+complejidad del entorno real para proteger verdaderamente el nivel de vida de la población. 
+ 
+ 
+ 
+Bibliografía 
+De 
+México, 
+B. 
+(s. 
+f.). 
+Finalidades 
+del 
+Banco 
+de 
+México. 
+https://educa.banxico.org.mx/yo-y-el-banco-de-mexico/banco-de-mexico/2/finalidade
+s-del-banco-mexic.html  
+La teoría general del empleo, el interés y el dinero de John Maynard Keynes | Economía | 
+Introducción a la investigación | EBSCO Research . (s. f.). EBSCO. 
+https://www.ebsco.com/research-starters/economics/general-theory-employment-inter
+est-and-money-john-maynard-keynes  
+Méndez, L. E. M. (2026, 26 marzo). Banxico ejecuta nuevo recorte a la tasa de interés y la 
+deja 
+en 
+6,75%. 
+Expansión. 
+https://expansion.mx/economia/2026/03/26/banxico-ejecuta-nuevo-recorte-a-la-tasa-d
+e-interes-y-la-deja-en-6-75  
+ 
+ 
+ 
+ 
+​
+ 
+ 

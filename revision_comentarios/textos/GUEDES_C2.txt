@@ -1,0 +1,208 @@
+ 
+ 
+ 
+ECONOMÍA 
+ 
+PORTADA DE EVALUACIÓN INTERNA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código del colegio: 003780 
+ 
+ 
+ 
+Código del colegio  
+003780 
+Código del estudiante 
+mmn134 
+Título 
+La economía de EE.UU. agregó 172.000 empleos el mes 
+pasado, prolongando la recuperación del mercado laboral 
+Fuente 
+Wallace, A. (s. f.). La economía de EE. UU. agregó 172.000 
+empleos el mes pasado, prolongando la recuperación del 
+mercado laboral. CNN en Español. Recuperado el 20 de junio 
+de 2026, de 
+https://cnnespanol.cnn.com/2026/06/05/economia/economia-eeu
+u-172000-empleos-mayo-trax  
+Fecha del artículo 
+5 de junio, 2026 
+Fecha de búsqueda del 
+artículo 
+20 de junio, 2026 
+Módulo 
+Macroeconomía  
+Concepto Clave  
+Interdependencia 
+# Palabras 
+753 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario 2 
+ 
+ 
+La economía de EE.UU. agregó 172.000 empleos el mes pasado, prolongando la 
+recuperación del mercado laboral 
+ 
+ 
+ 
+En el artículo “La economía de EE.UU. agregó 172.000 empleos el mes pasado, 
+prolongando la recuperación del mercado laboral”, publicado por CNN el 5 de junio de 2026, 
+la problemática principal es la interdependencia, la cual muestra cómo los distintos 
+mercados y objetivos macroeconómicos no funcionan de forma separada, afectándose 
+mutuamente. El mercado laboral de Estados Unidos evidencia señales de recuperación, 
+sumando a la economía 172.000 empleos en mayo, llegando a superar significativamente las 
+expectativas, mientras la tasa de desempleo se mantuvo en 4,3%.  
+ 
+Sin embargo, el artículo menciona  el crecimiento salarial desacelerado al 3,4%, por 
+debajo del ritmo de la inflación, que se prevé por encima del 4% en el mes de mayo. Por lo 
+que se demuestra que la mejora en el mercado laboral no ocurre de manera independiente, 
+sino que está ligada por lo que sucede en el mercado de bienes y servicios y de la misma 
+forma por factores inflacionarios como la guerra y el alza del precio del petróleo. Situación 
+que se representa visualmente en el siguiente modelo económico   
+ 
+ 
+ 
+ 
+ 
+​
+ 
+Figura 1 
+Mercado laboral estadounidense 
+ 
+Como se observa en la Figura 1, el mercado laboral se encontraba en una situación de 
+desempleo cíclico  representado por el segmento 
+, ya que el salario tiende a ser rígido 
+𝑎𝑏
+(We), según el modelo de Keynes, la menor demanda de trabajo (DAL2) solo permitía la 
+contratación  de (Q2) trabajadores estando por debajo de los (Q1) trabajadores dispuestos a 
+ofrecer su servicio laboral a ese mismo salario.  No obstante, la recuperación económica 
+debido a la creación de 172.000 empleos en el mes de mayo, estando muy por encima de los 
+105.000 que se esperaba, desplaza la curva de la demanda laboral de DAL2 a DAL3. 
+reduciendo el desempleo al segmento 
+.  
+𝑏𝑐
+ 
+ 
+ 
+ 
+El desplazamiento no sucede de igual forma en todos los sectores, confirmando la 
+naturaleza derivada de la demanda laboral planteada por Alfred Marshall (1890) quien 
+sostuvo que la intensidad con la que la demanda de un factor de producción responde a 
+cambios en la demanda del bien final depende de las condiciones particulares de cada sector. 
+En el sector de ocio y hostelería sumó cerca de 70.000 empleos, más del doble que en el mes 
+de abril  a causa del gasto en consumo y posiblemente por eventos como la Copa del Mundo. 
+El sector público añadió 52.000 empleos, mayormente en gobiernos locales. De igual forma, 
+el sector de la salud y asistencia social sumó 47.200 puestos. Asimismo, la recuperación del 
+empleo temporal, sirve como indicador adelantado de la demanda laboral, después de un 
+largo periodo de contracción, lo que sugiere que las empresas anticipan una mayor demanda 
+de bienes y servicios, aun siendo cauteloso en la contratación permanente.  
+Figura 2 
+Curva de Phillips a corto plazo  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Como se muestra en la Figura 2, hubo un desplazamiento de CPCP1 a CPCP2 a causa 
+del aumento de costos de producción del petróleo derivado de la guerra, resultado de la 
+interdependencia con el mercado global, elevando la inflación del punto A al punto B, es 
+decir de 2,4% a 4%, sin que el desempleo variara del 4,3%. Demostrando que aunque más 
+personas lograron emplearse, el trabajo promedio va reduciendo su poder adquisitivo, 
+llegando a afectar mayormente a las familia de menores ingresos, que destina una mayor 
+parte de su presupuesto a bienes básicos como gasolina y alimentos. Por otro lado, la Reserva 
+Federal enfrenta un clásico dilema de política, ya que para restablecer el desplazamiento de la 
+curva  y devolver la inflación al punto a, se necesitaría un aumento de la tasa de interés 
+influyendo en la reducción del gasto y la producción económica. Pero podría impactar 
+negativamente al mercado laboral que aún presenta una recuperación frágil y en algunos 
+sectores en cambio se están produciendo una escasez de personal adecuado para ciertos 
+puestos, lo que se interpreta como desempleo estructural.  
+ 
+Por ende, el caso del mercado laboral estadounidense en mayo 2026 muestra que los 
+objetivos macroeconómicos de bajo desempleo y estabilidad de precios están enormemente 
+interconectados y que una mejora en uno de ellos no garantiza una mejora simultánea en el 
+otro. La recuperación del empleo, por la demanda derivada de trabajo, coexiste con una 
+inflación, lo que evidencia que ningún mercado ni objetivo de política económica puede 
+analizarse de manera aislada. Por tal motivo, ante la interdependencia entre el desempleo y 
+la inflación, es necesario que la Reserva Federal y los responsables de política económica 
+evalúen cuidadosamente los costos de oportunidad de cada decisión, entendiendo que actuar 
+sobre un frente inevitablemente influye sobre el otro. 
+ 
+ 
+ 
+ 
+Referencias 
+Wallace, A. (s. f.). La economía de EE. UU. agregó 172.000 empleos el mes pasado, 
+prolongando la recuperación del mercado laboral. CNN en Español. Recuperado el 
+20 de junio de 2026, de 
+https://cnnespanol.cnn.com/2026/06/05/economia/economia-eeuu-172000-empleos-m
+ayo-trax  
+ 
+ 

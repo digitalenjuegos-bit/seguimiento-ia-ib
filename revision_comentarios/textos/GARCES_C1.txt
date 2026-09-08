@@ -1,0 +1,154 @@
+ECONOMÍA  
+Portada de evaluación interna 
+Código del colegio: 003780 
+Código del colegio  
+003780 
+Código del estudiante 
+mmn161 
+Título  
+“A cuánto suben la hora de trabajo, las horas extras, 
+suplementarias, nocturnas y los décimos con el nuevo salario 
+de $ 482.” 
+Fuente  
+Franco, P. T. (2025, 18 diciembre). A cuánto suben la hora de 
+trabajo, las horas extras, suplementarias, nocturnas y los 
+décimos con el nuevo salario de $ 482. Economía | Noticias | 
+el Universo.  
+https://www.eluniverso.com/noticias/economia/salario-basico-
+ca 
+lculo-horas-trabajo-decimo-tercer-cuarto-sueldo-ecuador-2025
+-n ota/ 
+Fecha del artículo  
+18 de diciembre, 2025 
+Fecha de búsqueda 
+del artículo 
+19 de enero, 2026 
+Fecha de 
+elaboración del 
+8 de agosto, 2026 
+artículo 
+Módulo  
+Microeconomía-Salario mínimo 
+Concepto Clave  
+Equidad 
+# Palabras  
+782 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario microeconómico  
+ 
+La equidad significa una distribución justa de las oportunidades e ingresos 
+dentro de una sociedad, con el objetivo de reducir desigualdades sin poner en riesgo 
+la eficiencia. En el mercado laboral, la equidad implica que los trabajadores tengan la 
+posibilidad de obtener ingresos suficientes para satisfacer sus necesidades básicas y 
+mantener una calidad de vida digna.  
+El artículo analiza el incremento del Salario Básico Unificado (SBU) en Ecuador, 
+que pasó de USD 470 a USD 482, y explica cómo impacta este cambio en el valor de 
+la hora de trabajo, las horas extras, suplementarias, nocturnas y prestaciones sociales 
+como el décimo tercer y cuarto sueldo. Esto implica una intervención gubernamental 
+en el mercado laboral mediante el establecimiento de un salario mínimo para proteger 
+a los trabajadores e impulsar una mayor equidad social.  
+Desde la teoría económica, el salario mínimo actúa como un precio mínimo, 
+es decir, como el precio legal mínimo por encima del equilibrio de mercado. Si 
+colocamos este precio mínimo por encima del salario de equilibrio, se producen toda 
+una serie de alteraciones en el mercado.  
+Asimismo el aumento del SBU eleva la masa salarial del sector público, 
+afectando de forma directa al gobierno. Esto genera una mayor presión sobre el gasto 
+público, lo cual puede limitar la capacidad del Estado para financiar otras políticas 
+sociales, afectando indirectamente la equidad en el largo plazo. 
+ 
+Figura 1. Incremento del SBU A $482 en el mercado ecuatoriano (2026)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Elaboración propia a partir de datos del artículo de El Universo (2025)  
+ 
+El gráfico muestra cómo, al aumentar el Salario Básico Unificado (SBU) desde 
+USD 470 a USD 482, se genera un mayor exceso de oferta de trabajo en el mercado 
+laboral ecuatoriano. El salario de equilibrio teórico, representado como W*, se ubica 
+por debajo de USD 470, (funcionando como un salario mínimo por encima del 
+equilibrio), ya que el artículo no ofrece un valor preciso para este equilibrio. Al 
+aumentar el SBU a USD 482, la cantidad de trabajo ofrecida aumenta hasta Qs₂, 
+mientras la cantidad demandada disminuye hasta Qd₂, ampliando el desempleo 
+involuntario.  El área verde representa el ingreso adicional de los trabajadores que 
+conservan su empleo, ya que el aumento del salario incrementa sus ingresos. El 
+área correspondiente al exceso de oferta de trabajo representa el desempleo 
+involuntario, debido a la cantidad de demanda de  trabajadores (Qs₂) supera la 
+cantidad que las empresas están dispuestas a contratar (Qd₂). Finalmente, el triángulo 
+naranja representa la pérdida irrecuperable de bienestar (DWL), que surge porque 
+algunas transacciones laborales que generan beneficios dejan de realizarse.  
+Según el artículo describe que el valor de la hora ordinaria es de $2, la 
+extraordinaria $4, la suplementaria $3 y la jornada nocturna $2,50, más los beneficios 
+obligatorios como el décimo tercero ($481), el décimo cuarto ($482) y las vacaciones 
+($241). Estos componentes elevan el costo real por trabajador entre $657 y $700 
+mensuales, provocando desempleo involuntario, por un exceso de oferta de trabajo. 
+La elasticidad de la demanda de trabajo determinará el alcance del impacto. 
+Esto demuestra que las empresas no se enfrentan solamente al aumento nominal de 
+USD 12 del SBU, sino a un costo laboral mayor. En Ecuador persiste una tasa de 
+informalidad del 55%, lo que sugiere una elasticidad relativa de la demanda de trabajo, 
+puesto que los empleadores tienden a trasladar empleo al sector informal como 
+reacción a incrementos en los costos laborales. En cuanto a equidad, la desigualdad 
+sufre un incremento entre quienes conservan empleos formales y quienes quedan 
+excluidos del mercado laboral.  
+En el corto plazo, los trabajadores que conservan su empleo se benefician 
+recibiendo mayores ingresos y mejorando su bienestar. En cambio, en el largo plazo, 
+las empresas pueden sustituir trabajo por capital o trasladar empleo hacia el sector 
+informal, haciendo que la exclusión laboral aumente. Por ello, el aumento del SBU 
+puede generar una mayor equidad nominal para los trabajadores empleados, mas no 
+para todo el mercado laboral.  
+Para los consumidores, el aumento de los costos laborales puede recaer en los 
+precios de bienes y servicios. Esto podría reducir parcialmente el poder adquisitivo 
+obtenido por los trabajadores mediante el aumento salarial.  
+Como medidas complementarias, el Estado podría utilizar incentivos fiscales y 
+programas de capacitación para facilitar la contratación y elevar la productividad. Sin 
+embargo, sus limitaciones pueden causar una reducción en la recaudación pública y la 
+capacitación requiere tiempo y recursos para dar resultados. 
+En conclusión, el incremento del Salario Básico Unificado a USD 482, mejora el 
+ingreso de los trabajadores y una mayor equidad social. Puede generar desempleo 
+involuntario y fomentar la informalidad, al excluir a los trabajadores más vulnerables. 
+De la misma manera, el aumento del costo laboral para las empresas puede disminuir 
+el poder adquisitivo de los consumidores. El salario mínimo, por tanto, es una 
+herramienta a corto plazo, pero se necesitan políticas para un equilibrio sostenible y 
+eficiencia económica.  
+ 
+ 
+ 
+Referencias  
+Franco, P. T. (2025b, diciembre 18). A cuánto suben la hora de trabajo, las horas extras, 
+suplementarias, nocturnas y los décimos con el nuevo salario de $ 482. Economía | Noticias 
+| el Universo.  
+https://www.eluniverso.com/noticias/economia/salario-basico-calculo-horas-trabajo-decimo-
+t ercer-cuarto-sueldo-ecuador-2025-nota/  
+Mankiw, N. G. (2021). Principles of economics (9th ed.). Cengage 
+Learning. https://www.cengage.com/c/principles-of-economics-9e-mankiw/  
+Krugman, P., Wells, R., & Graddy, K. (2020). Essentials of economics (5th ed.). Worth 
+Publishers.  
+https://www.macmillanlearning.com/college/us/product/Essentials-of-Economics/p/13191060 
+30 
+ 
+ 
+ 
+ 

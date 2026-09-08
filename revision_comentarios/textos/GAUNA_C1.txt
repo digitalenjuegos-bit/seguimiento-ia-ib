@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Comentario Económico #1
+Durante más de cincuenta años, el Estado ecuatoriano mantuvo un subsidio al diésel que fijaba su precio por debajo del nivel de mercado. El 13 de septiembre de 2025 el Gobierno eliminó esta intervención, elevando el precio del galón de USD 1,80 a USD 2,80, un incremento aproximado del 55 %. Según Primicias (2025), la medida buscó reducir distorsiones económicas y aliviar la carga fiscal, aunque provocó protestas sociales y un aumento del riesgo país. El concepto clave de este comentario es la intervención, ya que permite evaluar cómo el retiro del subsidio modifica el funcionamiento del mercado del diésel y afecta a distintos agentes económicos.
+
+La intervención gubernamental es cualquier acción del Estado que modifica los resultados del libre mercado. Puede adoptar formas como subsidios, impuestos, controles de precios o regulaciones. En este caso, el subsidio al diésel reducía el precio pagado por los consumidores y desplazaba la oferta efectiva hacia la derecha.
+
+Según la Teoría del Bienestar Económico, en un mercado competitivo los recursos se asignan eficientemente cuando la cantidad demandada coincide con la cantidad ofrecida al precio de equilibrio. Cuando el gobierno introduce una intervención mediante un subsidio, surge una diferencia entre el precio pagado por los consumidores y el costo real del bien. Como consecuencia, aumenta el consumo por encima del nivel socialmente eficiente y se genera una pérdida de bienestar conocida como peso muerto. Pigou argumentaba que las intervenciones gubernamentales pueden justificarse cuando corrigen fallos de mercado, como externalidades o problemas distributivos, sin embargo, cuando no cumplen esta función pueden provocar asignaciones ineficientes de recursos.
+Figura 1: Eliminación del subsidio al diésel en Ecuador, 2025
+
+Fuente: Elaboración propia a partir de datos del artículo de Primicias (2025)
+ Nota. La figura muestra cómo la eliminación del subsidio desplaza la oferta hacia la izquierda, elevando el precio del diésel de USD 1,80 a USD 2,80 y reduciendo la cantidad intercambiada.
+Como muestra la Figura 1, el subsidio reducía los costos efectivos, desplazando la oferta hacia S₁ y manteniendo P₁ = USD 1,80 y Q₁. Al retirarse la intervención, la oferta se contrae hacia S₂, elevando el precio a P₂ = USD 2,80 y reduciendo la cantidad a Q₂. Esto reduce la distorsión del mercado y libera aproximadamente USD 1.100 millones anuales de gasto fiscal asociado al subsidio.
+
+
+Figura 2: Impacto del diésel en el mercado de papa chola
+
+Fuente: Elaboración propia a partir de datos del artículo de Primicias (2025)
+La Figura 2 formaliza este efecto indirecto. El aumento del precio del diésel eleva los costos de transporte y producción agrícola, desplazando la oferta de papa chola de S₁ a S₂. Como resultado, el precio aumenta de aproximadamente USD 25–28 a USD 30–35 por quintal y la cantidad intercambiada disminuye.
+La teoría ayuda a explicar los efectos observados en Ecuador. El retiro de la intervención disminuye los incentivos al consumo excesivo, al contrabando y a actividades ilegales que se beneficiaban de un combustible artificialmente barato. 
+La magnitud del impacto depende de la elasticidad precio de la demanda. Como referencia comparativa, Espey (1998), citado por Esteve (2015), estima para la gasolina una elasticidad de −0,26 a corto plazo y −0,58 a largo plazo. Esto sugiere una demanda inicialmente inelástica: transportistas y productores tienen pocas alternativas inmediatas, mientras que a largo plazo una mayor capacidad de sustitución aumenta la elasticidad y reduce el impacto.
+
+Desde una perspectiva evaluativa, los efectos varían entre actores económicos. Para el Gobierno, la medida mejora la sostenibilidad fiscal y reduce distorsiones. Para transportistas y agricultores, aumenta los costos operativos y reduce la rentabilidad. Los hogares de bajos ingresos enfrentan mayores precios en bienes básicos. 
+En el corto plazo, la demanda inelástica dificulta que transportistas y agricultores reduzcan su consumo, obligándolos a absorber o trasladar mayores costos. Además, el riesgo país aumentó de 672 a 761 puntos. Las compensaciones gubernamentales de USD 893 millones pueden amortiguar estos efectos, aunque dependen de una correcta distribución. Los bonos a transportistas pueden reducir el impacto inmediato sobre sus costos; los créditos y la maquinaria pueden elevar la productividad, pero sus beneficios aparecen principalmente en el largo plazo.
+
+En el largo plazo, una mayor elasticidad permitiría ajustes mediante eficiencia energética, renovación de flotas o sustitutos, mientras la eliminación del subsidio reduce el gasto fiscal. Sin embargo, estos beneficios dependen del acceso real a dichas alternativas.
+El modelo también supone ceteris paribus y un mercado competitivo, por lo que no refleja completamente la informalidad ni las dificultades reales de sustitución del diésel.
+En el caso ecuatoriano, retirar la intervención fue económicamente justificable por su elevado costo fiscal y las distorsiones generadas, pero produjo costos sociales significativos en el corto plazo. Por tanto, la eliminación del subsidio mejoró la eficiencia fiscal, aunque sus beneficios dependieron de la efectividad de las compensaciones para los grupos más afectados.
+
+
+
+
+
+
+
+Referencias  
+
+Espey, M. (1998). Gasoline demand revisited: an international meta-analysis of elasticities. Energy Economics, 20(3), 273–295.
+Esteve, V. (2015). ¿Es la demanda de carburantes inelástica en relación a los cambios en los precios?: el caso de EE.UU.https://vicenteesteve.blogspot.com/2015/01/es-la-demanda-de-carburantes-inelastica.html
+Orozco, M. (2025, 19 septiembre). Qué pasa en Ecuador tras la eliminación del subsidio al diésel. Primicias. https://www.primicias.ec/economia/claves-paro-conaie-riesgo-pais-subsidio-diesel-eliminacion-105551/
+Pigou, A. C. (1920). The economics of welfare. Macmillan.
+
+

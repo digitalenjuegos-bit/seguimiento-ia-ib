@@ -1,0 +1,203 @@
+l
+ 
+ 
+ 
+ 
+ECONOMÍA 
+ 
+Código del colegio: 
+003780 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #1 
+ 
+Código del colegio  
+003780 
+Código del estudiante 
+mmm188 
+Título 
+Impuestos a los refrescos en México: las claves del aumento a 
+las bebidas con azúcar y versiones ‘light’ en 2026 
+Fuente 
+ 
+EL PAÍS 
+Fecha del artículo 
+ 17 de octubre, 2025 
+ 
+Fecha de búsqueda del 
+artículo 
+19 de diciembre, 2025 
+Módulo 
+Microeconomía 
+Concepto Clave  
+Intervención 
+# Palabras 
+795 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario económico 1 
+ 
+La intervención en el mercado de bebidas azucaradas por parte del gobierno 
+mexicano, con un impuesto indirecto específico, cantidad fija que se cobra por unidad de 
+bien/servicio vendido, tiene como objetivo reducir el consumo de este bien no meritorio, 
+al tener afectaciones en la salud de sus consumidores. A su vez, esto genera una 
+externalidad negativa de consumo, pues impacta en el gasto familiar y de salud pública al 
+tener que destinar recursos para tratar las enfermedades derivadas del consumo de este 
+tipo de bebidas. Técnicamente el beneficio marginal privado (BMP) que obtienen los 
+consumidores es superior al beneficio marginal que recibe la sociedad (BMS) por el 
+consumo, tal como se observa en el siguiente diagrama. 
+Figura 1. 
+Efecto de la externalidad negativa de consumo en el mercado de bebidas azucaradas 
+en México (2026) 
+ 
+Fuente: Elaboración propia del candidato con base en López, A. I.( 2026, 26 de enero), EL 
+PAÍS 
+https://elpais.com/mexico/2025-10-17/impuestos-a-los-refrescos-en-mexico-las-claves-del-au
+mento-a-las-bebidas-con-azucar-y-versiones-light-en-2026.html  
+ 
+.. 
+Los productores representados en la curva de costo marginal privado que es igual 
+que el costo marginal social pues el costo de la externalidad (pérdida del bienestar) 
+realmente recae sobre la sociedad, esto se muestra en el área sombreada (BMP>BMS = 
+pérdida del bienestar). Generalmente se esperaría que este tipo de bienes se consumiera 
+menos Qopt (cantidad óptima), incluso si el precio fuera más bajo Popt (precio óptimo). 
+La asignación ineficiente en este mercado, justifica la intervención Estatal,  lo que a su 
+vez altera el equilibrio del mercado existente (P1, Q1).  
+La intervención por medio del impuesto a las bebidas azucaradas de 3.08 
+pesos/litro, impactará el comportamiento de los consumidores y productores de este 
+mercado. En el siguiente modelo económico se observa el impacto de esta medida en el 
+mercado. 
+Figura 2.  
+Efecto del impuesto indirecto específico en el mercado de bebidas azucaradas en 
+México (2026) 
+ 
+Fuente: Elaboración propia del candidato con base en López, A. I.( 2026, 26 de enero), EL 
+PAÍS 
+https://elpais.com/mexico/2025-10-17/impuestos-a-los-refrescos-en-mexico-las-claves-del-au
+mento-a-las-bebidas-con-azucar-y-versiones-light-en-2026.html  
+ 
+El impuesto hace que el precio en equilibrio incremente de P1 a P2, modificando 
+el equilibrio de A a B, este aumento ocurre porque el IEPS (Impuesto Especial sobre 
+Producción y Servicios) aplicado a los refrescos con azúcar pasa de 1.64 a 3.08 
+pesos/litro, lo cual representa un incremento aproximado de 87% respecto al impuesto 
+anterior. El consumidor es quien absorbe la mayor parte del impuesto, reducción del 
+excedente, esto por que la elasticidad precio de la demanda es menor a la elasticidad 
+precio de la oferta (EPD < EPO), y el bien al formar parte del consumo diario de los 
+hogares mexicanos, lo vuelve inelástico, poco sensible a la variación del precio. Esto se 
+observa en el área sombreada celeste “a”. El impuesto incrementa el costo marginal y los 
+productores asumen parte de él en menor medida (área verde) “b”, generando un 
+desplazamiento de la curva de oferta hacia la izquierda de S1 a S2, percibiendo el precio 
+recibido en P0. 
+En cuanto al gobierno este obtiene un beneficio por la recaudación (a+b) y más 
+bien provoca una reducción en el mercado, que se refleja en la pérdida de bienestar (área 
+sombreada en amarillo). No obstante, la intervención del Estado es cuestionable, debido 
+a la inelasticidad de la demanda, la reducción resulta insuficiente para alcanzar el óptimo 
+social. Esto haría que no se reduzca significativamente el consumo de las bebidas 
+azucaradas pasando de Q1 a Q2, llevando a considerar que esta intervención más allá de 
+reducir la externalidad negativa de consumo, es más de carácter recaudatorio. Aunque 
+esta visión podría cambiar si se destinará íntegramente lo recaudado a programas de 
+salud, inversión social, publicidad pública negativa, entre otros, todo lo que lleva a 
+prevenir y reducir los efectos negativos derivados del consumo de bebidas azucaradas.  
+Inicialmente se incluyeron todas las bebidas azucaradas, aunque posteriormente 
+se diferenciaron con las que contienen edulcorante “bebidas light”,gravadas con 1.5 
+pesos/litro, aunque  el análisis sería el mismo con las bebidas azucaradas. 
+Si bien la intervención gubernamental busca reducir la externalidad negativa de 
+consumo, es necesario señalar que esta no se elimina con la colocación de impuestos, si 
+no que más bien busca evitar que sea mayor, e incluso lleva a que las empresas busquen 
+formas de contrarrestar el impacto, como el caso de Coca Cola al comprometerse a 
+reducir la cantidad de azúcar en su nueva fórmula comercializada en el país. Esto permite 
+ver la eficacia de la intervención al motivar a las empresas a buscar nuevas alternativas. 
+Sin embargo, una debilidad de la intervención es que no es medible la cantidad de la 
+recaudación fiscal que se destine a atender a las personas afectadas por esta externalidad. 
+Además, podría afectar negativamente la equidad óptima de hogares de bajos ingresos, 
+representando un posible impuesto regresivo ya que según su elasticidad, es probable que 
+una proporción de su ingreso sea destinada mayormente al impuesto y no a bienes 
+meritorios que beneficien su salud. 
+Con esto, se concluye que la intervención del Estado si bien puede ser eficaz 
+para disminuir las externalidades, se deben emplear otras medidas que lleve al 
+consumidor a mejorar sus hábitos alimenticios para evitar enfermarse y generar gastos a 
+familiares y al Estado, es decir, alcanzar el óptimo social por sí mismo. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bibliografía 
+López, A. I. (2025, Octubre 17). Impuestos a los refrescos en México: las claves 
+del aumento a las bebidas con azúcar y versiones 'light' en 2026. EL PAÍS. Recuperado 
+enero 26, 2026, de 
+https://elpais.com/mexico/2025-10-17/impuestos-a-los-refrescos-en-mexico-las-claves-de
+l-aumento-a-las-bebidas-con-azucar-y-versiones-light-en-2026.html  
+ 
+ 

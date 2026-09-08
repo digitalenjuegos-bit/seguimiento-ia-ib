@@ -1,0 +1,131 @@
+ 
+ 
+ECONOMÍA 
+ 
+Portada de evaluación interna 
+ 
+Código del colegio: 003780 
+ 
+ 
+Código de estudiante 
+mmn164 
+Nombre del medio de 
+comunicación 
+El Comercio 
+Título del artículo 
+El subempleo y el empleo no pleno dominan el mercado 
+laboral en Ecuador en febrero del 2026 
+ 
+Fuente del artículo 
+https://www.elcomercio.com/actualidad/negocios/subemple
+o-empleo-no-pleno-dominan-mercado-laboral-ecuador-febr
+ero-2026/  
+ 
+Fecha de publicación del 
+artículo 
+2026-03-24 
+Fecha de elaboración 
+2026-06-28 
+Concepto clave 
+Bienestar económico 
+Teoría económica 
+Mercado laboral 
+Modelo económico 
+Mercado laboral con salario mínimo (precio mínimo) 
+Número de palabras 
+838 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COMENTARIO ECONÓMICO 2 
+ 
+El artículo publicado por El Comercio el 24 de marzo de 2026 analiza la situación del 
+mercado laboral en Ecuador, mostrando que el subempleo y el empleo no pleno representan 
+gran parte de las formas de ocupación, a pesar de que la tasa de desempleo abierto es 
+relativamente baja. Esta situación refleja un problema de calidad del empleo y sus efectos 
+sobre el bienestar económico, entendido como el nivel de vida material y la calidad de vida 
+de las personas. Para analizarlo, se usará el modelo del mercado laboral con salario mínimo 
+para explicar cómo un precio mínimo por encima del salario de equilibrio genera un 
+excedente de oferta de trabajo que se manifiesta principalmente como subempleo e 
+informalidad. 
+ 
+ 
+Elaboración propia del estudiante con base en El Comercio e INEC (Enemdu), 2026-03-24 
+ 
+En el mercado laboral, el salario de equilibrio (Wₑ) se determina por la interacción entre la 
+oferta de trabajo (OL) y la demanda de trabajo (DL). En este punto, la cantidad de trabajo 
+ofrecida es igual a la cantidad de empleo que las empresas desean contratar. Sin embargo, el 
+salario mínimo de USD 482 mensuales establecido en Ecuador actúa como un precio mínimo 
+por encima del salario de equilibrio. El artículo precisa que el empleo adecuado exige 40 
+horas semanales, relevante porque el subempleo se define por ingreso o por horas. 
+ 
+Como consecuencia, las empresas reducen la cantidad de trabajadores que desean contratar, 
+pasando de la cantidad de equilibrio a Nd, mientras que un mayor número de personas ofrece 
+su trabajo, aumentando la cantidad ofrecida hasta No. Esto genera un excedente de oferta, 
+representado por la diferencia entre No y Nd. 
+ 
+De acuerdo con el artículo, este excedente no se refleja principalmente en el desempleo 
+abierto, cuya tasa fue de 3,1%, sino en empleos de baja calidad. En febrero de 2026, el 
+subempleo fue de 17,7% y el empleo no pleno de 32,9%. Frente a febrero de 2025, el 
+subempleo disminuyó 1,6 puntos porcentuales, pero el empleo no pleno aumentó 3 puntos. 
+Por lo tanto, la mejora del subempleo fue compensada por el aumento del empleo no pleno, 
+evidenciando una recomposición del empleo de baja calidad. Aunque una gran parte de la 
+población se encuentra empleada, ello no implica un adecuado bienestar económico. Los 
+bajos ingresos y la insuficiencia de horas trabajadas limitan la capacidad de los hogares para 
+satisfacer sus necesidades, evidenciando que el principal problema laboral ecuatoriano no es 
+el desempleo, sino la baja calidad del empleo. 
+ 
+Si bien el salario mínimo busca proteger los ingresos y mejorar el bienestar económico, su 
+efectividad depende de las condiciones del mercado laboral. En Ecuador, el modelo sugiere 
+que un salario mínimo por encima del salario de equilibrio puede generar un excedente de 
+oferta de trabajo. Sin embargo, esta explicación no es suficiente para comprender la realidad 
+descrita en el artículo. 
+ 
+El elevado porcentaje de subempleo y empleo no pleno refleja principalmente un desempleo 
+estructural, asociado al desajuste entre las capacidades de los trabajadores y los puestos 
+formales disponibles. Con un desempleo abierto de 3,1%, Ecuador se encuentra cerca del 
+pleno empleo en términos de desempleo cíclico, por lo que el problema laboral es 
+principalmente estructural. Además, aunque el empleo adecuado aumentó de 35,4% a 37,1%, 
+esta variación no es estadísticamente significativa y no evidencia una mejora real. Esto limita 
+el modelo del salario mínimo, ya que simplifica la realidad y no incorpora factores 
+estructurales que afectan la calidad del empleo. 
+ 
+Asimismo, aumentar el salario mínimo puede beneficiar a quienes ya cuentan con empleo 
+formal al incrementar sus ingresos y poder adquisitivo, pero también podría desincentivar la 
+contratación si las empresas no pueden asumir mayores costos laborales. Parte de la 
+población podría verse obligada a aceptar empleos informales o de menor calidad, reduciendo 
+el impacto positivo de la política sobre el bienestar económico. 
+ 
+Por ello, además del salario mínimo, sería conveniente aplicar políticas complementarias, 
+como capacitación laboral, incentivos para la formalización y medidas para aumentar la 
+productividad. Sin embargo, estas políticas también presentan costos: la capacitación requiere 
+gasto público y puede tardar años. Los incentivos a la formalización pueden reducir la 
+recaudación fiscal en el corto plazo y aumentar la productividad requiere inversión, difícil de 
+financiar para pequeñas empresas informales. Por tanto, su efectividad dependerá de los 
+recursos disponibles y del tiempo necesario para generar resultados. 
+ 
+En conclusión, aunque el modelo del mercado laboral permite comprender cómo un salario 
+mínimo puede generar un excedente de trabajo, el caso ecuatoriano demuestra que la calidad 
+del empleo también depende de factores estructurales. Esto afecta especialmente a las 
+mujeres, cuyo empleo adecuado es de 31,5%, frente al 41,0% de los hombres. Además, 
+aunque el desempleo rural es menor que el urbano, 1,7% frente a 3,9%, la noticia señala que 
+esto se debe al predominio del empleo no remunerado, mostrando que un menor desempleo 
+no necesariamente implica mayor bienestar económico. Por ello, se requiere una 
+combinación de políticas que mejore tanto la protección laboral como la generación de 
+empleo adecuado. 
+ 
+ 
+ 
+Bibliografía: 
+ 
+●​ Vásconez, L. (2026, 24 marzo). El subempleo y el empleo no pleno dominan el 
+mercado laboral en Ecuador en febrero del 2026. El Comercio. 
+https://www.elcomercio.com/actualidad/negocios/subempleo-empleo-no-pleno-domin
+an-mercado-laboral-ecuador-febrero-2026/  

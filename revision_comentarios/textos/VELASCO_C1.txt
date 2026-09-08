@@ -1,0 +1,185 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código del colegio 
+003780 
+Código del estudiante 
+mmn184 
+Título del artículo 
+Impuesto sobre los refrescos azucarados de 
+una localidad del norte de California es el 
+primero en desechar la prohibición estatal 
+Fuente 
+AP News 
+Fecha de publicación 
+30 de abril del 2025 
+Fecha de elaboración 
+18 de diciembre del 2025 
+URL 
+https://apnews.com/article/soda-tax-sugar-sa
+nta-cruz-california-beverage-69d5937528a3
+41404ab3d5e7bd8b9767  
+ENFOQUE 
+Microeconomía – Externalidad negativa de 
+consumo 
+CONCEPTO CLAVE 
+Intervención 
+CONTEO DE PALABRAS 
+767 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #1: 
+En Santa Cruz, California, se implementó un impuesto indirecto de $0.02 centavos 
+por onza sobre la bebidas azucaradas buscando reducir su consumo, mejorar la salud pública 
+y generar ingresos para financiar programas comunitarios sobre desincentivar su consumo. 
+Este caso representa una intervención, permitiendo analizar cómo un impuesto indirecto 
+busca distribuir costos sociales y alterar el equilibrio de mercado, ofreciendo un ejemplo de la 
+teoría microeconómica aplicada a políticas de salud pública. 
+Una intervención gubernamental es la alteración en un mercado mediante 
+herramientas como: Impuestos, subsidios o regulaciones, corrigiendo fallos o promoviendo 
+bienestar social. Según “The Economics of Welfare” (1932) de Arthur Cecil Pigou, en una 
+externalidad negativa, un impuesto pigouviano es perfecto para internalizar costos sociales. 
+En Santa Cruz, el consumo excesivo de bebidas azucaradas genera externalidades negativas 
+de consumo, afectando el bienestar de terceros, recayendo sobre sistemas públicos de salud, 
+financiados por toda la sociedad, justificando el tributo de $0.02 ctvs por onza como medida 
+compensatoria. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 1: Modelización de externalidad negativa de consumo sobre bebidas 
+azucaradas en Santa Cruz, California. 
+ 
+Nota: Elaboración propia del estudiante basado en información de AP News 
+​
+La figura 1 representa el consumo excesivo de estas bebidas lo cual produce costos 
+adicionales a la sociedad al generar gastos en salud pública para poder corregir el mal hábito 
+alimenticio. La curva de beneficio marginal social (BMS) se desplaza hacia la izquierda y se 
+ubica por debajo de la curva de beneficio privado marginal (BPM). Esto implica que el 
+beneficio que obtiene un consumidor al tomar una bebida azucarada es mayor que el 
+beneficio neto de una sociedad ya que el consumidor no asume directamente los costos de 
+salud pública. La distancia entre las curvas de BMS y BPM representa la externalidad 
+negativa de consumo que el impuesto de $0.02 centavos por onza busca corregir. El mercado 
+sin impuesto se equilibra en Pe y Qe, cruzando por las curvas de oferta y BPM. Sin embargo, 
+ 
+lo óptimo social se alcanza en Popt y Qopt; el impuesto de $0.02 centavos por onza busca 
+trasladar el equilibrio de mercado, de Qe a Qopt y de Pe a Popt, representando un 
+decrecimiento en los costos en salud pública. 
+En la figura 1, la intervención del impuesto logrará su objetivo de trasladar el 
+consumo de Qe a Qopt, pero depende de la elasticidad de la demanda. En Santa Cruz, al 
+existir sustitutos cercanos hace posible la reducción del consumo. En la noticia, se menciona 
+que Berkeley aplicó el primer impuesto en 2014, seguido por San Francisco, Oakland, 
+Albany, Filadelfia, Seattle y Boulder. En ciudades pequeñas, se eleva la elasticidad efectiva 
+ya que pueden comprar fuera del municipio y así bajan las ventas de estas bebidas en la 
+ciudad. 
+No obstante, esta intervención gubernamental enfrenta críticas. En primer lugar, el 
+impuesto es regresivo: “carga injusta para las familias trabajadoras” (AP News, 2025), 
+afectando así a los consumidores de menores ingresos. En segundo lugar, esta medida 
+perjudica a empresas pequeñas como Tacos Moreno, de Carina Moreno quien anticipa el 
+deterioro de la competitividad, que no solo afecta a la empresa, también a los trabajadores 
+como parte interesada. A pesar de no considerar negocios con ingresos menores a $500,000, 
+la efectividad es afectada por la alta incertidumbre legal, ya que el tribunal calificó como 
+“ilegal” porque este afectará los recursos de la ciudad. Por último, la aceptación social revela 
+división de opiniones; 52% y 48% muestran una diferencia en gasto de campaña, donde los 
+que eligieron la opción de “no” gastaron $2.8 millones, mientras que del lado del “si” 
+gastaron $100,000. 
+A corto plazo, el impuesto generará que los consumidores disminuyan el uso del 
+producto por el efecto precio. A largo plazo, el impacto se distribuye: Al adoptar sustitutos 
+saludables, los consumidores producen un aumento de elasticidad, evadiendo el tributo; los 
+ 
+oferentes sufren pérdidas obligándolos a ajustar costos o diversificar su producción para no 
+perder competitividad. Finalmente, para el gobierno, la disparidad financiera de $2.8m de los 
+que se oponen frente a los $100,000 de los defensores, refleja débil respaldo político, 
+causando dificultades a la hora de costear los programas comunitarios, implicando un fracaso 
+fiscal insostenible 
+En conclusión, en Santa Cruz, la intervención mediante el impuesto pigouviano no 
+puede solamente analizarse desde la eficiencia teórica, sino depende también de la viabilidad 
+político económica. Se evidencia que la aplicación del impuesto se realiza de manera aislada 
+sobre bienes con múltiples sustitutos; en lugar de corregir fallos en el mercado, se intensifica 
+el conflicto social y enfrenta la resistencia de los sectores productivos. De esta manera, el 
+caso enseña que la intervención no deben ser diseñadas de manera simple, sino deben 
+contemplar la complejidad del mercado y así garantizar el propósito de salud pública junto a 
+la recaudación fiscal.  
+ 
+Bibliografía 
+Har, J. (2025, 1 mayo). El impuesto a los refrescos azucarados de una ciudad del norte de 
+California es el primero en desafiar la prohibición estatal | AP News. AP News. 
+https://apnews.com/article/soda-tax-sugar-santa-cruz-california-beverage-69d5937528
+a341404ab3d5e7bd8b9767  
+Pigou, A.C. (s. f.). La economía del bienestar | Biblioteca en línea de Liberty . 
+https://oll.libertyfund.org/titles/pigou-the-economics-of-welfare  
+ 

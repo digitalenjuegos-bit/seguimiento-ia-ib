@@ -1,0 +1,190 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código del colegio: 003780 
+Comentario Económico #2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Título 
+EE.UU. revisa a la baja el crecimiento del PIB en el primer 
+trimestre mientras la inflación aumenta 
+Código de estudiante 
+mmn171 
+Fuente 
+www.lanacion.com.ar/estados-unidos/eeuu-revisa-a-la-baja-el-cr
+ecimiento-del-pib-en-el-primer-trimestre-mientras-la-inflacion-a
+umenta-nid28052026/ 
+ 
+Fecha del artículo 
+28 de mayo de 2026 
+Fecha de búsqueda del 
+artículo 
+1 de junio 2026 
+Módulo 
+Macroeconomía 
+Concepto Clave  
+Bienestar Económico 
+Teoría Económica 
+●​ PIB 
+●​ Estanflación 
+# Palabras 
+798 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Comentario Económico #2 
+El bienestar económico de una nación está constituido por la situación de riqueza y 
+calidad de vida general de su población; este depende de una combinación de factores como 
+el empleo, la distribución de ingresos, el acceso a servicios básicos, etc. Empero, estos 
+factores pueden verse amenazados por conflictos externos. 
+En Estados Unidos, el aumento de los costos energéticos provoca un shock negativo 
+de oferta, generando estanflación; situación en la que el crecimiento económico se detiene y 
+la inflación es elevada. Como consecuencia, el bienestar económico de los hogares 
+estadounidenses se deteriora debido a la pérdida de poder adquisitivo y a la desaceleración 
+del crecimiento económico. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gráfico 1: Estanflación estadounidense. Fuente: elaboración propia a partir de datos del artículo de La Nación (2026) 
+El gráfico 1 ilustra la situación de estanflación en Estados Unidos. El encarecimiento 
+de la energía eleva los costos de producción, por lo que la OACP se desplaza de OACP1 
+hacia la izquierda, dando lugar a OACP2. Con la DA constante, el equilibrio pasa de E1 a E2: 
+el nivel de precios sube de NP1 a NP2 y el PIB real cae de Y1 a Y2, quedando por debajo de 
+la trayectoria proyectada. Así, el punto de equilibrio pasa del punto E1 al punto E2. La 
+oficina de Análisis Económico estadounidense cuantifica el alza de precios con el índice PCE 
+(Personal Consumption Expenditures, por sus siglas en inglés), el cual es el indicador 
+principal que utiliza la Reserva Federal de Estados Unidos (Fed) para medir la inflación y 
+tomar decisiones sobre las tasas de interés; este aumenta a 3,8% frente al 3,5% del período 
+ 
+ 
+anterior. Al mismo tiempo, el crecimiento del PIB real de Estados Unidos en el primer 
+trimestre se revisa a la baja, aumentando 1,6% frente al 2% que se tenía proyectado. Esta 
+combinación de factores desplaza el punto de equilibrio de E1 a E2. 
+Según el artículo, el encarecimiento de la energía derivado del conflicto con Irán 
+eleva los costos de producción de las empresas, provocando que la OACP1 se desplace hacia 
+la izquierda y se transforme en OACP2. El índice PCE, que sube a 3,8% frente al 3,5% del 
+periodo anterior, al tiempo que el crecimiento del primer trimestre se revisa a la baja. Por lo 
+tanto, la economía estadounidense entra en un estado de estanflación, pues el alza sostenida 
+de precios combinada con la menor producción amenaza el bienestar económico. 
+En este contexto, la estanflación tiene consecuencias significativas sobre el bienestar 
+económico de los estadounidenses. El artículo resalta que los gastos de los hogares 
+aumentaron un 0,5% mientras que sus ingresos disminuyeron un 0,1%. Esto implica que los 
+consumidores deben destinar una mayor proporción de sus ingresos al consumo corriente, 
+especialmente a bienes de primera necesidad como la gasolina, cuyo precio ha aumentado 
+debido al conflicto con Irán. Como resultado, el poder adquisitivo de los hogares disminuye y 
+su capacidad para adquirir otros bienes y servicios. De igual manera, la tasa de ahorro cayó 
+del 3,2% al 2,6%. Esta disminución supone que los hogares han comenzado a utilizar una 
+mayor proporción de sus ingresos para cubrir gastos del día a día, limitando la posibilidad de 
+afrontar imprevistos o realizar inversiones futuras. En consecuencia, la seguridad financiera 
+de los hogares disminuye, deteriorando aún más su bienestar económico. 
+El artículo señala un aumento del gasto público y de la inversión privada en sectores 
+tecnológicos como la inteligencia artificial, generando una mayor dependencia de este sector. 
+Ambos factores incrementan componentes clave de la demanda agregada: gasto público e 
+inversión. Sin embargo, el aumento de los precios de bienes esenciales y la reducción del 
+ahorro disminuyen el poder adquisitivo de los hogares. Si los altos precios de la energía 
+persisten, el consumo y la inversión podrían verse afectados, limitando el crecimiento a largo 
+plazo. Aunque la inversión tecnológica ha amortiguado la desaceleración económica, resulta 
+insuficiente para compensar los efectos del shock energético sobre el bienestar económico. 
+Entre las respuestas de los agentes económicos, la Reserva Federal aumentó las tasas 
+de interés para combatir la inflación, encareciendo el crédito y frenando la inversión. Las 
+empresas enfrentaron menores márgenes de ganancia por los altos costos energéticos, 
+ 
+ 
+mientras que el aumento del gasto público eleva el riesgo de déficit fiscal. En el corto plazo, 
+el shock de oferta incrementará los precios; si los costos energéticos persisten, en el largo 
+plazo podría reducirse la OALP y el PIB potencial. 
+En conclusión, el conflicto con Irán ha generado un shock negativo de oferta que 
+justifica el escenario de estanflación experimentado por la economía estadounidense. Sin 
+embargo, la persistencia de los elevados costos energéticos y la dependencia del crecimiento 
+económico de la inversión en inteligencia artificial limitan la recuperación del bienestar 
+económico. Por ello, mientras estos factores externos no se mitiguen, es probable que 
+continúe el deterioro del poder adquisitivo y de la seguridad financiera de los hogares. 
+ 
+ 
+Bibliografía 
+ 
+La Nación. (2026, mayo 28). EE.UU. revisa a la baja el crecimiento del PIB en el 
+primer trimestre mientras la inflación aumenta. 
+https://www.lanacion.com.ar/estados-unidos/eeuu-revisa-a-la-baja-el-crecimiento-del-pib-en-
+el-primer-trimestre-mientras-la-inflacion-aumenta-nid28052026/  
+ 
+ 
+ 
