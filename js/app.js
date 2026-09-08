@@ -75,6 +75,17 @@
     catch (e) { return false; }
   }
 
+  // ===== Avance automático =====
+  // % de avance = comentarios con nota / 3 (C1, C2, C3)
+  function calcularAvance(est) {
+    var n = 0;
+    ['c1', 'c2', 'c3'].forEach(function (k) {
+      var c = est[k];
+      if (c && c.total !== null && c.total !== undefined && c.total !== '') n++;
+    });
+    return n / 3;
+  }
+
   // ===== Normalizar estructura de estudiante =====
   // Firebase RTDB elimina valores null y objetos vacíos al guardar.
   // Al leer, hay que reconstruir la estructura completa para que
@@ -101,7 +112,7 @@
     if (!est.portafolio) est.portafolio = { f: null, total45: null };
     if (est.portafolio.f === undefined) est.portafolio.f = null;
     if (est.portafolio.total45 === undefined) est.portafolio.total45 = null;
-    if (est.avance === undefined || est.avance === null || est.avance === '') est.avance = 0.1666;
+    est.avance = calcularAvance(est);
     if (!est.drive) est.drive = { c1: [], c2: [], c3: [] };
     ['c1', 'c2', 'c3'].forEach(function (k) {
       if (!est.drive[k]) est.drive[k] = [];
@@ -283,8 +294,7 @@
         }
       });
 
-      var avance = (est.avance !== null && est.avance !== undefined && est.avance !== '')
-        ? (Math.round(est.avance * 100) + '%') : '—';
+      var avance = (Math.round(calcularAvance(est) * 100) + '%');
 
       tr.innerHTML =
         '<td class="nombre">' + esc(est.nombre) + '</td>' +
@@ -311,8 +321,7 @@
     var est = estudiantes[idx];
 
     $('detailName').textContent = est.nombre;
-    var avance = (est.avance !== null && est.avance !== undefined && est.avance !== '')
-      ? (Math.round(est.avance * 100) + '%') : '—';
+    var avance = (Math.round(calcularAvance(est) * 100) + '%');
     var entregas = entregasDrive(est);
     $('detailAvance').textContent = 'Avance: ' + avance + ' · ' + entregas + '/3 comentarios con entrega final';
 
@@ -339,7 +348,7 @@
     // Portafolio
     $('pfF').value = (est.portafolio && est.portafolio.f !== null && est.portafolio.f !== undefined) ? est.portafolio.f : '';
     $('pfTotal45').value = (est.portafolio && est.portafolio.total45 !== null && est.portafolio.total45 !== undefined) ? est.portafolio.total45 : '';
-    $('pfAvance').value = (est.avance !== null && est.avance !== undefined && est.avance !== '') ? est.avance : 0.1666;
+    $('pfAvance').value = Math.round(calcularAvance(est) * 10000) / 10000;
 
     // Drive
     renderDrive(est);
@@ -497,9 +506,8 @@
     var t45 = $('pfTotal45').value;
     est.portafolio.total45 = (t45 === '') ? null : Number(t45);
 
-    // Avance
-    var av = $('pfAvance').value;
-    est.avance = (av === '') ? 0.1666 : Number(av);
+    // Avance (automático: comentarios con nota / 3)
+    est.avance = calcularAvance(est);
 
     // Drive (leer del DOM)
     ['c1', 'c2', 'c3'].forEach(function (k) {
@@ -764,6 +772,7 @@
       });
       // Total siempre recalculado = suma A-E (regla de la rúbrica)
       c.total = v.suma;
+      est.avance = calcularAvance(est);
       if (Array.isArray(obj.alertas)) c.alertas = obj.alertas.slice();
 
       okCount++;
