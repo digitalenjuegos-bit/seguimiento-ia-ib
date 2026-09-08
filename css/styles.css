@@ -46,6 +46,7 @@ html, body {
   background: linear-gradient(135deg, var(--azul-oscuro), var(--azul));
   padding: 20px;
 }
+.login-screen[hidden] { display: none; }
 .login-box {
   background: var(--blanco);
   border-radius: 16px;
@@ -440,10 +441,12 @@ html, body {
 /* Vista reporte: ocultar chrome de la app */
 body.vista-reporte .app-header,
 body.vista-reporte .status-bar,
-body.vista-reporte .app-footer { display: none; }
+body.vista-reporte .app-footer,
+body.vista-reporte #loginScreen { display: none; }
 
 /* ===== IMPRESIÓN ===== */
 @media print {
+  body > *:not(#printArea) { display: none !important; }
   #app { display: none !important; }
   #printArea { display: block !important; }
   body { background: #fff; }
