@@ -303,9 +303,19 @@
         '<td>' + badgeNota(c3n) + '</td>' +
         '<td>' + (est.portafolio && est.portafolio.total45 ? est.portafolio.total45 : '<span class="nota-pendiente">—</span>') + '</td>' +
         '<td class="avance-cell">' + avance + '</td>' +
-        '<td class="alertas-cell">' + (alertas.length ? alertas.join(' ') : '') + '</td>';
+        '<td class="alertas-cell">' + (alertas.length ? alertas.join(' ') : '') + '</td>' +
+        '<td><button type="button" class="btn-reporte" data-reporte-idx="' + idx + '">Reporte</button></td>';
 
       tbody.appendChild(tr);
+
+      // Botón Reporte: no debe abrir el detalle (la fila ya tiene click)
+      var reporteBtn = tr.querySelector('[data-reporte-idx]');
+      if (reporteBtn) {
+        reporteBtn.addEventListener('click', function (e) {
+          e.stopPropagation();
+          abrirReporte(idx);
+        });
+      }
     });
 
     $('sumEstudiantes').textContent = estudiantes.length;
@@ -405,7 +415,9 @@
           '<div class="nota-input"><label>C /3</label><input type="number" min="0" max="3" data-c="' + def.key + '" data-nota="C" value="' + escAttr(notas.C !== null && notas.C !== undefined ? notas.C : '') + '"></div>' +
           '<div class="nota-input"><label>D /3</label><input type="number" min="0" max="3" data-c="' + def.key + '" data-nota="D" value="' + escAttr(notas.D !== null && notas.D !== undefined ? notas.D : '') + '"></div>' +
           '<div class="nota-input"><label>E /3</label><input type="number" min="0" max="3" data-c="' + def.key + '" data-nota="E" value="' + escAttr(notas.E !== null && notas.E !== undefined ? notas.E : '') + '"></div>' +
-        '</div>';
+        '</div>' +
+        '<div class="form-field full"><label>Comentario del profesor</label>' +
+        '<textarea data-c="' + def.key + '" data-field="retroalimentacion" rows="3" placeholder="Retroalimentación para el estudiante…">' + esc(c.retroalimentacion || '') + '</textarea></div>';
 
       container.appendChild(card);
     });
@@ -462,6 +474,127 @@
     });
 
     container.appendChild(grid);
+  }
+
+  // ===== Reporte de retroalimentación (formato IB "Comentarios del profesor") =====
+  // Genera el HTML del reporte oficial para un estudiante: tabla por criterio
+  // (DIAGRAMA /3, TERMINOLOGÍA /2, APLICACIÓN Y ANÁLISIS /3, CONCEPTO CLAVE /3,
+  // EVALUACIÓN /3) con columnas PUNTOS IB (máximo) y CRITERIOS (nota del
+  // estudiante), fila TOTAL /14, comentario del profesor debajo, y pie con
+  // CRITERIO D /3 (portafolio.f) y TOTAL /45.
+  function htmlReporte(est) {
+    var defs = [
+      { key: 'c1', label: 'Comentario 1 — Microeconomía' },
+      { key: 'c2', label: 'Comentario 2 — Macroeconomía' },
+      { key: 'c3', label: 'Comentario 3 — Economía Internacional' }
+    ];
+    var criterios = [
+      { letra: 'A', nombre: 'DIAGRAMA', max: 3 },
+      { letra: 'B', nombre: 'TERMINOLOGÍA', max: 2 },
+      { letra: 'C', nombre: 'APLICACIÓN Y ANÁLISIS', max: 3 },
+      { letra: 'D', nombre: 'CONCEPTO CLAVE', max: 3 },
+      { letra: 'E', nombre: 'EVALUACIÓN', max: 3 }
+    ];
+
+    var html = '<div class="rep-encabezado">' +
+      '<h2>COMENTARIOS DEL PROFESOR</h2>' +
+      '<p class="rep-nombre">' + esc(est.nombre) + '</p>' +
+      '</div>';
+
+    defs.forEach(function (def) {
+      var c = est[def.key] || {};
+      var notas = c.notas || {};
+
+      html += '<div class="rep-bloque">' +
+        '<h3 class="rep-titulo">' + esc(def.label) + '</h3>' +
+        '<table class="rep-tabla">' +
+        '<thead><tr><th>Criterio</th><th>PUNTOS IB</th><th>CRITERIOS</th></tr></thead>' +
+        '<tbody>';
+
+      criterios.forEach(function (cr) {
+        var val = notas[cr.letra];
+        var valStr = (val !== null && val !== undefined && val !== '') ? val : '—';
+        html += '<tr>' +
+          '<td class="rep-criterio">' + esc(cr.nombre) + '</td>' +
+          '<td class="rep-puntos">' + cr.max + '</td>' +
+          '<td class="rep-nota">' + valStr + '</td>' +
+          '</tr>';
+      });
+
+      // Total /14 = suma de notas A-E
+      var total = (c.total !== null && c.total !== undefined && c.total !== '') ? c.total : '—';
+      html += '<tr class="rep-total">' +
+        '<td class="rep-criterio">TOTAL</td>' +
+        '<td class="rep-puntos">14</td>' +
+        '<td class="rep-nota">' + total + '</td>' +
+        '</tr>';
+
+      html += '</tbody></table>';
+
+      // Comentario del profesor
+      if (c.retroalimentacion) {
+        html += '<div class="rep-comentario">' + esc(c.retroalimentacion) + '</div>';
+      }
+
+      html += '</div>';
+    });
+
+    // Pie: CRITERIO D /3 y TOTAL /45
+    var f = (est.portafolio && est.portafolio.f !== null && est.portafolio.f !== undefined) ? est.portafolio.f : '—';
+    var t45 = est.portafolio && est.portafolio.total45;
+    if (t45 === null || t45 === undefined || t45 === '') {
+      // Recalcular: suma de los 3 comentarios + criterio F
+      var suma = 0;
+      ['c1', 'c2', 'c3'].forEach(function (k) {
+        var c = est[k];
+        if (c && c.total !== null && c.total !== undefined && c.total !== '') suma += c.total;
+      });
+      if (f !== '—') suma += f;
+      t45 = suma;
+    }
+
+    html += '<div class="rep-pie">' +
+      '<table class="rep-tabla">' +
+      '<tbody>' +
+      '<tr>' +
+      '<td class="rep-criterio">CRITERIO D <span class="rep-sub">(Entrega formalmente los tres comentarios económicos)</span></td>' +
+      '<td class="rep-puntos">3</td>' +
+      '<td class="rep-nota">' + f + '</td>' +
+      '</tr>' +
+      '<tr class="rep-total">' +
+      '<td class="rep-criterio">TOTAL</td>' +
+      '<td class="rep-puntos">45</td>' +
+      '<td class="rep-nota">' + t45 + '</td>' +
+      '</tr>' +
+      '</tbody></table>' +
+      '</div>';
+
+    return html;
+  }
+
+  // ===== Abrir vista de reporte =====
+  function abrirReporte(idx) {
+    estudianteActual = idx;
+    var est = estudiantes[idx];
+    $('reporteName').textContent = est.nombre;
+    $('reporteContainer').innerHTML = htmlReporte(est);
+    mostrarVista('reporte');
+  }
+
+  // ===== Imprimir reporte individual =====
+  function imprimirReporte() {
+    if (estudianteActual === null) return;
+    var est = estudiantes[estudianteActual];
+    $('printArea').innerHTML = '<div class="rep-pagina">' + htmlReporte(est) + '</div>';
+    window.print();
+  }
+
+  // ===== Imprimir reportes de todos los estudiantes =====
+  function imprimirTodos() {
+    $('printArea').innerHTML = estudiantes.map(function (est) {
+      return '<div class="rep-pagina">' + htmlReporte(est) + '</div>';
+    }).join('');
+    window.print();
   }
 
   // ===== Guardar detalle =====
@@ -824,6 +957,7 @@
   function mostrarVista(vista) {
     $('viewGeneral').classList.toggle('active', vista === 'general');
     $('viewDetail').classList.toggle('active', vista === 'detail');
+    $('viewReporte').classList.toggle('active', vista === 'reporte');
     window.scrollTo(0, 0);
   }
 
@@ -844,6 +978,11 @@
     $('btnBack').addEventListener('click', function () { mostrarVista('general'); });
     $('btnSaveDetail').addEventListener('click', guardarDetalle);
     $('btnBackup').addEventListener('click', descargarBackup);
+
+    // Reporte de retroalimentación
+    $('btnPrintReporte').addEventListener('click', imprimirReporte);
+    $('btnBackReporte').addEventListener('click', function () { mostrarVista('general'); });
+    $('btnPrintTodos').addEventListener('click', imprimirTodos);
 
     // Importación de evaluaciones
     $('btnImportarMasiva').addEventListener('click', function () { abrirModalImportar('masivo'); });

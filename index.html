@@ -50,6 +50,7 @@
         <div class="header-actions">
           <button id="btnBackup" class="btn-ghost" type="button">Descargar respaldo JSON</button>
           <button id="btnImportarMasiva" class="btn-ghost" type="button">Importación masiva</button>
+          <button id="btnPrintTodos" class="btn-ghost" type="button">Imprimir todos</button>
           <button id="btnLogout" class="btn-ghost danger" type="button">Cerrar sesión</button>
         </div>
       </div>
@@ -102,6 +103,7 @@
                   <th>Portafolio <span class="th-sub">/45</span></th>
                   <th>% avance</th>
                   <th>Alertas</th>
+                  <th>Reporte</th>
                 </tr>
               </thead>
               <tbody id="generalBody"></tbody>
@@ -164,10 +166,25 @@
       </div>
     </main>
 
+    <!-- ===== VISTA REPORTE ===== -->
+    <main id="viewReporte" class="view">
+      <div class="container">
+        <div class="detail-header">
+          <button id="btnBackReporte" class="btn-ghost" type="button">&larr; Volver</button>
+          <h2 class="detail-name" id="reporteName"></h2>
+          <button id="btnPrintReporte" class="btn-primary" type="button">Imprimir / PDF</button>
+        </div>
+        <div id="reporteContainer"></div>
+      </div>
+    </main>
+
     <footer class="app-footer">
       <p>&copy; 2026 Mr. Alberto Ottati Rosas. Todos los derechos reservados.</p>
     </footer>
   </div>
+
+  <!-- ===== ÁREA DE IMPRESIÓN (solo visible al imprimir) ===== -->
+  <div id="printArea" aria-hidden="true"></div>
 
   <!-- ===== MODAL DE IMPORTACIÓN ===== -->
   <div id="importModal" class="modal-overlay" hidden>

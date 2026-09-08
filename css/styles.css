@@ -376,3 +376,72 @@ html, body {
   border: none; border-radius: 8px; cursor: pointer; white-space: nowrap;
 }
 .btn-import:hover { background: #1a6b2c; }
+
+/* ===== REPORTE DE RETROALIMENTACIÓN (formato IB) ===== */
+.btn-reporte {
+  padding: 4px 10px; font-size: 12px; font-weight: 600;
+  background: var(--azul-claro); color: var(--azul);
+  border: 1px solid var(--borde); border-radius: 6px;
+  cursor: pointer; white-space: nowrap;
+}
+.btn-reporte:hover { background: var(--azul); color: #fff; }
+
+/* Área de impresión: oculta en pantalla, visible solo al imprimir */
+#printArea { display: none; }
+
+.rep-encabezado {
+  text-align: center; margin-bottom: 24px;
+  border-bottom: 2px solid var(--azul); padding-bottom: 12px;
+}
+.rep-encabezado h2 {
+  font-size: 20px; font-weight: 800; color: var(--azul-oscuro);
+  letter-spacing: 0.5px; margin-bottom: 4px;
+}
+.rep-nombre { font-size: 16px; font-weight: 600; color: var(--gris-texto); }
+
+.rep-bloque { margin-bottom: 28px; }
+.rep-titulo {
+  font-size: 15px; font-weight: 700; color: var(--azul);
+  margin-bottom: 8px;
+}
+
+.rep-tabla {
+  width: 100%; border-collapse: collapse; font-size: 14px;
+  margin-bottom: 8px;
+}
+.rep-tabla th, .rep-tabla td {
+  border: 1px solid var(--borde); padding: 8px 12px; text-align: left;
+}
+.rep-tabla thead th {
+  background: var(--azul-claro); color: var(--azul-oscuro);
+  font-weight: 700; font-size: 13px; text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.rep-criterio { font-weight: 600; }
+.rep-puntos { text-align: center; font-weight: 700; color: var(--gris-texto); width: 90px; }
+.rep-nota { text-align: center; font-weight: 800; font-size: 15px; width: 90px; }
+.rep-total { background: var(--azul-claro); }
+.rep-total .rep-criterio, .rep-total .rep-nota { color: var(--azul-oscuro); }
+
+.rep-comentario {
+  margin-top: 8px; padding: 10px 14px;
+  border-left: 4px solid var(--azul); background: var(--fondo);
+  font-size: 14px; line-height: 1.6; color: #1a202c;
+  white-space: pre-wrap;
+}
+
+.rep-pie { margin-top: 24px; }
+.rep-pie .rep-tabla { max-width: 520px; }
+.rep-sub { font-weight: 400; font-size: 12px; color: var(--gris-texto); }
+
+.rep-pagina { page-break-after: always; }
+.rep-pagina:last-child { page-break-after: auto; }
+
+/* ===== IMPRESIÓN ===== */
+@media print {
+  #app { display: none !important; }
+  #printArea { display: block !important; }
+  body { background: #fff; }
+  .rep-pagina { page-break-after: always; }
+  .rep-pagina:last-child { page-break-after: auto; }
+}
