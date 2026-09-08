@@ -10,7 +10,7 @@
 // su persistencia offline es propia y cachear sus requests causaría
 // conflictos con la conexión en tiempo real.
 
-const CACHE_NAME = 'seguimiento-ia-ib-v1';
+const CACHE_NAME = 'seguimiento-ia-ib-v2';
 
 const ASSETS_TO_CACHE = [
   '/seguimiento-ia-ib/',
