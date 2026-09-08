@@ -437,11 +437,19 @@ html, body {
 .rep-pagina { page-break-after: always; }
 .rep-pagina:last-child { page-break-after: auto; }
 
+/* Vista reporte: ocultar chrome de la app */
+body.vista-reporte .app-header,
+body.vista-reporte .status-bar,
+body.vista-reporte .app-footer { display: none; }
+
 /* ===== IMPRESIÓN ===== */
 @media print {
   #app { display: none !important; }
   #printArea { display: block !important; }
   body { background: #fff; }
+  body.vista-reporte .app-header,
+  body.vista-reporte .status-bar,
+  body.vista-reporte .app-footer { display: none !important; }
   .rep-pagina { page-break-after: always; }
   .rep-pagina:last-child { page-break-after: auto; }
 }

@@ -481,7 +481,7 @@
   // (DIAGRAMA /3, TERMINOLOGÍA /2, APLICACIÓN Y ANÁLISIS /3, CONCEPTO CLAVE /3,
   // EVALUACIÓN /3) con columnas PUNTOS IB (máximo) y CRITERIOS (nota del
   // estudiante), fila TOTAL /14, comentario del profesor debajo, y pie con
-  // CRITERIO D /3 (portafolio.f) y TOTAL /45.
+  // CRITERIO F /3 (portafolio.f) y TOTAL /45.
   function htmlReporte(est) {
     var defs = [
       { key: 'c1', label: 'Comentario 1 — Microeconomía' },
@@ -508,14 +508,14 @@
       html += '<div class="rep-bloque">' +
         '<h3 class="rep-titulo">' + esc(def.label) + '</h3>' +
         '<table class="rep-tabla">' +
-        '<thead><tr><th>Criterio</th><th>PUNTOS IB</th><th>CRITERIOS</th></tr></thead>' +
+        '<thead><tr><th>Criterio</th><th>PUNTOS IB</th><th>CRITERIOS ' + def.key.toUpperCase() + '</th></tr></thead>' +
         '<tbody>';
 
       criterios.forEach(function (cr) {
         var val = notas[cr.letra];
         var valStr = (val !== null && val !== undefined && val !== '') ? val : '—';
         html += '<tr>' +
-          '<td class="rep-criterio">' + esc(cr.nombre) + '</td>' +
+          '<td class="rep-criterio">' + esc(cr.letra + '. ' + cr.nombre) + '</td>' +
           '<td class="rep-puntos">' + cr.max + '</td>' +
           '<td class="rep-nota">' + valStr + '</td>' +
           '</tr>';
@@ -557,7 +557,7 @@
       '<table class="rep-tabla">' +
       '<tbody>' +
       '<tr>' +
-      '<td class="rep-criterio">CRITERIO D <span class="rep-sub">(Entrega formalmente los tres comentarios económicos)</span></td>' +
+      '<td class="rep-criterio">CRITERIO F <span class="rep-sub">(Portafolio económico: entrega formalmente los tres comentarios económicos)</span></td>' +
       '<td class="rep-puntos">3</td>' +
       '<td class="rep-nota">' + f + '</td>' +
       '</tr>' +
@@ -958,6 +958,7 @@
     $('viewGeneral').classList.toggle('active', vista === 'general');
     $('viewDetail').classList.toggle('active', vista === 'detail');
     $('viewReporte').classList.toggle('active', vista === 'reporte');
+    document.body.classList.toggle('vista-reporte', vista === 'reporte');
     window.scrollTo(0, 0);
   }
 
