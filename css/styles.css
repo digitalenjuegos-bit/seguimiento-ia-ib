@@ -197,6 +197,7 @@ html, body {
 
 .alertas-cell { font-size: 13px; color: var(--rojo); white-space: nowrap; }
 .avance-cell { font-weight: 600; }
+.total-42-cell { font-weight: 700; color: var(--azul-oscuro); }
 .table-hint { font-size: 13px; color: var(--gris-texto); margin-top: 12px; }
 
 /* ===== DETALLE ===== */
@@ -233,6 +234,11 @@ html, body {
 }
 .form-field { display: flex; flex-direction: column; gap: 4px; }
 .form-field label { font-size: 13px; font-weight: 600; color: var(--gris-texto); }
+.auto-badge {
+  font-size: 11px; font-weight: 700; color: var(--verde);
+  background: var(--verde-bg); padding: 2px 6px; border-radius: 4px;
+  margin-left: 6px; vertical-align: middle;
+}
 .form-field input, .form-field select, .form-field textarea {
   padding: 8px 10px; font-size: 14px;
   border: 1px solid var(--borde); border-radius: 8px;
@@ -443,6 +449,23 @@ body.vista-reporte .app-header,
 body.vista-reporte .status-bar,
 body.vista-reporte .app-footer,
 body.vista-reporte #loginScreen { display: none; }
+
+/* ===== RESUMEN DE COMENTARIOS ===== */
+.resumen-comentarios {
+  border-left: 4px solid var(--azul);
+  background: var(--azul-claro);
+}
+.resumen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+.resumen-item {
+  display: flex; flex-direction: column; gap: 4px;
+}
+.resumen-label { font-size: 13px; font-weight: 600; color: var(--gris-texto); }
+.resumen-valor { font-size: 22px; font-weight: 800; color: var(--azul-oscuro); }
+.resumen-valor.total-42 { color: var(--azul); }
 
 /* ===== IMPRESIÓN ===== */
 @media print {

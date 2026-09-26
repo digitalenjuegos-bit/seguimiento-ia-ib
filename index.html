@@ -93,21 +93,22 @@
         <section class="card" aria-label="Tabla de estudiantes">
           <h2 class="section-title">Estudiantes</h2>
           <div class="table-wrap">
-            <table class="data-table" id="generalTable">
-              <thead>
-                <tr>
-                  <th>Nombre</th>
-                  <th>C1 <span class="th-sub">/14</span></th>
-                  <th>C2 <span class="th-sub">/14</span></th>
-                  <th>C3 <span class="th-sub">/14</span></th>
-                  <th>Portafolio <span class="th-sub">/45</span></th>
-                  <th>% avance</th>
-                  <th>Alertas</th>
-                  <th>Reporte</th>
-                </tr>
-              </thead>
-              <tbody id="generalBody"></tbody>
-            </table>
+<table class="data-table" id="generalTable">
+                <thead>
+                  <tr>
+                    <th>Nombre</th>
+                    <th>C1 <span class="th-sub">/14</span></th>
+                    <th>C2 <span class="th-sub">/14</span></th>
+                    <th>C3 <span class="th-sub">/14</span></th>
+                    <th>Total 3 comentarios <span class="th-sub">/42</span></th>
+                    <th>Portafolio <span class="th-sub">/45</span></th>
+                    <th>% avance</th>
+                    <th>Alertas</th>
+                    <th>Reporte</th>
+                  </tr>
+                </thead>
+                <tbody id="generalBody"></tbody>
+              </table>
           </div>
           <p class="table-hint">Haz clic en una fila para ver el detalle del estudiante.</p>
         </section>
@@ -141,8 +142,8 @@
               <input type="number" id="pfF" min="0" max="3" step="1" placeholder="—">
             </div>
             <div class="form-field">
-              <label for="pfTotal45">Total <span class="th-sub">/45</span></label>
-              <input type="number" id="pfTotal45" min="0" max="45" step="1" placeholder="—">
+              <label for="pfTotal45">Total <span class="th-sub">/45</span> <span class="auto-badge">auto</span></label>
+              <input type="number" id="pfTotal45" min="0" max="45" step="1" placeholder="—" readonly>
             </div>
             <div class="form-field">
               <label for="pfAvance">% avance (automático)</label>

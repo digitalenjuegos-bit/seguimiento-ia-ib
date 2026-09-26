@@ -75,16 +75,30 @@
     catch (e) { return false; }
   }
 
-  // ===== Avance automático =====
-  // % de avance = comentarios con nota / 3 (C1, C2, C3)
-  function calcularAvance(est) {
-    var n = 0;
-    ['c1', 'c2', 'c3'].forEach(function (k) {
-      var c = est[k];
-      if (c && c.total !== null && c.total !== undefined && c.total !== '') n++;
-    });
-    return n / 3;
-  }
+// ===== Avance automático =====
+// % de avance = comentarios con nota / 3 (C1, C2, C3)
+function calcularAvance(est) {
+  var n = 0;
+  ['c1', 'c2', 'c3'].forEach(function (k) {
+    var c = est[k];
+    if (c && c.total !== null && c.total !== undefined && c.total !== '') n++;
+  });
+  return n / 3;
+}
+
+// ===== Suma de los 3 comentarios (máx 42) =====
+function calcularSumaComentarios(est) {
+  var suma = 0;
+  var completos = 0;
+  ['c1', 'c2', 'c3'].forEach(function (k) {
+    var c = est[k];
+    if (c && c.total !== null && c.total !== undefined && c.total !== '') {
+      suma += c.total;
+      completos++;
+    }
+  });
+  return { suma: suma, completos: completos };
+}
 
   // ===== Normalizar estructura de estudiante =====
   // Firebase RTDB elimina valores null y objetos vacíos al guardar.
@@ -265,107 +279,120 @@
     return count;
   }
 
-  // ===== Render vista general =====
-  function renderGeneral() {
-    var tbody = $('generalBody');
-    tbody.innerHTML = '';
+// ===== Render vista general =====
+function renderGeneral() {
+  var tbody = $('generalBody');
+  tbody.innerHTML = '';
 
-    var sumC1 = 0, sumC2 = 0, sumC3 = 0, sumEntregas = 0;
+  var sumC1 = 0, sumC2 = 0, sumC3 = 0, sumEntregas = 0;
 
-    estudiantes.forEach(function (est, idx) {
-      var tr = document.createElement('tr');
-      tr.setAttribute('data-idx', idx);
-      tr.addEventListener('click', function () { abrirDetalle(idx); });
+  estudiantes.forEach(function (est, idx) {
+    var tr = document.createElement('tr');
+    tr.setAttribute('data-idx', idx);
+    tr.addEventListener('click', function () { abrirDetalle(idx); });
 
-      var c1n = est.c1 && est.c1.total;
-      var c2n = est.c2 && est.c2.total;
-      var c3n = est.c3 && est.c3.total;
-      if (c1n !== null && c1n !== undefined && c1n !== '') sumC1++;
-      if (c2n !== null && c2n !== undefined && c2n !== '') sumC2++;
-      if (c3n !== null && c3n !== undefined && c3n !== '') sumC3++;
+    var c1n = est.c1 && est.c1.total;
+    var c2n = est.c2 && est.c2.total;
+    var c3n = est.c3 && est.c3.total;
+    if (c1n !== null && c1n !== undefined && c1n !== '') sumC1++;
+    if (c2n !== null && c2n !== undefined && c2n !== '') sumC2++;
+    if (c3n !== null && c3n !== undefined && c3n !== '') sumC3++;
 
-      var entregas = entregasDrive(est);
-      sumEntregas += entregas;
-
-      var alertas = [];
-      ['c1', 'c2', 'c3'].forEach(function (k) {
-        if (est[k] && est[k].alertas && est[k].alertas.length) {
-          alertas = alertas.concat(est[k].alertas);
-        }
-      });
-
-      var avance = (Math.round(calcularAvance(est) * 100) + '%');
-
-      tr.innerHTML =
-        '<td class="nombre">' + esc(est.nombre) + '</td>' +
-        '<td>' + badgeNota(c1n) + '</td>' +
-        '<td>' + badgeNota(c2n) + '</td>' +
-        '<td>' + badgeNota(c3n) + '</td>' +
-        '<td>' + (est.portafolio && est.portafolio.total45 ? est.portafolio.total45 : '<span class="nota-pendiente">—</span>') + '</td>' +
-        '<td class="avance-cell">' + avance + '</td>' +
-        '<td class="alertas-cell">' + (alertas.length ? alertas.join(' ') : '') + '</td>' +
-        '<td><button type="button" class="btn-reporte" data-reporte-idx="' + idx + '">Reporte</button></td>';
-
-      tbody.appendChild(tr);
-
-      // Botón Reporte: no debe abrir el detalle (la fila ya tiene click)
-      var reporteBtn = tr.querySelector('[data-reporte-idx]');
-      if (reporteBtn) {
-        reporteBtn.addEventListener('click', function (e) {
-          e.stopPropagation();
-          abrirReporte(idx);
-        });
-      }
-    });
-
-    $('sumEstudiantes').textContent = estudiantes.length;
-    $('sumC1').textContent = sumC1;
-    $('sumC2').textContent = sumC2;
-    $('sumC3').textContent = sumC3;
-    $('sumEntregas').textContent = sumEntregas;
-  }
-
-  // ===== Vista detalle =====
-  function abrirDetalle(idx) {
-    estudianteActual = idx;
-    var est = estudiantes[idx];
-
-    $('detailName').textContent = est.nombre;
-    var avance = (Math.round(calcularAvance(est) * 100) + '%');
     var entregas = entregasDrive(est);
-    $('detailAvance').textContent = 'Avance: ' + avance + ' · ' + entregas + '/3 comentarios con entrega final';
+    sumEntregas += entregas;
 
-    // Alertas
     var alertas = [];
     ['c1', 'c2', 'c3'].forEach(function (k) {
       if (est[k] && est[k].alertas && est[k].alertas.length) {
         alertas = alertas.concat(est[k].alertas);
       }
     });
-    var alertasCard = $('detailAlertasCard');
-    if (alertas.length) {
-      alertasCard.hidden = false;
-      $('detailAlertas').innerHTML = alertas.map(function (a) {
-        return '<div class="alerta-item">' + esc(a) + '</div>';
-      }).join('');
-    } else {
-      alertasCard.hidden = true;
+
+    var avance = (Math.round(calcularAvance(est) * 100) + '%');
+
+    // Suma de los 3 comentarios
+    var sumaComentarios = calcularSumaComentarios(est);
+    var total42 = (sumaComentarios.completos === 3) ? sumaComentarios.suma : (sumaComentarios.completos > 0 ? sumaComentarios.suma + ' (parcial)' : '—');
+
+    tr.innerHTML =
+      '<td class="nombre">' + esc(est.nombre) + '</td>' +
+      '<td>' + badgeNota(c1n) + '</td>' +
+      '<td>' + badgeNota(c2n) + '</td>' +
+      '<td>' + badgeNota(c3n) + '</td>' +
+      '<td class="total-42-cell">' + total42 + '</td>' +
+      '<td>' + (est.portafolio && est.portafolio.total45 ? est.portafolio.total45 : '<span class="nota-pendiente">—</span>') + '</td>' +
+      '<td class="avance-cell">' + avance + '</td>' +
+      '<td class="alertas-cell">' + (alertas.length ? alertas.join(' ') : '') + '</td>' +
+      '<td><button type="button" class="btn-reporte" data-reporte-idx="' + idx + '">Reporte</button></td>';
+
+    tbody.appendChild(tr);
+
+    // Botón Reporte: no debe abrir el detalle (la fila ya tiene click)
+    var reporteBtn = tr.querySelector('[data-reporte-idx]');
+    if (reporteBtn) {
+      reporteBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        abrirReporte(idx);
+      });
     }
+  });
 
-    // Comentarios
-    renderComentarios(est);
+  $('sumEstudiantes').textContent = estudiantes.length;
+  $('sumC1').textContent = sumC1;
+  $('sumC2').textContent = sumC2;
+  $('sumC3').textContent = sumC3;
+  $('sumEntregas').textContent = sumEntregas;
+}
 
-    // Portafolio
-    $('pfF').value = (est.portafolio && est.portafolio.f !== null && est.portafolio.f !== undefined) ? est.portafolio.f : '';
-    $('pfTotal45').value = (est.portafolio && est.portafolio.total45 !== null && est.portafolio.total45 !== undefined) ? est.portafolio.total45 : '';
-    $('pfAvance').value = Math.round(calcularAvance(est) * 10000) / 10000;
+// ===== Vista detalle =====
+function abrirDetalle(idx) {
+  estudianteActual = idx;
+  var est = estudiantes[idx];
 
-    // Drive
-    renderDrive(est);
+  $('detailName').textContent = est.nombre;
+  var avance = (Math.round(calcularAvance(est) * 100) + '%');
+  var entregas = entregasDrive(est);
+  
+  // Suma de los 3 comentarios
+  var sumaComentarios = calcularSumaComentarios(est);
+  var total42Str = (sumaComentarios.completos === 3) ? sumaComentarios.suma + ' /42' : (sumaComentarios.completos > 0 ? sumaComentarios.suma + ' /42 (parcial: ' + sumaComentarios.completos + '/3)' : '—');
+  
+  $('detailAvance').textContent = 'Avance: ' + avance + ' · ' + entregas + '/3 comentarios con entrega final · Total 3 comentarios: ' + total42Str;
 
-    $('saveStatus').textContent = '';
-    mostrarVista('detail');
+  // Alertas
+  var alertas = [];
+  ['c1', 'c2', 'c3'].forEach(function (k) {
+    if (est[k] && est[k].alertas && est[k].alertas.length) {
+      alertas = alertas.concat(est[k].alertas);
+    }
+  });
+  var alertasCard = $('detailAlertasCard');
+  if (alertas.length) {
+    alertasCard.hidden = false;
+    $('detailAlertas').innerHTML = alertas.map(function (a) {
+      return '<div class="alerta-item">' + esc(a) + '</div>';
+    }).join('');
+  } else {
+    alertasCard.hidden = true;
   }
+
+  // Comentarios
+  renderComentarios(est);
+
+  // Portafolio
+  $('pfF').value = (est.portafolio && est.portafolio.f !== null && est.portafolio.f !== undefined) ? est.portafolio.f : '';
+  // Auto-calcular total /45 = suma de 3 comentarios + criterio F
+  var fVal = (est.portafolio && est.portafolio.f !== null && est.portafolio.f !== undefined) ? est.portafolio.f : 0;
+  var total45 = sumaComentarios.suma + fVal;
+  $('pfTotal45').value = total45;
+  $('pfAvance').value = Math.round(calcularAvance(est) * 10000) / 10000;
+
+  // Drive
+  renderDrive(est);
+
+  $('saveStatus').textContent = '';
+  mostrarVista('detail');
+}
 
   function renderComentarios(est) {
     var container = $('comentariosContainer');
@@ -421,6 +448,25 @@
 
       container.appendChild(card);
     });
+
+    // Resumen: suma de los 3 comentarios
+    var sumaComentarios = calcularSumaComentarios(est);
+    var resumenCard = document.createElement('section');
+    resumenCard.className = 'card resumen-comentarios';
+    var total42Str = (sumaComentarios.completos === 3) ? sumaComentarios.suma + ' /42' : (sumaComentarios.completos > 0 ? sumaComentarios.suma + ' /42 (parcial: ' + sumaComentarios.completos + '/3)' : '—');
+    resumenCard.innerHTML =
+      '<h3 class="section-title">Resumen de los 3 comentarios</h3>' +
+      '<div class="resumen-grid">' +
+        '<div class="resumen-item">' +
+          '<span class="resumen-label">Total 3 comentarios</span>' +
+          '<span class="resumen-valor total-42">' + total42Str + '</span>' +
+        '</div>' +
+        '<div class="resumen-item">' +
+          '<span class="resumen-label">Comentarios con nota</span>' +
+          '<span class="resumen-valor">' + sumaComentarios.completos + ' /3</span>' +
+        '</div>' +
+      '</div>';
+    container.appendChild(resumenCard);
   }
 
   function renderDrive(est) {
@@ -597,81 +643,84 @@
     window.print();
   }
 
-  // ===== Guardar detalle =====
-  function guardarDetalle() {
-    if (estudianteActual === null) return;
-    var est = estudiantes[estudianteActual];
+// ===== Guardar detalle =====
+function guardarDetalle() {
+  if (estudianteActual === null) return;
+  var est = estudiantes[estudianteActual];
 
-    // Comentarios
-    ['c1', 'c2', 'c3'].forEach(function (k) {
-      var c = est[k] || (est[k] = { titulo: '', fuente: '', fPub: '', fElab: '', palabras: '', concepto: '', estatus: '', notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: [] });
-      if (!c.notas) c.notas = { A: null, B: null, C: null, D: null, E: null };
-      var inputs = document.querySelectorAll('[data-c="' + k + '"]');
-      inputs.forEach(function (inp) {
-        var field = inp.getAttribute('data-field');
-        if (field) {
-          c[field] = inp.value;
-        }
-      });
-      // Notas
-      ['A', 'B', 'C', 'D', 'E'].forEach(function (letra) {
-        var inp = document.querySelector('[data-c="' + k + '"][data-nota="' + letra + '"]');
-        if (inp) {
-          var v = inp.value;
-          c.notas[letra] = (v === '' || v === null || v === undefined) ? null : Number(v);
-        }
-      });
-      // Total = suma de notas
-      var suma = 0, hay = false;
-      ['A', 'B', 'C', 'D', 'E'].forEach(function (letra) {
-        if (c.notas[letra] !== null && c.notas[letra] !== undefined) { suma += c.notas[letra]; hay = true; }
-      });
-      c.total = hay ? suma : null;
-      // Actualizar total en el DOM
-      var totalEl = document.querySelector('[data-total="' + k + '"]');
-      if (totalEl) totalEl.textContent = (c.total !== null) ? c.total : '—';
-    });
-
-    // Portafolio
-    est.portafolio = est.portafolio || { f: null, total45: null };
-    var fVal = $('pfF').value;
-    est.portafolio.f = (fVal === '') ? null : Number(fVal);
-    var t45 = $('pfTotal45').value;
-    est.portafolio.total45 = (t45 === '') ? null : Number(t45);
-
-    // Avance (automático: comentarios con nota / 3)
-    est.avance = calcularAvance(est);
-
-    // Drive (leer del DOM)
-    ['c1', 'c2', 'c3'].forEach(function (k) {
-      est.drive = est.drive || { c1: [], c2: [], c3: [] };
-      var filesDiv = document.querySelector('[data-drive="' + k + '"]');
-      var files = [];
-      if (filesDiv) {
-        var items = filesDiv.querySelectorAll('.drive-file');
-        items.forEach(function (it) {
-          var name = it.querySelector('.file-name').textContent;
-          var tipo = it.querySelector('.file-tipo').textContent;
-          files.push({ nombre: name, tipo: tipo });
-        });
+  // Comentarios
+  ['c1', 'c2', 'c3'].forEach(function (k) {
+    var c = est[k] || (est[k] = { titulo: '', fuente: '', fPub: '', fElab: '', palabras: '', concepto: '', estatus: '', notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: [] });
+    if (!c.notas) c.notas = { A: null, B: null, C: null, D: null, E: null };
+    var inputs = document.querySelectorAll('[data-c="' + k + '"]');
+    inputs.forEach(function (inp) {
+      var field = inp.getAttribute('data-field');
+      if (field) {
+        c[field] = inp.value;
       }
-      est.drive[k] = files;
     });
+    // Notas
+    ['A', 'B', 'C', 'D', 'E'].forEach(function (letra) {
+      var inp = document.querySelector('[data-c="' + k + '"][data-nota="' + letra + '"]');
+      if (inp) {
+        var v = inp.value;
+        c.notas[letra] = (v === '' || v === null || v === undefined) ? null : Number(v);
+      }
+    });
+    // Total = suma de notas
+    var suma = 0, hay = false;
+    ['A', 'B', 'C', 'D', 'E'].forEach(function (letra) {
+      if (c.notas[letra] !== null && c.notas[letra] !== undefined) { suma += c.notas[letra]; hay = true; }
+    });
+    c.total = hay ? suma : null;
+    // Actualizar total en el DOM
+    var totalEl = document.querySelector('[data-total="' + k + '"]');
+    if (totalEl) totalEl.textContent = (c.total !== null) ? c.total : '—';
+  });
 
-    // Persistir
-    persistirTodo().then(function () {
-      logEdicion(est.nombre, 'detalle', 'guardado');
-      var st = $('saveStatus');
-      st.textContent = storageMode === 'cloud' ? 'Guardado en la nube ✓' : 'Guardado localmente ✓';
-      st.className = 'save-status';
-      setTimeout(function () { st.textContent = ''; }, 2500);
-      renderGeneral();
-    }).catch(function () {
-      var st = $('saveStatus');
-      st.textContent = 'Error al guardar';
-      st.className = 'save-status error';
-    });
-  }
+  // Portafolio
+  est.portafolio = est.portafolio || { f: null, total45: null };
+  var fVal = $('pfF').value;
+  est.portafolio.f = (fVal === '') ? null : Number(fVal);
+  // Auto-calcular total /45 = suma de 3 comentarios + criterio F
+  var sumaComentarios = calcularSumaComentarios(est);
+  var total45 = sumaComentarios.suma + (est.portafolio.f || 0);
+  est.portafolio.total45 = total45;
+  $('pfTotal45').value = total45;
+
+  // Avance (automático: comentarios con nota / 3)
+  est.avance = calcularAvance(est);
+
+  // Drive (leer del DOM)
+  ['c1', 'c2', 'c3'].forEach(function (k) {
+    est.drive = est.drive || { c1: [], c2: [], c3: [] };
+    var filesDiv = document.querySelector('[data-drive="' + k + '"]');
+    var files = [];
+    if (filesDiv) {
+      var items = filesDiv.querySelectorAll('.drive-file');
+      items.forEach(function (it) {
+        var name = it.querySelector('.file-name').textContent;
+        var tipo = it.querySelector('.file-tipo').textContent;
+        files.push({ nombre: name, tipo: tipo });
+      });
+    }
+    est.drive[k] = files;
+  });
+
+  // Persistir
+  persistirTodo().then(function () {
+    logEdicion(est.nombre, 'detalle', 'guardado');
+    var st = $('saveStatus');
+    st.textContent = storageMode === 'cloud' ? 'Guardado en la nube ✓' : 'Guardado localmente ✓';
+    st.className = 'save-status';
+    setTimeout(function () { st.textContent = ''; }, 2500);
+    renderGeneral();
+  }).catch(function () {
+    var st = $('saveStatus');
+    st.textContent = 'Error al guardar';
+    st.className = 'save-status error';
+  });
+}
 
   // ===== Añadir / eliminar archivo Drive =====
   function addDriveFile(key) {
@@ -972,49 +1021,60 @@
     return esc(s).replace(/"/g, '&quot;');
   }
 
-  // ===== Eventos =====
-  function bindEvents() {
-    $('loginForm').addEventListener('submit', function (e) { e.preventDefault(); doLogin(); });
-    $('btnLogout').addEventListener('click', doLogout);
-    $('btnBack').addEventListener('click', function () { mostrarVista('general'); });
-    $('btnSaveDetail').addEventListener('click', guardarDetalle);
-    $('btnBackup').addEventListener('click', descargarBackup);
+// ===== Eventos =====
+function bindEvents() {
+  $('loginForm').addEventListener('submit', function (e) { e.preventDefault(); doLogin(); });
+  $('btnLogout').addEventListener('click', doLogout);
+  $('btnBack').addEventListener('click', function () { mostrarVista('general'); });
+  $('btnSaveDetail').addEventListener('click', guardarDetalle);
+  $('btnBackup').addEventListener('click', descargarBackup);
 
-    // Reporte de retroalimentación
-    $('btnPrintReporte').addEventListener('click', imprimirReporte);
-    $('btnBackReporte').addEventListener('click', function () { mostrarVista('general'); });
-    $('btnPrintTodos').addEventListener('click', imprimirTodos);
+  // Auto-calcular total /45 al cambiar criterio F
+  $('pfF').addEventListener('input', function () {
+    if (estudianteActual === null) return;
+    var est = estudiantes[estudianteActual];
+    var fVal = this.value;
+    var f = (fVal === '') ? 0 : Number(fVal);
+    var sumaComentarios = calcularSumaComentarios(est);
+    var total45 = sumaComentarios.suma + f;
+    $('pfTotal45').value = total45;
+  });
 
-    // Importación de evaluaciones
-    $('btnImportarMasiva').addEventListener('click', function () { abrirModalImportar('masivo'); });
-    $('btnImportar').addEventListener('click', function () { abrirModalImportar('individual'); });
-    $('importModalClose').addEventListener('click', cerrarModalImportar);
-    $('importModalCancel').addEventListener('click', cerrarModalImportar);
-    $('importModalConfirm').addEventListener('click', function () {
-      importarEvaluacion($('importTextarea').value);
-    });
-    // Cerrar con Escape
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && !$('importModal').hidden) cerrarModalImportar();
-    });
-    // Cerrar al hacer clic fuera del modal
-    $('importModal').addEventListener('click', function (e) {
-      if (e.target === $('importModal')) cerrarModalImportar();
-    });
+  // Reporte de retroalimentación
+  $('btnPrintReporte').addEventListener('click', imprimirReporte);
+  $('btnBackReporte').addEventListener('click', function () { mostrarVista('general'); });
+  $('btnPrintTodos').addEventListener('click', imprimirTodos);
 
-    // Delegación para añadir/eliminar archivos del Drive
-    $('driveContainer').addEventListener('click', function (e) {
-      var del = e.target.closest('.file-del');
-      if (del) {
-        removeDriveFile(del.getAttribute('data-drive'), Number(del.getAttribute('data-idx')));
-        return;
-      }
-      var addBtn = e.target.closest('[data-add-btn]');
-      if (addBtn) {
-        addDriveFile(addBtn.getAttribute('data-add-btn'));
-      }
-    });
-  }
+  // Importación de evaluaciones
+  $('btnImportarMasiva').addEventListener('click', function () { abrirModalImportar('masivo'); });
+  $('btnImportar').addEventListener('click', function () { abrirModalImportar('individual'); });
+  $('importModalClose').addEventListener('click', cerrarModalImportar);
+  $('importModalCancel').addEventListener('click', cerrarModalImportar);
+  $('importModalConfirm').addEventListener('click', function () {
+    importarEvaluacion($('importTextarea').value);
+  });
+  // Cerrar con Escape
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !$('importModal').hidden) cerrarModalImportar();
+  });
+  // Cerrar al hacer clic fuera del modal
+  $('importModal').addEventListener('click', function (e) {
+    if (e.target === $('importModal')) cerrarModalImportar();
+  });
+
+  // Delegación para añadir/eliminar archivos del Drive
+  $('driveContainer').addEventListener('click', function (e) {
+    var del = e.target.closest('.file-del');
+    if (del) {
+      removeDriveFile(del.getAttribute('data-drive'), Number(del.getAttribute('data-idx')));
+      return;
+    }
+    var addBtn = e.target.closest('[data-add-btn]');
+    if (addBtn) {
+      addDriveFile(addBtn.getAttribute('data-add-btn'));
+    }
+  });
+}
 
   // ===== Service Worker =====
   function registerSW() {
