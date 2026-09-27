@@ -70,7 +70,7 @@ const ESTUDIANTES_INICIALES = [
       titulo: "", fuente: "", fPub: "", fElab: "", palabras: "", concepto: "", estatus: "",
       notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: []
     },
-    portafolio: { f: 1, total45: 11 },
+    portafolio: { f: 2, total45: 12 },
     avance: 0.1666,
     drive: {
       c1: [
@@ -104,7 +104,7 @@ const ESTUDIANTES_INICIALES = [
       titulo: "", fuente: "", fPub: "", fElab: "", palabras: "", concepto: "", estatus: "",
       notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: []
     },
-    portafolio: { f: 1, total45: 13 },
+    portafolio: { f: 2, total45: 14 },
     avance: 0.1666,
     drive: {
       c1: [
@@ -140,7 +140,7 @@ const ESTUDIANTES_INICIALES = [
       titulo: "", fuente: "", fPub: "", fElab: "", palabras: "", concepto: "", estatus: "",
       notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: []
     },
-    portafolio: { f: 1, total45: 14 },
+    portafolio: { f: 2, total45: 15 },
     avance: 0.1666,
     drive: {
       c1: [
@@ -209,7 +209,7 @@ const ESTUDIANTES_INICIALES = [
       titulo: "", fuente: "", fPub: "", fElab: "", palabras: "", concepto: "", estatus: "",
       notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: []
     },
-    portafolio: { f: 1, total45: 11 },
+    portafolio: { f: 2, total45: 12 },
     avance: 0.1666,
     drive: {
       c1: [
@@ -356,7 +356,7 @@ const ESTUDIANTES_INICIALES = [
       titulo: "", fuente: "", fPub: "", fElab: "", palabras: "", concepto: "", estatus: "",
       notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: []
     },
-    portafolio: { f: 1, total45: 12 },
+    portafolio: { f: 2, total45: 13 },
     avance: 0.1666,
     drive: {
       c1: [
@@ -390,7 +390,7 @@ const ESTUDIANTES_INICIALES = [
       titulo: "", fuente: "", fPub: "", fElab: "", palabras: "", concepto: "", estatus: "",
       notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: []
     },
-    portafolio: { f: 1, total45: 13 },
+    portafolio: { f: 2, total45: 14 },
     avance: 0.1666,
     drive: {
       c1: [
@@ -426,7 +426,7 @@ const ESTUDIANTES_INICIALES = [
       titulo: "", fuente: "", fPub: "", fElab: "", palabras: "", concepto: "", estatus: "",
       notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: []
     },
-    portafolio: { f: 1, total45: 11 },
+    portafolio: { f: 2, total45: 12 },
     avance: 0.1666,
     drive: {
       c1: [
