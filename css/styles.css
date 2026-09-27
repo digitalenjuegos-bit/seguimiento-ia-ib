@@ -198,6 +198,7 @@ html, body {
 .alertas-cell { font-size: 13px; color: var(--rojo); white-space: nowrap; }
 .avance-cell { font-weight: 600; }
 .total-42-cell { font-weight: 700; color: var(--azul-oscuro); }
+.criterio-f-cell { font-weight: 700; color: var(--naranja-oscuro); text-align: center; }
 .table-hint { font-size: 13px; color: var(--gris-texto); margin-top: 12px; }
 
 /* ===== DETALLE ===== */

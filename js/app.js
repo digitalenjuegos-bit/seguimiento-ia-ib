@@ -314,11 +314,16 @@ function renderGeneral() {
     var sumaComentarios = calcularSumaComentarios(est);
     var total42 = (sumaComentarios.completos === 3) ? sumaComentarios.suma : (sumaComentarios.completos > 0 ? sumaComentarios.suma + ' (parcial)' : '—');
 
+    // Criterio F
+    var fVal = (est.portafolio && est.portafolio.f !== null && est.portafolio.f !== undefined) ? est.portafolio.f : null;
+    var fDisplay = (fVal !== null) ? '<span class="nota-cell">' + fVal + '<span class="badge badge-' + bandaNota(fVal * 14 / 3) + '"></span></span>' : '<span class="nota-pendiente">—</span>';
+
     tr.innerHTML =
       '<td class="nombre">' + esc(est.nombre) + '</td>' +
       '<td>' + badgeNota(c1n) + '</td>' +
       '<td>' + badgeNota(c2n) + '</td>' +
       '<td>' + badgeNota(c3n) + '</td>' +
+      '<td class="criterio-f-cell">' + fDisplay + '</td>' +
       '<td class="total-42-cell">' + total42 + '</td>' +
       '<td>' + (est.portafolio && est.portafolio.total45 ? est.portafolio.total45 : '<span class="nota-pendiente">—</span>') + '</td>' +
       '<td class="avance-cell">' + avance + '</td>' +
