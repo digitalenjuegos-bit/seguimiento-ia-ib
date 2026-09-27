@@ -174,7 +174,7 @@ const ESTUDIANTES_INICIALES = [
       titulo: "", fuente: "", fPub: "", fElab: "", palabras: "", concepto: "", estatus: "",
       notas: { A: null, B: null, C: null, D: null, E: null }, total: null, alertas: []
     },
-    portafolio: { f: 1, total45: 11 },
+    portafolio: { f: 2, total45: 12 },
     avance: 0.1666,
     drive: {
       c1: [
