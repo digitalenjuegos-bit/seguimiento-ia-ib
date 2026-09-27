@@ -932,6 +932,31 @@ function guardarDetalle() {
     var importados = [];
 
     items.forEach(function (obj) {
+      // Registro de portafolio: {"estudiante": "...", "criterioF": 0-3}, sin campo "comentario".
+      if (obj && typeof obj === 'object' && !Array.isArray(obj) &&
+          obj.criterioF !== undefined && obj.comentario === undefined) {
+        var refF = obj.estudiante ? String(obj.estudiante) : '(sin estudiante)';
+        var idxF = obj.estudiante ? buscarEstudiante(obj.estudiante) : -1;
+        var fNum = Number(obj.criterioF);
+        var erroresF = [];
+        if (idxF === -1) erroresF.push('Estudiante no encontrado: "' + refF + '".');
+        if (!Number.isInteger(fNum) || fNum < 0 || fNum > 3) erroresF.push('"criterioF" debe ser un entero de 0 a 3.');
+        if (erroresF.length) {
+          errCount++;
+          results.innerHTML += '<div class="import-err">' + esc(refF) + ': ' + esc(erroresF.join('; ')) + '</div>';
+          return;
+        }
+        var estF = estudiantes[idxF];
+        estF.portafolio = estF.portafolio || { f: null, total45: null };
+        estF.portafolio.f = fNum;
+        estF.portafolio.total45 = calcularSumaComentarios(estF).suma + fNum;
+        if (Array.isArray(obj.alertas)) estF.portafolio.alertas = obj.alertas.slice();
+        okCount++;
+        importados.push({ est: estF, cKey: 'portafolio', total: fNum });
+        results.innerHTML += '<div class="import-ok">✓ ' + esc(estF.nombre) + ' — Criterio F importado (' + fNum + '/3; total ' + estF.portafolio.total45 + '/45).</div>';
+        return;
+      }
+
       var v = validarEvaluacion(obj);
       var nombreRef = (obj && typeof obj === 'object' && obj.estudiante) ? obj.estudiante : '(estudiante actual)';
       if (!v.ok) {
